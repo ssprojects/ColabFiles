@@ -1,5 +1,6 @@
 import tensorflow as tf
-def model(numYs, k, l, s, thetas, alphas, isdiscrete, user_a, penalty):
+def model(numYs, k, l, s, thetas, alphas, isdiscrete, user_a, penalty, s_thresholds_precision=None):
+  # s_thresholds_precision is of shape [numLfs, numAlphaThresholds] and specifies the thresholds at which precision constraints are applied.
   
   # user_a = tf.reshape(user_a, [len(k)])
   is_discrete = tf.convert_to_tensor(isdiscrete, dtype = tf.float64)
@@ -70,9 +71,11 @@ def model(numYs, k, l, s, thetas, alphas, isdiscrete, user_a, penalty):
       return (1 +  (1-is_discrete) * tf.reduce_sum(tf.exp(pot(s, y,l)), axis=0)*sbin_widths 
                 +  (is_discrete) *  tf.exp(dis_pot(y, l)))
     
-  def msgActive(s, y, l):
-    if (penalty % 10 == 2 or penalty % 10 == 4):
+  def msgActive(s, y, l, s_thresholds_precisions):
+    if (penalty % 10 == 2 or penalty % 10 == 4) and s_thresholds_precisions is None:
         return is_discrete*(msg(s,y,l)-1) + (1-is_discrete)* tf.reduce_sum(tf.exp(pot(s, y,l))*tf.cast(tf.greater(s,alphas),tf.float64), axis=0)*sbin_widths
+    elif s_thresholds_precisions is not None:
+        return is_discrete*(msg(s,y,l)-1) + (1-is_discrete)* tf.reduce_sum(tf.exp(pot(s, y,l))*tf.cast(tf.greater(s,s_thresholds_precisions),tf.float64), axis=0)*sbin_widths
     else:
         return msg(s, y, l)-1
     
@@ -81,34 +84,35 @@ def model(numYs, k, l, s, thetas, alphas, isdiscrete, user_a, penalty):
 
   log_pt = tf.map_fn(lambda y: tf.reduce_sum(pot(s_, y,l), axis=1), ys)
   pt_1 = tf.reduce_logsumexp(log_pt, axis=1) - tf.log(Z_)
-
+  
   LF_label = (1+k)/2 if numYs == 2 else k
   per_lf = tf.gather(z_y, tf.cast(LF_label,tf.int32))
-  prec_factor = tf.squeeze(msgActive(sbins,k,k) / (msg(sbins, k,k)))
 
-  per_lf_z = tf.reduce_sum(tf.map_fn(lambda y: msgActive(sbins, y,k)/msg(sbins, y,k)*tf.reduce_prod(msg(sbins, y,k)), ys), axis=0)
+  per_lf_z_y = tf.map_fn(lambda y: msgActive(sbins, y,k, s_thresholds_precision)/msg(sbins, y,k)*tf.reduce_prod(msg(sbins, y,k)), ys)
+  # prec_factor = tf.squeeze(per_lf_z_y[LF_label] / (msg(sbins, k,k)))
 
-#             per_lf_prob = prec_factor * per_lf / Z_
-  per_lf_prob = prec_factor * per_lf/per_lf_z
-
- 
+  per_lf_z = tf.reduce_sum(per_lf_z_y, axis=0)
+  # per_lf_prob = per_lf_z_y[tf.cast(LF_label, tf.int32)]/per_lf_z
+  per_lf_prob = tf.gather(per_lf_z_y, tf.cast(LF_label, tf.int32))/per_lf_z
+     
   marginals_new = tf.expand_dims(tf.nn.softmax(log_pt, axis=0), 2)
   marginals = marginals_new
 
   loss_new = tf.negative(tf.reduce_sum(pt_1))
   return loss_new, per_lf_prob, marginals
 
-def precision_loss(a_t, n_t, per_lf_prob):
-   ptheta_ = a_t * n_t * tf.log(per_lf_prob) + (1-a_t) * n_t * tf.log(1-per_lf_prob)  
+def precision_loss(precisions, n_t, per_lf_prob):
+   # precisions: [numLFs, numAlphaThresholds]
+   ptheta_ = precisions * n_t * tf.log(per_lf_prob) + (1-precisions) * n_t * tf.log(1-per_lf_prob)  
    return tf.negative(tf.reduce_sum(ptheta_))
 
- 
-numYs = 3
-NoOfLFs = 10
-batch_size = 32
-LFs = [] 
-k = tf.convert_to_tensor([lf.label() for lf in LFs], dtype=tf.float64)
-isdiscreet = [lf.isdiscreet() for lf in LFs]
-user_a = [lf.threshold() for lf in LFs]
+
+# numYs = 3
+# NoOfLFs = 10
+# batch_size = 32
+# LFs = [] 
+# k = tf.convert_to_tensor([lf.label() for lf in LFs], dtype=tf.float64)
+# isdiscreet = [lf.isdiscreet() for lf in LFs]
+# user_a = [lf.threshold() for lf in LFs]
 
 # per_lf_prob, loss, marginals = model(numYs, k, thetas, alphas, isdiscreet, user_a)
