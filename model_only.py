@@ -1,3 +1,4 @@
+import tensorflow as tf
 def model(numYs, k, l, s, thetas, alphas, isdiscrete, user_a, penalty):
   
   # user_a = tf.reshape(user_a, [len(k)])
@@ -66,7 +67,11 @@ def model(numYs, k, l, s, thetas, alphas, isdiscrete, user_a, penalty):
       return (1-is_discrete) * cont_pot(s, y,l) + is_discrete * dis_pot(y,l)
 
   def msg(s, y, l):
-      return 1 +  (1-is_discrete) * tf.reduce_sum(tf.exp(pot(s, y,l)), axis=0)*sbin_widths +  (is_discrete) *  tf.exp(dis_pot(y, l))
+      return (1 +  (1-is_discrete) * tf.reduce_sum(tf.exp(pot(s, y,l)), axis=0)*sbin_widths 
+                +  (is_discrete) *  tf.exp(dis_pot(y, l)))
+    
+  def msgActive(s, y, l):
+    return is_discrete*(msg(s,y,l)-1) + (1-is_discrete)* tf.reduce_sum(tf.exp(pot(s, y,l))*tf.cast(tf.greater(s,alphas),tf.float64), axis=0)*sbin_widths
 
   z_y = tf.map_fn(lambda y: tf.reduce_prod(msg(sbins, y,k)), ys)
   Z_ = tf.reduce_sum(z_y)
@@ -76,9 +81,9 @@ def model(numYs, k, l, s, thetas, alphas, isdiscrete, user_a, penalty):
 
   LF_label = (1+k)/2 if numYs == 2 else k
   per_lf = tf.gather(z_y, tf.cast(LF_label,tf.int32))
-  prec_factor = tf.squeeze((msg(sbins,k,k)-1) / (msg(sbins, k,k)))
+  prec_factor = tf.squeeze(msgActive(sbins,k,k) / (msg(sbins, k,k)))
 
-  per_lf_z = tf.reduce_sum(tf.map_fn(lambda y: (msg(sbins, y,k)-1)/msg(sbins, y,k)*tf.reduce_prod(msg(sbins, y,k)), ys), axis=0)
+  per_lf_z = tf.reduce_sum(tf.map_fn(lambda y: msgActive(sbins, y,k)/msg(sbins, y,k)*tf.reduce_prod(msg(sbins, y,k)), ys), axis=0)
 
 #             per_lf_prob = prec_factor * per_lf / Z_
   per_lf_prob = prec_factor * per_lf/per_lf_z
@@ -98,16 +103,9 @@ def precision_loss(a_t, n_t, per_lf_prob):
 numYs = 3
 NoOfLFs = 10
 batch_size = 32
-
-LFs = # list of objects.
-alphas = tf.get_variable('alphas', [NoOfLFs], initializer=af, dtype=tf.float64)
-if numYs == 2:
-  thetas = tf.get_variable('thetas', [1,NoOfLFs], initializer=th, dtype=tf.float64)
-else:
-  thetas = tf.get_variable('thetas', [numYs, 1,NoOfLFs], initializer=th, dtype=tf.float64)
- 
+LFs = [] 
 k = tf.convert_to_tensor([lf.label() for lf in LFs], dtype=tf.float64)
 isdiscreet = [lf.isdiscreet() for lf in LFs]
 user_a = [lf.threshold() for lf in LFs]
 
-per_lf_prob, loss, marginals = model(numYs, k, thetas, alphas, isdiscreet, user_a):
+# per_lf_prob, loss, marginals = model(numYs, k, thetas, alphas, isdiscreet, user_a)
