@@ -71,8 +71,11 @@ def model(numYs, k, l, s, thetas, alphas, isdiscrete, user_a, penalty):
                 +  (is_discrete) *  tf.exp(dis_pot(y, l)))
     
   def msgActive(s, y, l):
-    return is_discrete*(msg(s,y,l)-1) + (1-is_discrete)* tf.reduce_sum(tf.exp(pot(s, y,l))*tf.cast(tf.greater(s,alphas),tf.float64), axis=0)*sbin_widths
-
+    if (penalty % 10 == 2 or penalty % 10 == 4):
+        return is_discrete*(msg(s,y,l)-1) + (1-is_discrete)* tf.reduce_sum(tf.exp(pot(s, y,l))*tf.cast(tf.greater(s,alphas),tf.float64), axis=0)*sbin_widths
+    else:
+        return msg(s, y, l)-1
+    
   z_y = tf.map_fn(lambda y: tf.reduce_prod(msg(sbins, y,k)), ys)
   Z_ = tf.reduce_sum(z_y)
 
