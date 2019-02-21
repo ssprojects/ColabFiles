@@ -1,5 +1,6 @@
 import tensorflow as tf
 def model(numYs, k, l, s, thetas, alphas, isdiscrete, user_a, penalty, s_thresholds_precision=None):
+  # s_thresholds_precision is of shape [numLfs, numAlphaThresholds] and specifies the thresholds at which precision constraints are applied.
   
   # user_a = tf.reshape(user_a, [len(k)])
   is_discrete = tf.convert_to_tensor(isdiscrete, dtype = tf.float64)
@@ -101,6 +102,7 @@ def model(numYs, k, l, s, thetas, alphas, isdiscrete, user_a, penalty, s_thresho
   return loss_new, per_lf_prob, marginals
 
 def precision_loss(precisions, n_t, per_lf_prob):
+   # precisions: [numLFs, numAlphaThresholds]
    ptheta_ = precisions * n_t * tf.log(per_lf_prob) + (1-precisions) * n_t * tf.log(1-per_lf_prob)  
    return tf.negative(tf.reduce_sum(ptheta_))
 
