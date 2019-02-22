@@ -1,28 +1,49 @@
 import tensorflow as tf
-def model(numYs, k, l, s, thetas, alphas, isdiscrete, user_a, penalty, s_thresholds_precision=None):
+def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha_max_arg=None, s_thresholds_precision=None):
   # s_thresholds_precision is of shape [numLfs, numAlphaThresholds] and specifies the thresholds at which precision constraints are applied.
   
   # user_a = tf.reshape(user_a, [len(k)])
   is_discrete = tf.convert_to_tensor(isdiscrete, dtype = tf.float64)
 
-  user_alphas = tf.convert_to_tensor(user_a, dtype=tf.float64)
+  if penalty % 10 == 6:
+        user_alphas = tf.zeros_like(alpha_vars)
+  else:
+      user_alphas = tf.convert_to_tensor(user_a, dtype=tf.float64)
   numYs = 2
 
   active = is_discrete + (1-is_discrete) * tf.cast(tf.greater_equal(s, user_alphas-0.0001), dtype=tf.float64)
   active = tf.stop_gradient(active)
+  
+  scaleS=False
+  numbins = tf.constant(10, dtype=tf.float64)
   # scale the s_ values to be between 0 and 1.
-  s_ = tf.clip_by_value((s - user_alphas)/(1-user_alphas+0.00001), 0, 1) # tf.stop_gradient(s * active)
+  if scaleS:
+      s_ = tf.clip_by_value((s - user_alphas)/(1-user_alphas+0.00001), 0, 1)
+      start_alpha = tf.zeros_like(user_alphas)
+  else:
+      s_ = tf.stop_gradient(s * active)
+      start_alpha = user_alphas
+        
   l = tf.clip_by_value(l * active, -1, 1)
 
-  numbins = tf.constant(10, dtype=tf.float64)
-
   # numbins = 10
-  sbin_widths = (1-tf.zeros_like(user_alphas))/numbins
-  #sbin_widths = np.ones_like(user_alphas)/numbins
   
-  sbins = tf.einsum('i,j->ij', sbin_widths, tf.cast(tf.range(0,numbins+1), dtype=tf.float64)) # +tf.expand_dims(user_alphas,1)
+  #sbin_widths = np.ones_like(user_alphas)/numbins
+  sbin_widths = (1-start_alpha)/numbins
+  sbins = tf.einsum('i,j->ij', sbin_widths, tf.cast(tf.range(0,numbins+1), dtype=tf.float64)) +tf.expand_dims(start_alpha, 1) 
   sbins = tf.transpose(sbins)
+  
+  
+  if (penalty/10 % 10 == 2):
+      if alpha_max_arg is not None:
+          alpha_max = tf.convert_to_tensor(alpha_max_arg, dtype = tf.float64)
+      else:
+          alpha_max = tf.ones_like(alphas)
 
+      alphas = tf.minimum(alpha_vars, alpha_max)
+  else:
+    alphas = alpha_vars
+    
 #             s_smooth = tf.round((s_-user_alphas)*numbins/(1-user_alphas))*sbin_widths + user_alphas
 #             s_ = (1-is_discrete) * s_smooth + is_discrete * s_
 
@@ -46,10 +67,10 @@ def model(numYs, k, l, s, thetas, alphas, isdiscrete, user_a, penalty, s_thresho
         # as per the above intention.
           return thetas*s*tf.cast(tf.equal(y,l),dtype=tf.float64) + \
                   alphas*(-s)*l*tf.cast(tf.not_equal(y,l), dtype=tf.float64)
-#                 elif (penalty%10 == 6):
-#                   # Gaussian distribution with a variance of 1.
-#                   pos = tf.cast(tf.equal(y,l),dtype=tf.float64)
-#                   return -(s-thetas)*(s-thetas)*pos/2 - (1-pos)*l*(s-alphas)*(s-alphas)/2
+      elif (penalty%10 == 6):
+          # Gaussian distribution with a variance of 1.
+          pos = (y*l+1)/2
+          return [-(s-thetas)*(s-thetas)*pos/2 - (1-pos)*(s-alphas)*(s-alphas)/2]*tf.abs(l)
       return 0
 
   def equal_sign(y, l):
@@ -86,7 +107,6 @@ def model(numYs, k, l, s, thetas, alphas, isdiscrete, user_a, penalty, s_thresho
   pt_1 = tf.reduce_logsumexp(log_pt, axis=1) - tf.log(Z_)
   
   LF_label = (1+k)/2 if numYs == 2 else k
-  per_lf = tf.gather(z_y, tf.cast(LF_label,tf.int32))
 
   per_lf_z_y = tf.map_fn(lambda y: msgActive(sbins, y,k, s_thresholds_precision)/msg(sbins, y,k)*tf.reduce_prod(msg(sbins, y,k)), ys)
   # prec_factor = tf.squeeze(per_lf_z_y[LF_label] / (msg(sbins, k,k)))
@@ -97,16 +117,23 @@ def model(numYs, k, l, s, thetas, alphas, isdiscrete, user_a, penalty, s_thresho
      
   marginals_new = tf.expand_dims(tf.nn.softmax(log_pt, axis=0), 2)
   marginals = marginals_new
-
+    
+  per_lf_recall = None
+  if alpha_max_arg is not None and (penalty/10 % 10 == 3):
+     # recall constraints.
+     per_lf_recall = msgActive(sbins, k,k, alpha_max_arg)/msg(sbins, k,k)
+     
   loss_new = tf.negative(tf.reduce_sum(pt_1))
-  return loss_new, per_lf_prob, marginals
+  return loss_new, per_lf_prob, marginals, per_lf_recall, pot(s_, 1, l)
 
 def precision_loss(precisions, n_t, per_lf_prob):
    # precisions: [numLFs, numAlphaThresholds]
    ptheta_ = precisions * n_t * tf.log(per_lf_prob) + (1-precisions) * n_t * tf.log(1-per_lf_prob)  
    return tf.negative(tf.reduce_sum(ptheta_))
 
-
+def recall_loss(recalls, n_t, per_lf_recall, isdiscrete):
+    is_discrete = tf.convert_to_tensor(isdiscrete, dtype = tf.float64)
+    return tf.reduce_sum(n_t*is_discrete*tf.softplus(recall-per_lf_recall))
 # numYs = 3
 # NoOfLFs = 10
 # batch_size = 32
