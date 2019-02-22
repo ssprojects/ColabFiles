@@ -70,7 +70,7 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
       elif (penalty%10 == 6):
           # Gaussian distribution with a variance of 1.
           pos = (y*l+1)/2
-          return [-(s-thetas)*(s-thetas)*pos/2 - (1-pos)*(s-alphas)*(s-alphas)/2]*tf.abs(l)
+          return [1-thetas*thetas*(s-1)*(s-1)*pos/2 - (1-pos)*alphas*alphas*(s)*(s)/2]*tf.abs(l)
       return 0
 
   def equal_sign(y, l):
