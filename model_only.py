@@ -1,4 +1,13 @@
 import tensorflow as tf
+
+def allocate_params(NoOfLFs, numYs, penalty, th, af):
+    alphas = tf.get_variable('alphas', [NoOfLFs], initializer=af, dtype=tf.float64)
+    if(penalty in [103, 113]):
+        alphas = tf.stop_gradient(alphas*0)
+    theta_dim = 1 if penalty % 10 != 7 and numYs == 2 else numYs
+    thetas = tf.get_variable('thetas', [theta_dim, NoOfLFs], initializer=th, dtype=tf.float64)
+    return thetas, alphas
+
 def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha_max_arg=None, s_thresholds_precision=None):
   # s_thresholds_precision is of shape [numLfs, numAlphaThresholds] and specifies the thresholds at which precision constraints are applied.
   
@@ -70,20 +79,26 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
       elif (penalty%10 == 6):
           # Gaussian distribution with a variance of 1.
           pos = (y*l+1)/2
-          return [1-thetas*thetas*(s-1)*(s-1)*pos/2 - (1-pos)*alphas*alphas*(s)*(s)/2]*tf.abs(l)
+          return (1-thetas*thetas*(s-1)*(s-1)*pos/2 - (1-pos)*alphas*alphas*(s)*(s)/2)*tf.abs(l)
       return 0
 
-  def equal_sign(y, l):
-    eq = tf.cast(tf.equal(y,l), dtype=tf.float64)
+  def equal_sign(y, k):
+    y = discrete(y)
+    k = discrete(k)
+    eq = tf.cast(tf.equal(y,k), dtype=tf.float64)
     return eq + (1-eq)*-1
 
+  def discrete(y):
+      yy = (1+y)/2 if numYs == 2 else y 
+      return tf.cast(yy, tf.int32)
+    
   def cont_pot(s, y, l):
     if numYs == 2:
       return cont_pots_binary(thetas, s, y, l)
-    return cont_pots_binary(thetas[y], s, equal_sign(y, k), l)
+    return cont_pots_binary(thetas[discrete(y)], s, equal_sign(y, k), l)
 
   def dis_pot(y,l):
-      return y*thetas*l if numYs == 2 else thetas[y]*l*equal_sign(y,k) 
+      return y*thetas*l if numYs == 2 and penalty%10 != 7 else thetas[discrete(y)]*l*equal_sign(y,k) 
 
   def pot(s, y, l):
       return (1-is_discrete) * cont_pot(s, y,l) + is_discrete * dis_pot(y,l)
@@ -91,6 +106,9 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
   def msg(s, y, l):
       return (1 +  (1-is_discrete) * tf.reduce_sum(tf.exp(pot(s, y,l)), axis=0)*sbin_widths 
                 +  (is_discrete) *  tf.exp(dis_pot(y, l)))
+  
+  def logmsg(s, y, l):
+      return tf.log(msg(s,y,l))
     
   def msgActive(s, y, l, s_thresholds_precisions):
     if (penalty % 10 == 2 or penalty % 10 == 4) and s_thresholds_precisions is None:
@@ -99,41 +117,57 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
         return is_discrete*(msg(s,y,l)-1) + (1-is_discrete)* tf.reduce_sum(tf.exp(pot(s, y,l))*tf.cast(tf.greater(s,s_thresholds_precisions),tf.float64), axis=0)*sbin_widths
     else:
         return msg(s, y, l)-1
+   
+  def logmsgActive(s, y, l, s_thresholds_precisions):
+        return tf.log(msgActive(s, y, l, s_thresholds_precisions))
     
-  z_y = tf.map_fn(lambda y: tf.reduce_prod(msg(sbins, y,k)), ys)
-  Z_ = tf.reduce_sum(z_y)
+  logz_y = tf.map_fn(lambda y: tf.reduce_sum(logmsg(sbins, y,k)), ys)
+  logZ_ = tf.reduce_logsumexp(logz_y)
 
   log_pt = tf.map_fn(lambda y: tf.reduce_sum(pot(s_, y,l), axis=1), ys)
-  pt_1 = tf.reduce_logsumexp(log_pt, axis=1) - tf.log(Z_)
+  pt_1 = tf.reduce_logsumexp(log_pt, axis=1) - logZ_
   
-  LF_label = (1+k)/2 if numYs == 2 else k
-
-  per_lf_z_y = tf.map_fn(lambda y: msgActive(sbins, y,k, s_thresholds_precision)/msg(sbins, y,k)*tf.reduce_prod(msg(sbins, y,k)), ys)
+  LF_label = tf.squeeze((1+k)/2 if numYs == 2 else k)
+    
+  per_lf_logz_y = tf.map_fn(lambda y: logmsgActive(sbins, y,k, s_thresholds_precision)-logmsg(sbins, y,k)+tf.reduce_sum(logmsg(sbins, y,k)), ys)
+  per_lf_logz_y = tf.transpose(tf.squeeze(per_lf_logz_y))
   # prec_factor = tf.squeeze(per_lf_z_y[LF_label] / (msg(sbins, k,k)))
 
-  per_lf_z = tf.reduce_sum(per_lf_z_y, axis=0)
-  # per_lf_prob = per_lf_z_y[tf.cast(LF_label, tf.int32)]/per_lf_z
-  per_lf_prob = tf.gather(per_lf_z_y, tf.cast(LF_label, tf.int32))/per_lf_z
-     
+  per_lf_logz = tf.squeeze(tf.reduce_logsumexp(per_lf_logz_y, axis=1))
+  tmp = logmsgActive(sbins,k,k, s_thresholds_precision)-logmsg(sbins,k,k) - tf.reduce_sum(logmsg(sbins, k,k))
+  tmp = tf.squeeze(tmp)
+  
+  per_lf_logprob = tmp - per_lf_logz
+  if penalty//10 % 10 == 5:
+        per_lf_logprob = tmp - logZ_
+    
   marginals_new = tf.expand_dims(tf.nn.softmax(log_pt, axis=0), 2)
   marginals = marginals_new
     
   per_lf_recall = None
-  if alpha_max_arg is not None and (penalty/10 % 10 == 3):
+  if alpha_max_arg is not None and (penalty//10 % 10 == 3):
      # recall constraints.
      per_lf_recall = msgActive(sbins, k,k, alpha_max_arg)/msg(sbins, k,k)
      
   loss_new = tf.negative(tf.reduce_sum(pt_1))
-  return loss_new, per_lf_prob, marginals, per_lf_recall, pot(s_, 1, l)
+  return loss_new, per_lf_logprob, marginals, per_lf_recall, tmp
 
-def precision_loss(precisions, n_t, per_lf_prob):
+def precision_loss(precisions, n_t, per_lf_logprob, penalty):
    # precisions: [numLFs, numAlphaThresholds]
-   ptheta_ = precisions * n_t * tf.log(per_lf_prob) + (1-precisions) * n_t * tf.log(1-per_lf_prob)  
-   return tf.negative(tf.reduce_sum(ptheta_))
+   if (penalty//10) % 10 == 4:
+       print("Using softplus precision constraints")
+       return tf.reduce_sum(tf.nn.softplus(n_t*precisions - n_t*tf.exp(per_lf_logprob)))
+   else:
+       print("Using binomial precision constraints")
+       ptheta_ = precisions * n_t * per_lf_logprob + (1-precisions) * n_t * tf.log(tf.maximum(1- tf.exp(per_lf_logprob), 1e-6))
+       return tf.negative(tf.reduce_sum(ptheta_))
+  
+       
+   # return tf.constant([0])
 
 def recall_loss(recalls, n_t, per_lf_recall, isdiscrete):
     is_discrete = tf.convert_to_tensor(isdiscrete, dtype = tf.float64)
-    return tf.reduce_sum(n_t*is_discrete*tf.softplus(recall-per_lf_recall))
+    return tf.reduce_sum(n_t*is_discrete*tf.nn.softplus(recall-per_lf_recall))
 # numYs = 3
 # NoOfLFs = 10
 # batch_size = 32
