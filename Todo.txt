@@ -1,0 +1,9 @@
+1. Run synthetic with discrete LFs with and without precision constraint on just two LFs.
+Make sure the parameters we obtain agree with what we hand calculate.
+
+2.  Repeat the above with two parameters per LFs.
+
+3.  Move to half-gaussian continuous attributes and make sure the parameters that are learned with the
+matched potential form are again consistent with hand-calculated values.
+
+4.  
