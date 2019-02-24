@@ -6,4 +6,6 @@ Make sure the parameters we obtain agree with what we hand calculate.
 3.  Move to half-gaussian continuous attributes and make sure the parameters that are learned with the
 matched potential form are again consistent with hand-calculated values.
 
-4.  
+4.  Write testcases in CodeTest.ipny for various probability and precision loss computations.
+
+5. Test on datasets with several high-quality continuous LFs, e.g. dedup, classification datasets with keywords
