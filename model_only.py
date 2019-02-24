@@ -8,6 +8,20 @@ def allocate_params(NoOfLFs, numYs, penalty, th, af):
     thetas = tf.get_variable('thetas', [theta_dim, NoOfLFs], initializer=th, dtype=tf.float64)
     return thetas, alphas
 
+def discrete(y, numYs=2):
+      yy = (1+y)/2 if numYs == 2 else y 
+      return tf.cast(yy, tf.int32)
+    
+def equal_sign(y, k, numYs=2):
+    y = discrete(y,numYs)
+    kk = discrete(k,numYs)
+    eq = tf.cast(tf.equal(y,kk), dtype=tf.float64)
+    return (eq + (1-eq)*-1)*tf.cast(tf.not_equal(k,0),tf.float64)
+
+def batch_gather(x,idx):
+    cat_idx = tf.concat([tf.expand_dims(tf.range(0, tf.shape(x)[0]),1), tf.expand_dims(idx,1)], axis=1)
+    return tf.gather_nd(x, cat_idx)
+
 def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha_max_arg=None, s_thresholds_precision=None):
   # s_thresholds_precision is of shape [numLfs, numAlphaThresholds] and specifies the thresholds at which precision constraints are applied.
   
@@ -81,16 +95,7 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
           pos = (y*l+1)/2
           return (1-thetas*thetas*(s-1)*(s-1)*pos/2 - (1-pos)*alphas*alphas*(s)*(s)/2)*tf.abs(l)
       return 0
-
-  def equal_sign(y, k):
-    y = discrete(y)
-    k = discrete(k)
-    eq = tf.cast(tf.equal(y,k), dtype=tf.float64)
-    return eq + (1-eq)*-1
-
-  def discrete(y):
-      yy = (1+y)/2 if numYs == 2 else y 
-      return tf.cast(yy, tf.int32)
+  
     
   def cont_pot(s, y, l):
     if numYs == 2:
@@ -98,7 +103,7 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
     return cont_pots_binary(thetas[discrete(y)], s, equal_sign(y, k), l)
 
   def dis_pot(y,l):
-      return y*thetas*l if numYs == 2 and penalty%10 != 7 else thetas[discrete(y)]*l*equal_sign(y,k) 
+      return y*thetas*l if numYs == 2 and penalty%10 != 7 else thetas[discrete(y)]*equal_sign(y,l) 
 
   def pot(s, y, l):
       return (1-is_discrete) * cont_pot(s, y,l) + is_discrete * dis_pot(y,l)
@@ -108,6 +113,7 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
                 +  (is_discrete) *  tf.exp(dis_pot(y, l)))
   
   def logmsg(s, y, l):
+      #TODO: msgs should be computed directly in the log-space.
       return tf.log(msg(s,y,l))
     
   def msgActive(s, y, l, s_thresholds_precisions):
@@ -119,6 +125,7 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
         return msg(s, y, l)-1
    
   def logmsgActive(s, y, l, s_thresholds_precisions):
+        #TODO: msgs should be computed directly in the log-space.
         return tf.log(msgActive(s, y, l, s_thresholds_precisions))
     
   logz_y = tf.map_fn(lambda y: tf.reduce_sum(logmsg(sbins, y,k)), ys)
@@ -136,9 +143,7 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
 
   per_lf_logz = tf.squeeze(tf.reduce_logsumexp(per_lf_logz_y, axis=1))
   # tmp = logmsgActive(sbins,k,k, s_thresholds_precision) -logmsg(sbins,k,k) + tf.reduce_sum(logmsg(sbins, k,k)) #
-  def batch_gather(x,idx):
-        cat_idx = tf.concat([tf.expand_dims(tf.range(0, tf.shape(x)[0]),1), tf.expand_dims(idx,1)], axis=1)
-        return tf.gather_nd(x, cat_idx)
+  
     
   tmp = batch_gather(per_lf_logz_y, tf.cast(LF_label, tf.int32))
   tmp = tf.squeeze(tmp)
