@@ -43,7 +43,7 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
   sbins = tf.transpose(sbins)
   
   
-  if (penalty/10 % 10 == 2):
+  if (penalty//10 % 10 == 2):
       if alpha_max_arg is not None:
           alpha_max = tf.convert_to_tensor(alpha_max_arg, dtype = tf.float64)
       else:
@@ -134,12 +134,13 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
   # prec_factor = tf.squeeze(per_lf_z_y[LF_label] / (msg(sbins, k,k)))
 
   per_lf_logz = tf.squeeze(tf.reduce_logsumexp(per_lf_logz_y, axis=1))
-  tmp = logmsgActive(sbins,k,k, s_thresholds_precision)-logmsg(sbins,k,k) - tf.reduce_sum(logmsg(sbins, k,k))
+  tmp = logmsgActive(sbins,k,k, s_thresholds_precision)-logmsg(sbins,k,k) + tf.reduce_sum(logmsg(sbins, k,k))
   tmp = tf.squeeze(tmp)
   
-  per_lf_logprob = tmp - per_lf_logz
-  if penalty//10 % 10 == 5:
-        per_lf_logprob = tmp - logZ_
+  per_lf_logprob = tmp - logZ_
+  
+  # if penalty//10 % 10 == 5:
+  #    per_lf_logprob = tmp - per_lf_logz
     
   marginals_new = tf.expand_dims(tf.nn.softmax(log_pt, axis=0), 2)
   marginals = marginals_new
@@ -159,7 +160,7 @@ def precision_loss(precisions, n_t, per_lf_logprob, penalty):
        return tf.reduce_sum(tf.nn.softplus(n_t*precisions - n_t*tf.exp(per_lf_logprob)))
    else:
        print("Using binomial precision constraints")
-       ptheta_ = precisions * n_t * per_lf_logprob + (1-precisions) * n_t * tf.log(tf.maximum(1- tf.exp(per_lf_logprob), 1e-6))
+       ptheta_ = precisions * n_t * per_lf_logprob + (1-precisions) * n_t * tf.log(tf.maximum(1- tf.exp(per_lf_logprob), 1e-10))
        return tf.negative(tf.reduce_sum(ptheta_))
   
        
