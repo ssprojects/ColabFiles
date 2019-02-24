@@ -130,11 +130,17 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
   LF_label = tf.squeeze((1+k)/2 if numYs == 2 else k)
     
   per_lf_logz_y = tf.map_fn(lambda y: logmsgActive(sbins, y,k, s_thresholds_precision)-logmsg(sbins, y,k)+tf.reduce_sum(logmsg(sbins, y,k)), ys)
+
   per_lf_logz_y = tf.transpose(tf.squeeze(per_lf_logz_y))
   # prec_factor = tf.squeeze(per_lf_z_y[LF_label] / (msg(sbins, k,k)))
 
   per_lf_logz = tf.squeeze(tf.reduce_logsumexp(per_lf_logz_y, axis=1))
-  tmp = logmsgActive(sbins,k,k, s_thresholds_precision)-logmsg(sbins,k,k) + tf.reduce_sum(logmsg(sbins, k,k))
+  # tmp = logmsgActive(sbins,k,k, s_thresholds_precision) -logmsg(sbins,k,k) + tf.reduce_sum(logmsg(sbins, k,k)) #
+  def batch_gather(x,idx):
+        cat_idx = tf.concat([tf.expand_dims(tf.range(0, tf.shape(x)[0]),1), tf.expand_dims(idx,1)], axis=1)
+        return tf.gather_nd(x, cat_idx)
+    
+  tmp = batch_gather(per_lf_logz_y, tf.cast(LF_label, tf.int32))
   tmp = tf.squeeze(tmp)
   
   per_lf_logprob = tmp - logZ_
@@ -151,7 +157,7 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
      per_lf_recall = msgActive(sbins, k,k, alpha_max_arg)/msg(sbins, k,k)
      
   loss_new = tf.negative(tf.reduce_sum(pt_1))
-  return loss_new, per_lf_logprob, marginals, per_lf_recall, tmp
+  return loss_new, per_lf_logprob, marginals, per_lf_recall,  tmp - logZ_
 
 def precision_loss(precisions, n_t, per_lf_logprob, penalty):
    # precisions: [numLFs, numAlphaThresholds]
