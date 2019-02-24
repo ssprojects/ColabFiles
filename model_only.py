@@ -145,8 +145,8 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
   
   per_lf_logprob = tmp - logZ_
   
-  # if penalty//10 % 10 == 5:
-  #    per_lf_logprob = tmp - per_lf_logz
+  if penalty//10 % 10 == 5:
+      per_lf_logprob = tmp - per_lf_logz
     
   marginals_new = tf.expand_dims(tf.nn.softmax(log_pt, axis=0), 2)
   marginals = marginals_new
