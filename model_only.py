@@ -157,7 +157,7 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
      per_lf_recall = msgActive(sbins, k,k, alpha_max_arg)/msg(sbins, k,k)
      
   loss_new = tf.negative(tf.reduce_sum(pt_1))
-  return loss_new, per_lf_logprob, marginals, per_lf_recall,  tmp - logZ_
+  return loss_new, per_lf_logprob, marginals, per_lf_recall,  pot(s_,1,l)
 
 def precision_loss(precisions, n_t, per_lf_logprob, penalty):
    # precisions: [numLFs, numAlphaThresholds]
