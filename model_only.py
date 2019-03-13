@@ -1,5 +1,12 @@
 import tensorflow as tf
 
+# The model is controlled by values of the penalty integer which is a three digit decimal
+# I kept this only for legacy reasons.  The correct way to do this would be via a config class.
+# First digit of penalty, that is, penalty % 10 controls the potential types
+# second digit of penalty controls what precision and recall constraints we add.
+# This digit controls the top-level method applied which for this model is 1.
+
+
 def allocate_params(NoOfLFs, numYs, penalty, th, af):
     alphas = tf.get_variable('alphas', [NoOfLFs], initializer=af, dtype=tf.float64)
     if(penalty in [103, 113]):
@@ -19,16 +26,27 @@ def equal_sign(y, k, numYs=2):
     return (eq + (1-eq)*-1)*tf.cast(tf.not_equal(k,0),tf.float64)
 
 def batch_gather(x,idx):
+    # x : [numRows, numCols]
+    # idx = [numRows]
+    # collects the column of x for each row as specified in the idx. 
     cat_idx = tf.concat([tf.expand_dims(tf.range(0, tf.shape(x)[0]),1), tf.expand_dims(idx,1)], axis=1)
     return tf.gather_nd(x, cat_idx)
 
+
+# this is the main routine that defines the graphical model over the l and s variables.
+# It can handle both continuous and discrete LFs, and both binary and multi-class labeling tasks.
 def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha_max_arg=None, s_thresholds_precision=None):
+  # k : [numLFs] fixed label of LF
+  # l : [numLFs] the labels as output by each LF for the current batch.
+  # s : [numLFs] the scores as output by each LF for the current batch.
+  # user_a : [numLFs] fixed user-specified thresholds on the s values.
   # s_thresholds_precision is of shape [numLfs, numAlphaThresholds] and specifies the thresholds at which precision constraints are applied.
   
   # user_a = tf.reshape(user_a, [len(k)])
   is_discrete = tf.convert_to_tensor(isdiscrete, dtype = tf.float64)
 
   if penalty % 10 == 6:
+        # do not threshold on user-alphas.
         user_alphas = tf.zeros_like(alpha_vars)
   else:
       user_alphas = tf.convert_to_tensor(user_a, dtype=tf.float64)
@@ -52,12 +70,14 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
   # numbins = 10
   
   #sbin_widths = np.ones_like(user_alphas)/numbins
+  # These bins over s-values is to approximate the integration over s as required.
   sbin_widths = (1-start_alpha)/numbins
   sbins = tf.einsum('i,j->ij', sbin_widths, tf.cast(tf.range(0,numbins+1), dtype=tf.float64)) +tf.expand_dims(start_alpha, 1) 
   sbins = tf.transpose(sbins)
   
   
   if (penalty//10 % 10 == 2):
+      # this was an experiment where user is allowed to set the maximum value of alpha so that the recall per LF is at least that alpha.
       if alpha_max_arg is not None:
           alpha_max = tf.convert_to_tensor(alpha_max_arg, dtype = tf.float64)
       else:
@@ -117,7 +137,9 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
       return tf.log(msg(s,y,l))
     
   def msgActive(s, y, l, s_thresholds_precisions):
+    # this calculates the message from the LFs over the cases when l is non-zero and s is in the active range for continuous LFs.
     if (penalty % 10 == 2 or penalty % 10 == 4) and s_thresholds_precisions is None:
+        # In both these cases there is a threshold "alpha" on s.
         return is_discrete*(msg(s,y,l)-1) + (1-is_discrete)* tf.reduce_sum(tf.exp(pot(s, y,l))*tf.cast(tf.greater(s,alphas),tf.float64), axis=0)*sbin_widths
     elif s_thresholds_precisions is not None:
         return is_discrete*(msg(s,y,l)-1) + (1-is_discrete)* tf.reduce_sum(tf.exp(pot(s, y,l))*tf.cast(tf.greater(s,s_thresholds_precisions),tf.float64), axis=0)*sbin_widths
@@ -135,7 +157,8 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
   pt_1 = tf.reduce_logsumexp(log_pt, axis=1) - logZ_
   
   LF_label = tf.squeeze((1+k)/2 if numYs == 2 else k)
-    
+
+  # This calculates the logZ corresponding to the case where the l is active and for each y.
   per_lf_logz_y = tf.map_fn(lambda y: logmsgActive(sbins, y,k, s_thresholds_precision)-logmsg(sbins, y,k)+tf.reduce_sum(logmsg(sbins, y,k)), ys)
 
   per_lf_logz_y = tf.transpose(tf.squeeze(per_lf_logz_y))
@@ -147,12 +170,15 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
     
   tmp = batch_gather(per_lf_logz_y, tf.cast(LF_label, tf.int32))
   tmp = tf.squeeze(tmp)
-  
-  per_lf_logprob = tmp - logZ_
+
   
   if penalty//10 % 10 == 5:
+      # computing the precision constraint logPr(l_j = y | l_j is active)
       per_lf_logprob = tmp - per_lf_logz
-    
+  else:
+      # computing the accuracy constraint using logPr(l_j = y)
+      per_lf_logprob = tmp - logZ_
+      
   marginals_new = tf.expand_dims(tf.nn.softmax(log_pt, axis=0), 2)
   marginals = marginals_new
     
