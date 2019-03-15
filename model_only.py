@@ -15,6 +15,7 @@ def allocate_params(NoOfLFs, numYs, penalty, th, af):
     thetas = tf.get_variable('thetas', [theta_dim, NoOfLFs], initializer=th, dtype=tf.float64)
     return thetas, alphas
 
+#if binary, convert -1/+1 to 0/1. Else return as it is
 def discrete(y, numYs=2):
       yy = (1+y)/2 if numYs == 2 else y 
       return tf.cast(yy, tf.int32)
@@ -36,41 +37,48 @@ def batch_gather(x,idx):
 # this is the main routine that defines the graphical model over the l and s variables.
 # It can handle both continuous and discrete LFs, and both binary and multi-class labeling tasks.
 def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha_max_arg=None, s_thresholds_precision=None):
-  # k : [numLFs] fixed label of LF
-  # l : [numLFs] the labels as output by each LF for the current batch.
-  # s : [numLFs] the scores as output by each LF for the current batch.
+  # k : [numLFs] fixed label of LF, values are [-1, +1] for binary and [1...numYs] for multiclass. LF for class C1 is -1 for rest
+  # l : [numLFs] the labels as output by each LF for the current batch, values are [0,class]
+  # s : [numLFs] the scores as output by each LF for the current batch.  
   # user_a : [numLFs] fixed user-specified thresholds on the s values.
   # s_thresholds_precision is of shape [numLfs, numAlphaThresholds] and specifies the thresholds at which precision constraints are applied.
   
   # user_a = tf.reshape(user_a, [len(k)])
-  is_discrete = tf.convert_to_tensor(isdiscrete, dtype = tf.float64)
+  is_discrete = tf.convert_to_tensor(isdiscrete, dtype = tf.float64) #convert boolean to 0/1
 
   if penalty % 10 == 6:
         # do not threshold on user-alphas.
         user_alphas = tf.zeros_like(alpha_vars)
   else:
       user_alphas = tf.convert_to_tensor(user_a, dtype=tf.float64)
-  numYs = 2
+        
+  #Q:number of classes is currently hard-coded to 2. 
+  numYs = 2 
 
-  active = is_discrete + (1-is_discrete) * tf.cast(tf.greater_equal(s, user_alphas-0.0001), dtype=tf.float64)
-  active = tf.stop_gradient(active)
+  #Q:should it not be is_discrete*tf.abs(l) + ...  
+  active = is_discrete + (1-is_discrete) * tf.cast(tf.greater_equal(s, user_alphas-0.0001), dtype=tf.float64) 
+  #do not back propoagate on the previous update on active 
+  active = tf.stop_gradient(active) 
   
-  scaleS=False
+  scaleS=False 
   numbins = tf.constant(10, dtype=tf.float64)
   # scale the s_ values to be between 0 and 1.
   if scaleS:
+      # Q:should the expression not be tf.clip_by_value((s - user_alphas)/(tf.max(s)-user_alphas+0.00001), 0, 1). Does this not assume max of s ==1 already?  
       s_ = tf.clip_by_value((s - user_alphas)/(1-user_alphas+0.00001), 0, 1)
       start_alpha = tf.zeros_like(user_alphas)
   else:
       s_ = tf.stop_gradient(s * active)
       start_alpha = user_alphas
-        
+  
+  #Q:will l ever become -1 if it were multiclass?
   l = tf.clip_by_value(l * active, -1, 1)
 
   # numbins = 10
   
   #sbin_widths = np.ones_like(user_alphas)/numbins
   # These bins over s-values is to approximate the integration over s as required.
+  # Q:Why are s values never used for computing sbins (of dimension # LFs x numbins) ? Q: Should it not be tf.range(0,numbins)?
   sbin_widths = (1-start_alpha)/numbins
   sbins = tf.einsum('i,j->ij', sbin_widths, tf.cast(tf.range(0,numbins+1), dtype=tf.float64)) +tf.expand_dims(start_alpha, 1) 
   sbins = tf.transpose(sbins)
@@ -94,6 +102,7 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
 
 #adding new
   def cont_pots_binary(thetas, s, y, l):
+      #Q: an earlier version correct?  
       if(penalty%10 == 1):
           return (thetas*s-alphas)*y*l
       elif(penalty%10 == 2):
@@ -108,10 +117,13 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
         # zero in all other cases.
         # the expression here might be incorrect, make sure it implements
         # as per the above intention.
+        # Q: should it not be alphas*(1-s)*tf.abs(l)?
           return thetas*s*tf.cast(tf.equal(y,l),dtype=tf.float64) + \
                   alphas*(-s)*l*tf.cast(tf.not_equal(y,l), dtype=tf.float64)
       elif (penalty%10 == 6):
           # Gaussian distribution with a variance of 1.
+          #pos = 1 if l==y, and pos = 0 otherwise
+          #Q: Mixture of two Gaussians, each with variance 1, but what are the two means? Something seems to be wrong.
           pos = (y*l+1)/2
           return (1-thetas*thetas*(s-1)*(s-1)*pos/2 - (1-pos)*alphas*alphas*(s)*(s)/2)*tf.abs(l)
       return 0
@@ -120,6 +132,7 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
   def cont_pot(s, y, l):
     if numYs == 2:
       return cont_pots_binary(thetas, s, y, l)
+    #Q: Not passing numYs to discrete. So wont discrete create problem for numYs=3 by mapping 1 to 1 and 2 also 1?
     return cont_pots_binary(thetas[discrete(y)], s, equal_sign(y, k), l)
 
   def dis_pot(y,l):
