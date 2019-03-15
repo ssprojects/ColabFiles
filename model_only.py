@@ -51,11 +51,10 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
         user_alphas = tf.zeros_like(alpha_vars)
   else:
       user_alphas = tf.convert_to_tensor(user_a, dtype=tf.float64)
-        
-  #Q:number of classes is currently hard-coded to 2. 
-  numYs = 2 
 
-  #Q:should it not be is_discrete*tf.abs(l) + ...  
+  #Q:should it not be is_discrete*tf.abs(l) + ...
+  # This part of the code was because we did not want to change the LFs to support user-provided
+  # thresholds on alpha. 
   active = is_discrete + (1-is_discrete) * tf.cast(tf.greater_equal(s, user_alphas-0.0001), dtype=tf.float64) 
   #do not back propoagate on the previous update on active 
   active = tf.stop_gradient(active) 
@@ -64,7 +63,8 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
   numbins = tf.constant(10, dtype=tf.float64)
   # scale the s_ values to be between 0 and 1.
   if scaleS:
-      # Q:should the expression not be tf.clip_by_value((s - user_alphas)/(tf.max(s)-user_alphas+0.00001), 0, 1). Does this not assume max of s ==1 already?  
+      # Q:should the expression not be tf.clip_by_value((s - user_alphas)/(tf.max(s)-user_alphas+0.00001), 0, 1). Does this not assume max of s ==1 already?
+      # Yes, it assume s == 1.  We should change as per your suggestion.
       s_ = tf.clip_by_value((s - user_alphas)/(1-user_alphas+0.00001), 0, 1)
       start_alpha = tf.zeros_like(user_alphas)
   else:
@@ -72,6 +72,7 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
       start_alpha = user_alphas
   
   #Q:will l ever become -1 if it were multiclass?
+  # No.
   l = tf.clip_by_value(l * active, -1, 1)
 
   # numbins = 10
@@ -102,7 +103,8 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
 
 #adding new
   def cont_pots_binary(thetas, s, y, l):
-      #Q: an earlier version correct?  
+      #Q: an earlier version correct?
+      # sorry, don't get this question.
       if(penalty%10 == 1):
           return (thetas*s-alphas)*y*l
       elif(penalty%10 == 2):
@@ -117,13 +119,14 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
         # zero in all other cases.
         # the expression here might be incorrect, make sure it implements
         # as per the above intention.
-        # Q: should it not be alphas*(1-s)*tf.abs(l)?
+        # Q: should it not be alphas*(1-s)*tf.abs(l)? Yes, changed.
           return thetas*s*tf.cast(tf.equal(y,l),dtype=tf.float64) + \
-                  alphas*(-s)*l*tf.cast(tf.not_equal(y,l), dtype=tf.float64)
+                  alphas*(-s)*tf.abs(l)*tf.cast(tf.not_equal(y,l), dtype=tf.float64)
       elif (penalty%10 == 6):
           # Gaussian distribution with a variance of 1.
           #pos = 1 if l==y, and pos = 0 otherwise
           #Q: Mixture of two Gaussians, each with variance 1, but what are the two means? Something seems to be wrong.
+          # Means is 0 and 1 as I had explained to Pr Ganesh and Raghav.
           pos = (y*l+1)/2
           return (1-thetas*thetas*(s-1)*(s-1)*pos/2 - (1-pos)*alphas*alphas*(s)*(s)/2)*tf.abs(l)
       return 0
@@ -133,6 +136,7 @@ def model(numYs, k, l, s, thetas, alpha_vars, isdiscrete, user_a, penalty, alpha
     if numYs == 2:
       return cont_pots_binary(thetas, s, y, l)
     #Q: Not passing numYs to discrete. So wont discrete create problem for numYs=3 by mapping 1 to 1 and 2 also 1?
+    # l is either 0 or 1 for numY>2 because of the clipping. The class label is in k.
     return cont_pots_binary(thetas[discrete(y)], s, equal_sign(y, k), l)
 
   def dis_pot(y,l):
