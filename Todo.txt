@@ -1,11 +1,21 @@
-1. Run synthetic with discrete LFs with and without precision constraint on just two LFs.
-Make sure the parameters we obtain agree with what we hand calculate.
 
-2.  Repeat the above with two parameters per LFs.
+1. (4 June 2019) Repeat expts with true precision and recall constraints as implemented in the latest checked in code.
 
-3.  Move to half-gaussian continuous attributes and make sure the parameters that are learned with the
+2. (4 June 2019)  Repeat expts with soft-plus instead of binomial loss for constraints.
+
+3. (4 June 2019) Explore what potentials and constraints will work for continous LFs.  Test on datasets with several high-quality continuous LFs, e.g. dedup, classification datasets with keywords
+
+4. (4 June 2019) Add more datasets (Snorkel new papers include some, e.g.)
+
+   https://ieeexplore.ieee.org/abstract/document/8609589/authors#authors
+
+   https://www.paroma.xyz/tech_report_reef.pdf (IMDB dataset?)
+
+    https://towardsdatascience.com/a-technique-for-building-nlp-classifiers-efficiently-with-transfer-learning-and-weak-supervision-a8e2f21ca9c8
+
+5. (Old) Move to half-gaussian continuous attributes and make sure the parameters that are learned with the
 matched potential form are again consistent with hand-calculated values.
 
 4.  Write testcases in CodeTest.ipny for various probability and precision loss computations.
 
-5. Test on datasets with several high-quality continuous LFs, e.g. dedup, classification datasets with keywords
+
