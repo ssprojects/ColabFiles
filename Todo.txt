@@ -1,11 +1,16 @@
+(12 June 2019) Question classification: create multiple overlapping fine-grained LFs
+ 
+(12 June 2019) Why does likelihood function become negative for continuous s?
 
-1. (4 June 2019) Repeat expts with true precision and recall constraints as implemented in the latest checked in code.
+(12 June 2019) Current code does not seem to be the version that worked for SS. Raghav will try to fix, else SS will have to look.
 
-2. (4 June 2019)  Repeat expts with soft-plus instead of binomial loss for constraints.
+(12, 4 June 2019) Repeat expts with true precision and recall constraints as implemented in the latest checked in code.
 
-3. (4 June 2019) Explore what potentials and constraints will work for continous LFs.  Test on datasets with several high-quality continuous LFs, e.g. dedup, classification datasets with keywords
+(4 June 2019) Repeat expts with soft-plus instead of binomial loss for constraints.
 
-4. (4 June 2019) Add more datasets (Snorkel new papers include some, e.g.)
+(4 June 2019) Explore what potentials and constraints will work for continous LFs.  Test on datasets with several high-quality continuous LFs, e.g. dedup, classification datasets with keywords
+
+(12, 4 June 2019) Add more datasets (Snorkel new papers include some, e.g.)
 
    https://ieeexplore.ieee.org/abstract/document/8609589/authors#authors
 
