@@ -1,0 +1,1308 @@
+theta for epoch 0 : tensor([1., 1., 1., 1., 1., 1., 1., 1., 1., 1.], dtype=torch.float64,
+       requires_grad=True)
+Train loss for epoch 0 : -705.819963134519
+Dev loss for epoch 0 : -705.8197923861853
+Test loss for epoch 0 : -705.8427161312586
+Dev Precision for epoch 0 : 0.3527397260273973
+Dev Recall for epoch 0 : 0.544973544973545
+Dev F1 for epoch 0 : 0.4282744282744283
+Test Precision for epoch 0 : 0.39669421487603307
+Test Recall for epoch 0 : 0.6605504587155964
+Test F1 for epoch 0 : 0.49569707401032703
+
+
+theta for epoch 1 : tensor([1.1000, 1.1000, 1.1000, 1.1000, 1.1000, 0.9000, 1.1000, 0.9000, 0.9000,
+        0.9000], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 1 : -742.6460277803524
+Dev loss for epoch 1 : -742.6410236938394
+Test loss for epoch 1 : -742.6711104219469
+Dev Precision for epoch 1 : 0.3128491620111732
+Dev Recall for epoch 1 : 0.5925925925925926
+Dev F1 for epoch 1 : 0.4095063985374771
+Test Precision for epoch 1 : 0.36829268292682926
+Test Recall for epoch 1 : 0.6926605504587156
+Test F1 for epoch 1 : 0.480891719745223
+
+
+theta for epoch 2 : tensor([1.1948, 1.1948, 1.1948, 1.1948, 1.1948, 0.8056, 1.1947, 0.8055, 0.8055,
+        0.8055], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 2 : -759.1499564808286
+Dev loss for epoch 2 : -759.140786701705
+Test loss for epoch 2 : -759.1775087508128
+Dev Precision for epoch 2 : 0.3128491620111732
+Dev Recall for epoch 2 : 0.5925925925925926
+Dev F1 for epoch 2 : 0.4095063985374771
+Test Precision for epoch 2 : 0.36829268292682926
+Test Recall for epoch 2 : 0.6926605504587156
+Test F1 for epoch 2 : 0.480891719745223
+
+
+theta for epoch 3 : tensor([1.2792, 1.2791, 1.2792, 1.2792, 1.2791, 0.7218, 1.2790, 0.7214, 0.7214,
+        0.7213], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 3 : -764.9984372694693
+Dev loss for epoch 3 : -764.9859859909634
+Test loss for epoch 3 : -765.0284274522046
+Dev Precision for epoch 3 : 0.31024930747922436
+Dev Recall for epoch 3 : 0.5925925925925926
+Dev F1 for epoch 3 : 0.4072727272727273
+Test Precision for epoch 3 : 0.36650485436893204
+Test Recall for epoch 3 : 0.6926605504587156
+Test F1 for epoch 3 : 0.4793650793650794
+
+
+theta for epoch 4 : tensor([1.3523, 1.3522, 1.3524, 1.3524, 1.3521, 0.6490, 1.3520, 0.6481, 0.6481,
+        0.6479], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 4 : -766.9462993764565
+Dev loss for epoch 4 : -766.9313631420387
+Test loss for epoch 4 : -766.9786038906891
+Dev Precision for epoch 4 : 0.2927461139896373
+Dev Recall for epoch 4 : 0.5978835978835979
+Dev F1 for epoch 4 : 0.39304347826086955
+Test Precision for epoch 4 : 0.3447488584474886
+Test Recall for epoch 4 : 0.6926605504587156
+Test F1 for epoch 4 : 0.4603658536585365
+
+
+theta for epoch 5 : tensor([1.4154, 1.4153, 1.4157, 1.4156, 1.4152, 0.5859, 1.4151, 0.5845, 0.5845,
+        0.5841], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 5 : -767.533829899354
+Dev loss for epoch 5 : -767.5170319170938
+Test loss for epoch 5 : -767.5682879135899
+Dev Precision for epoch 5 : 0.2927461139896373
+Dev Recall for epoch 5 : 0.5978835978835979
+Dev F1 for epoch 5 : 0.39304347826086955
+Test Precision for epoch 5 : 0.3447488584474886
+Test Recall for epoch 5 : 0.6926605504587156
+Test F1 for epoch 5 : 0.4603658536585365
+
+
+theta for epoch 6 : tensor([1.4700, 1.4698, 1.4705, 1.4704, 1.4698, 0.5311, 1.4696, 0.5289, 0.5289,
+        0.5284], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 6 : -767.6275487742632
+Dev loss for epoch 6 : -767.6093571299537
+Test loss for epoch 6 : -767.6639876582612
+Dev Precision for epoch 6 : 0.2927461139896373
+Dev Recall for epoch 6 : 0.5978835978835979
+Dev F1 for epoch 6 : 0.39304347826086955
+Test Precision for epoch 6 : 0.3447488584474886
+Test Recall for epoch 6 : 0.6926605504587156
+Test F1 for epoch 6 : 0.4603658536585365
+
+
+theta for epoch 7 : tensor([1.5174, 1.5172, 1.5182, 1.5180, 1.5172, 0.4832, 1.5169, 0.4802, 0.4801,
+        0.4795], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 7 : -767.5362461292851
+Dev loss for epoch 7 : -767.5170082457015
+Test loss for epoch 7 : -767.574492595264
+Dev Precision for epoch 7 : 0.2875318066157761
+Dev Recall for epoch 7 : 0.5978835978835979
+Dev F1 for epoch 7 : 0.38831615120274915
+Test Precision for epoch 7 : 0.3416289592760181
+Test Recall for epoch 7 : 0.6926605504587156
+Test F1 for epoch 7 : 0.4575757575757575
+
+
+theta for epoch 8 : tensor([1.5586, 1.5584, 1.5599, 1.5596, 1.5584, 0.4411, 1.5581, 0.4372, 0.4372,
+        0.4364], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 8 : -767.3780722595429
+Dev loss for epoch 8 : -767.3580451234949
+Test loss for epoch 8 : -767.4179578110492
+Dev Precision for epoch 8 : 0.2875318066157761
+Dev Recall for epoch 8 : 0.5978835978835979
+Dev F1 for epoch 8 : 0.38831615120274915
+Test Precision for epoch 8 : 0.3416289592760181
+Test Recall for epoch 8 : 0.6926605504587156
+Test F1 for epoch 8 : 0.4575757575757575
+
+
+theta for epoch 9 : tensor([1.5946, 1.5944, 1.5963, 1.5959, 1.5944, 0.4041, 1.5940, 0.3993, 0.3992,
+        0.3983], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 9 : -767.2012002172585
+Dev loss for epoch 9 : -767.180574330089
+Test loss for epoch 9 : -767.2425642579643
+Dev Precision for epoch 9 : 0.2875318066157761
+Dev Recall for epoch 9 : 0.5978835978835979
+Dev F1 for epoch 9 : 0.38831615120274915
+Test Precision for epoch 9 : 0.3416289592760181
+Test Recall for epoch 9 : 0.6926605504587156
+Test F1 for epoch 9 : 0.4575757575757575
+
+
+theta for epoch 10 : tensor([1.6259, 1.6258, 1.6282, 1.6276, 1.6259, 0.3714, 1.6254, 0.3655, 0.3654,
+        0.3644], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 10 : -767.0260600923823
+Dev loss for epoch 10 : -767.0049776750233
+Test loss for epoch 10 : -767.068751690869
+Dev Precision for epoch 10 : 0.2875318066157761
+Dev Recall for epoch 10 : 0.5978835978835979
+Dev F1 for epoch 10 : 0.38831615120274915
+Test Precision for epoch 10 : 0.3416289592760181
+Test Recall for epoch 10 : 0.6926605504587156
+Test F1 for epoch 10 : 0.4575757575757575
+
+
+theta for epoch 11 : tensor([1.6533, 1.6532, 1.6561, 1.6554, 1.6533, 0.3425, 1.6527, 0.3356, 0.3354,
+        0.3342], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 11 : -766.8613463691346
+Dev loss for epoch 11 : -766.8399147214301
+Test loss for epoch 11 : -766.90522504313
+Dev Precision for epoch 11 : 0.2875318066157761
+Dev Recall for epoch 11 : 0.5978835978835979
+Dev F1 for epoch 11 : 0.38831615120274915
+Test Precision for epoch 11 : 0.3416289592760181
+Test Recall for epoch 11 : 0.6926605504587156
+Test F1 for epoch 11 : 0.4575757575757575
+
+
+theta for epoch 12 : tensor([1.6771, 1.6770, 1.6805, 1.6797, 1.6772, 0.3169, 1.6765, 0.3089, 0.3087,
+        0.3074], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 12 : -766.7105614709801
+Dev loss for epoch 12 : -766.6888625310615
+Test loss for epoch 12 : -766.7554972704002
+Dev Precision for epoch 12 : 0.2875318066157761
+Dev Recall for epoch 12 : 0.5978835978835979
+Dev F1 for epoch 12 : 0.38831615120274915
+Test Precision for epoch 12 : 0.3416289592760181
+Test Recall for epoch 12 : 0.6926605504587156
+Test F1 for epoch 12 : 0.4575757575757575
+
+
+theta for epoch 13 : tensor([1.6977, 1.6977, 1.7018, 1.7009, 1.6979, 0.2942, 1.6972, 0.2851, 0.2849,
+        0.2834], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 13 : -766.5747542398383
+Dev loss for epoch 13 : -766.5528513433121
+Test loss for epoch 13 : -766.6206273845061
+Dev Precision for epoch 13 : 0.2875318066157761
+Dev Recall for epoch 13 : 0.5978835978835979
+Dev F1 for epoch 13 : 0.38831615120274915
+Test Precision for epoch 13 : 0.3416289592760181
+Test Recall for epoch 13 : 0.6926605504587156
+Test F1 for epoch 13 : 0.4575757575757575
+
+
+theta for epoch 14 : tensor([1.7156, 1.7156, 1.7204, 1.7192, 1.7159, 0.2741, 1.7150, 0.2640, 0.2637,
+        0.2621], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 14 : -766.4538457610214
+Dev loss for epoch 14 : -766.4317884194339
+Test loss for epoch 14 : -766.5005460381576
+Dev Precision for epoch 14 : 0.2875318066157761
+Dev Recall for epoch 14 : 0.5978835978835979
+Dev F1 for epoch 14 : 0.38831615120274915
+Test Precision for epoch 14 : 0.3416289592760181
+Test Recall for epoch 14 : 0.6926605504587156
+Test F1 for epoch 14 : 0.4575757575757575
+
+
+theta for epoch 15 : tensor([1.7308, 1.7310, 1.7364, 1.7351, 1.7313, 0.2564, 1.7303, 0.2451, 0.2449,
+        0.2430], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 15 : -766.3472550510045
+Dev loss for epoch 15 : -766.3250823593074
+Test loss for epoch 15 : -766.394681110482
+Dev Precision for epoch 15 : 0.2875318066157761
+Dev Recall for epoch 15 : 0.5978835978835979
+Dev F1 for epoch 15 : 0.38831615120274915
+Test Precision for epoch 15 : 0.3416289592760181
+Test Recall for epoch 15 : 0.6926605504587156
+Test F1 for epoch 15 : 0.4575757575757575
+
+
+theta for epoch 16 : tensor([1.7438, 1.7441, 1.7502, 1.7487, 1.7444, 0.2407, 1.7434, 0.2284, 0.2281,
+        0.2261], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 16 : -766.2541565990441
+Dev loss for epoch 16 : -766.2318996991843
+Test loss for epoch 16 : -766.3022152308166
+Dev Precision for epoch 16 : 0.2875318066157761
+Dev Recall for epoch 16 : 0.5978835978835979
+Dev F1 for epoch 16 : 0.38831615120274915
+Test Precision for epoch 16 : 0.3416289592760181
+Test Recall for epoch 16 : 0.6926605504587156
+Test F1 for epoch 16 : 0.4575757575757575
+
+
+theta for epoch 17 : tensor([1.7548, 1.7551, 1.7620, 1.7603, 1.7555, 0.2270, 1.7544, 0.2135, 0.2132,
+        0.2111], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 17 : -766.1736245912688
+Dev loss for epoch 17 : -766.1513084824912
+Test loss for epoch 17 : -766.222230030668
+Dev Precision for epoch 17 : 0.2875318066157761
+Dev Recall for epoch 17 : 0.5978835978835979
+Dev F1 for epoch 17 : 0.38831615120274915
+Test Precision for epoch 17 : 0.3416289592760181
+Test Recall for epoch 17 : 0.6926605504587156
+Test F1 for epoch 17 : 0.4575757575757575
+
+
+theta for epoch 18 : tensor([1.7638, 1.7642, 1.7719, 1.7700, 1.7647, 0.2149, 1.7635, 0.2004, 0.2000,
+        0.1978], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 18 : -766.1047523364414
+Dev loss for epoch 18 : -766.0823972274901
+Test loss for epoch 18 : -766.1538256193238
+Dev Precision for epoch 18 : 0.2875318066157761
+Dev Recall for epoch 18 : 0.5978835978835979
+Dev F1 for epoch 18 : 0.38831615120274915
+Test Precision for epoch 18 : 0.3416289592760181
+Test Recall for epoch 18 : 0.6926605504587156
+Test F1 for epoch 18 : 0.4575757575757575
+
+
+theta for epoch 19 : tensor([1.7712, 1.7716, 1.7801, 1.7780, 1.7722, 0.2043, 1.7708, 0.1887, 0.1884,
+        0.1860], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 19 : -766.0466501235788
+Dev loss for epoch 19 : -766.0242724586843
+Test loss for epoch 19 : -766.0961184976445
+Dev Precision for epoch 19 : 0.2875318066157761
+Dev Recall for epoch 19 : 0.5978835978835979
+Dev F1 for epoch 19 : 0.38831615120274915
+Test Precision for epoch 19 : 0.3416289592760181
+Test Recall for epoch 19 : 0.6926605504587156
+Test F1 for epoch 19 : 0.4575757575757575
+
+
+theta for epoch 20 : tensor([1.7769, 1.7775, 1.7868, 1.7845, 1.7782, 0.1951, 1.7767, 0.1785, 0.1782,
+        0.1756], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 20 : -765.998500933011
+Dev loss for epoch 20 : -765.976114181111
+Test loss for epoch 20 : -766.0482973249455
+Dev Precision for epoch 20 : 0.2875318066157761
+Dev Recall for epoch 20 : 0.5978835978835979
+Dev F1 for epoch 20 : 0.38831615120274915
+Test Precision for epoch 20 : 0.3416289592760181
+Test Recall for epoch 20 : 0.6926605504587156
+Test F1 for epoch 20 : 0.4575757575757575
+
+
+theta for epoch 21 : tensor([1.7813, 1.7819, 1.7921, 1.7896, 1.7827, 0.1872, 1.7811, 0.1696, 0.1692,
+        0.1665], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 21 : -765.959516644113
+Dev loss for epoch 21 : -765.9371319130237
+Test loss for epoch 21 : -766.0095791788084
+Dev Precision for epoch 21 : 0.2875318066157761
+Dev Recall for epoch 21 : 0.5978835978835979
+Dev F1 for epoch 21 : 0.38831615120274915
+Test Precision for epoch 21 : 0.3416289592760181
+Test Recall for epoch 21 : 0.6926605504587156
+Test F1 for epoch 21 : 0.4575757575757575
+
+
+theta for epoch 22 : tensor([1.7843, 1.7851, 1.7961, 1.7933, 1.7859, 0.1805, 1.7842, 0.1618, 0.1614,
+        0.1586], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 22 : -765.9289774337204
+Dev loss for epoch 22 : -765.9066039526967
+Test loss for epoch 22 : -765.9792490003947
+Dev Precision for epoch 22 : 0.2875318066157761
+Dev Recall for epoch 22 : 0.5978835978835979
+Dev F1 for epoch 22 : 0.38831615120274915
+Test Precision for epoch 22 : 0.3416289592760181
+Test Recall for epoch 22 : 0.6926605504587156
+Test F1 for epoch 22 : 0.4575757575757575
+
+
+theta for epoch 23 : tensor([1.7861, 1.7870, 1.7990, 1.7959, 1.7879, 0.1748, 1.7860, 0.1551, 0.1547,
+        0.1518], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 23 : -765.9062295208164
+Dev loss for epoch 23 : -765.8838750224169
+Test loss for epoch 23 : -765.9566573815595
+Dev Precision for epoch 23 : 0.2875318066157761
+Dev Recall for epoch 23 : 0.5978835978835979
+Dev F1 for epoch 23 : 0.38831615120274915
+Test Precision for epoch 23 : 0.3416289592760181
+Test Recall for epoch 23 : 0.6926605504587156
+Test F1 for epoch 23 : 0.4575757575757575
+
+
+theta for epoch 24 : tensor([1.7868, 1.7878, 1.8007, 1.7974, 1.7888, 0.1701, 1.7868, 0.1493, 0.1489,
+        0.1459], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 24 : -765.8906443432198
+Dev loss for epoch 24 : -765.868315367372
+Test loss for epoch 24 : -765.9411797785208
+Dev Precision for epoch 24 : 0.2875318066157761
+Dev Recall for epoch 24 : 0.5978835978835979
+Dev F1 for epoch 24 : 0.38831615120274915
+Test Precision for epoch 24 : 0.3416289592760181
+Test Recall for epoch 24 : 0.6926605504587156
+Test F1 for epoch 24 : 0.4575757575757575
+
+
+theta for epoch 25 : tensor([1.7865, 1.7876, 1.8015, 1.7979, 1.7887, 0.1662, 1.7866, 0.1445, 0.1441,
+        0.1410], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 25 : -765.8816639813142
+Dev loss for epoch 25 : -765.85936611881
+Test loss for epoch 25 : -765.9322619670581
+Dev Precision for epoch 25 : 0.2875318066157761
+Dev Recall for epoch 25 : 0.5978835978835979
+Dev F1 for epoch 25 : 0.38831615120274915
+Test Precision for epoch 25 : 0.3416289592760181
+Test Recall for epoch 25 : 0.6926605504587156
+Test F1 for epoch 25 : 0.4575757575757575
+
+
+theta for epoch 26 : tensor([1.7852, 1.7864, 1.8013, 1.7975, 1.7876, 0.1631, 1.7854, 0.1404, 0.1400,
+        0.1368], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 26 : -765.8788031481655
+Dev loss for epoch 26 : -765.8565412357494
+Test loss for epoch 26 : -765.9294220630587
+Dev Precision for epoch 26 : 0.2875318066157761
+Dev Recall for epoch 26 : 0.5978835978835979
+Dev F1 for epoch 26 : 0.38831615120274915
+Test Precision for epoch 26 : 0.3416289592760181
+Test Recall for epoch 26 : 0.6926605504587156
+Test F1 for epoch 26 : 0.4575757575757575
+
+
+theta for epoch 27 : tensor([1.7830, 1.7844, 1.8003, 1.7962, 1.7857, 0.1608, 1.7833, 0.1371, 0.1367,
+        0.1335], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 27 : -765.8815479467702
+Dev loss for epoch 27 : -765.8593262245834
+Test loss for epoch 27 : -765.9321493033132
+Dev Precision for epoch 27 : 0.2875318066157761
+Dev Recall for epoch 27 : 0.5978835978835979
+Dev F1 for epoch 27 : 0.38831615120274915
+Test Precision for epoch 27 : 0.3416289592760181
+Test Recall for epoch 27 : 0.6926605504587156
+Test F1 for epoch 27 : 0.4575757575757575
+
+
+theta for epoch 28 : tensor([1.7801, 1.7816, 1.7985, 1.7941, 1.7830, 0.1591, 1.7805, 0.1345, 0.1341,
+        0.1308], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 28 : -765.8894763434233
+Dev loss for epoch 28 : -765.8672985814599
+Test loss for epoch 28 : -765.9400245438504
+Dev Precision for epoch 28 : 0.2875318066157761
+Dev Recall for epoch 28 : 0.5978835978835979
+Dev F1 for epoch 28 : 0.38831615120274915
+Test Precision for epoch 28 : 0.3416289592760181
+Test Recall for epoch 28 : 0.6926605504587156
+Test F1 for epoch 28 : 0.4575757575757575
+
+
+theta for epoch 29 : tensor([1.7764, 1.7780, 1.7960, 1.7913, 1.7796, 0.1581, 1.7769, 0.1326, 0.1322,
+        0.1287], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 29 : -765.9022038310759
+Dev loss for epoch 29 : -765.8800734313772
+Test loss for epoch 29 : -765.9526659429282
+Dev Precision for epoch 29 : 0.2875318066157761
+Dev Recall for epoch 29 : 0.5978835978835979
+Dev F1 for epoch 29 : 0.38831615120274915
+Test Precision for epoch 29 : 0.3416289592760181
+Test Recall for epoch 29 : 0.6926605504587156
+Test F1 for epoch 29 : 0.4575757575757575
+
+
+theta for epoch 30 : tensor([1.7720, 1.7738, 1.7928, 1.7878, 1.7754, 0.1576, 1.7726, 0.1312, 0.1308,
+        0.1273], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 30 : -765.9193332534841
+Dev loss for epoch 30 : -765.8972533327341
+Test loss for epoch 30 : -765.9696788034869
+Dev Precision for epoch 30 : 0.2875318066157761
+Dev Recall for epoch 30 : 0.5978835978835979
+Dev F1 for epoch 30 : 0.38831615120274915
+Test Precision for epoch 30 : 0.3416289592760181
+Test Recall for epoch 30 : 0.6926605504587156
+Test F1 for epoch 30 : 0.4575757575757575
+
+
+theta for epoch 31 : tensor([1.7670, 1.7689, 1.7890, 1.7837, 1.7706, 0.1577, 1.7677, 0.1303, 0.1299,
+        0.1264], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 31 : -765.9405354378513
+Dev loss for epoch 31 : -765.9185088939587
+Test loss for epoch 31 : -765.9907362231392
+Dev Precision for epoch 31 : 0.2875318066157761
+Dev Recall for epoch 31 : 0.5978835978835979
+Dev F1 for epoch 31 : 0.38831615120274915
+Test Precision for epoch 31 : 0.3416289592760181
+Test Recall for epoch 31 : 0.6926605504587156
+Test F1 for epoch 31 : 0.4575757575757575
+
+
+theta for epoch 32 : tensor([1.7614, 1.7634, 1.7846, 1.7790, 1.7653, 0.1582, 1.7622, 0.1299, 0.1295,
+        0.1259], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 32 : -765.9655124779584
+Dev loss for epoch 32 : -765.9435420435019
+Test loss for epoch 32 : -766.0155423939952
+Dev Precision for epoch 32 : 0.2875318066157761
+Dev Recall for epoch 32 : 0.5978835978835979
+Dev F1 for epoch 32 : 0.38831615120274915
+Test Precision for epoch 32 : 0.3416289592760181
+Test Recall for epoch 32 : 0.6926605504587156
+Test F1 for epoch 32 : 0.4575757575757575
+
+
+theta for epoch 33 : tensor([1.7552, 1.7574, 1.7797, 1.7738, 1.7594, 0.1592, 1.7561, 0.1300, 0.1296,
+        0.1260], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 33 : -765.993945245944
+Dev loss for epoch 33 : -765.972033531842
+Test loss for epoch 33 : -766.0437801259275
+Dev Precision for epoch 33 : 0.2875318066157761
+Dev Recall for epoch 33 : 0.5978835978835979
+Dev F1 for epoch 33 : 0.38831615120274915
+Test Precision for epoch 33 : 0.3416289592760181
+Test Recall for epoch 33 : 0.6926605504587156
+Test F1 for epoch 33 : 0.4575757575757575
+
+
+theta for epoch 34 : tensor([1.7485, 1.7508, 1.7743, 1.7681, 1.7529, 0.1606, 1.7495, 0.1305, 0.1301,
+        0.1264], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 34 : -766.0255852276001
+Dev loss for epoch 34 : -766.0037347579157
+Test loss for epoch 34 : -766.0752026967998
+Dev Precision for epoch 34 : 0.2875318066157761
+Dev Recall for epoch 34 : 0.5978835978835979
+Dev F1 for epoch 34 : 0.38831615120274915
+Test Precision for epoch 34 : 0.3416289592760181
+Test Recall for epoch 34 : 0.6926605504587156
+Test F1 for epoch 34 : 0.4575757575757575
+
+
+theta for epoch 35 : tensor([1.7414, 1.7438, 1.7684, 1.7619, 1.7460, 0.1624, 1.7425, 0.1314, 0.1310,
+        0.1272], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 35 : -766.0601773988366
+Dev loss for epoch 35 : -766.0383906387892
+Test loss for epoch 35 : -766.1095567408522
+Dev Precision for epoch 35 : 0.2875318066157761
+Dev Recall for epoch 35 : 0.5978835978835979
+Dev F1 for epoch 35 : 0.38831615120274915
+Test Precision for epoch 35 : 0.3416289592760181
+Test Recall for epoch 35 : 0.6926605504587156
+Test F1 for epoch 35 : 0.4575757575757575
+
+
+theta for epoch 36 : tensor([1.7337, 1.7363, 1.7621, 1.7553, 1.7387, 0.1645, 1.7350, 0.1326, 0.1323,
+        0.1284], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 36 : -766.0974924451336
+Dev loss for epoch 36 : -766.0757718236337
+Test loss for epoch 36 : -766.1466144788892
+Dev Precision for epoch 36 : 0.2875318066157761
+Dev Recall for epoch 36 : 0.5978835978835979
+Dev F1 for epoch 36 : 0.38831615120274915
+Test Precision for epoch 36 : 0.3416289592760181
+Test Recall for epoch 36 : 0.6926605504587156
+Test F1 for epoch 36 : 0.4575757575757575
+
+
+theta for epoch 37 : tensor([1.7257, 1.7285, 1.7554, 1.7483, 1.7309, 0.1669, 1.7271, 0.1341, 0.1338,
+        0.1300], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 37 : -766.1373189104809
+Dev loss for epoch 37 : -766.1156668383227
+Test loss for epoch 37 : -766.186165877139
+Dev Precision for epoch 37 : 0.2875318066157761
+Dev Recall for epoch 37 : 0.5978835978835979
+Dev F1 for epoch 37 : 0.38831615120274915
+Test Precision for epoch 37 : 0.3416289592760181
+Test Recall for epoch 37 : 0.6926605504587156
+Test F1 for epoch 37 : 0.4575757575757575
+
+
+theta for epoch 38 : tensor([1.7173, 1.7202, 1.7484, 1.7409, 1.7228, 0.1697, 1.7188, 0.1360, 0.1357,
+        0.1318], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 38 : -766.1794540542985
+Dev loss for epoch 38 : -766.1578729384332
+Test loss for epoch 38 : -766.2280095147077
+Dev Precision for epoch 38 : 0.2875318066157761
+Dev Recall for epoch 38 : 0.5978835978835979
+Dev F1 for epoch 38 : 0.38831615120274915
+Test Precision for epoch 38 : 0.3416289592760181
+Test Recall for epoch 38 : 0.6926605504587156
+Test F1 for epoch 38 : 0.4575757575757575
+
+
+theta for epoch 39 : tensor([1.7085, 1.7116, 1.7410, 1.7331, 1.7143, 0.1727, 1.7101, 0.1381, 0.1378,
+        0.1339], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 39 : -766.2237135563181
+Dev loss for epoch 39 : -766.2022058115848
+Test loss for epoch 39 : -766.2719622958996
+Dev Precision for epoch 39 : 0.2875318066157761
+Dev Recall for epoch 39 : 0.5978835978835979
+Dev F1 for epoch 39 : 0.38831615120274915
+Test Precision for epoch 39 : 0.3416289592760181
+Test Recall for epoch 39 : 0.6926605504587156
+Test F1 for epoch 39 : 0.4575757575757575
+
+
+theta for epoch 40 : tensor([1.6994, 1.7026, 1.7332, 1.7251, 1.7055, 0.1760, 1.7011, 0.1405, 0.1402,
+        0.1363], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 40 : -766.2699146481606
+Dev loss for epoch 40 : -766.2484827063199
+Test loss for epoch 40 : -766.3178425911755
+Dev Precision for epoch 40 : 0.2875318066157761
+Dev Recall for epoch 40 : 0.5978835978835979
+Dev F1 for epoch 40 : 0.38831615120274915
+Test Precision for epoch 40 : 0.3416289592760181
+Test Recall for epoch 40 : 0.6926605504587156
+Test F1 for epoch 40 : 0.4575757575757575
+
+
+theta for epoch 41 : tensor([1.6900, 1.6934, 1.7252, 1.7167, 1.6964, 0.1795, 1.6918, 0.1431, 0.1429,
+        0.1389], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 41 : -766.3179036032608
+Dev loss for epoch 41 : -766.2965499202302
+Test loss for epoch 41 : -766.3654977342189
+Dev Precision for epoch 41 : 0.2875318066157761
+Dev Recall for epoch 41 : 0.5978835978835979
+Dev F1 for epoch 41 : 0.38831615120274915
+Test Precision for epoch 41 : 0.3416289592760181
+Test Recall for epoch 41 : 0.6926605504587156
+Test F1 for epoch 41 : 0.4575757575757575
+
+
+theta for epoch 42 : tensor([1.6803, 1.6838, 1.7169, 1.7081, 1.6869, 0.1833, 1.6822, 0.1460, 0.1457,
+        0.1417], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 42 : -766.3675101997515
+Dev loss for epoch 42 : -766.34623726116
+Test loss for epoch 42 : -766.4147584923808
+Dev Precision for epoch 42 : 0.2875318066157761
+Dev Recall for epoch 42 : 0.5978835978835979
+Dev F1 for epoch 42 : 0.38831615120274915
+Test Precision for epoch 42 : 0.3416289592760181
+Test Recall for epoch 42 : 0.6926605504587156
+Test F1 for epoch 42 : 0.4575757575757575
+
+
+theta for epoch 43 : tensor([1.6703, 1.6740, 1.7083, 1.6992, 1.6772, 0.1873, 1.6724, 0.1490, 0.1488,
+        0.1447], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 43 : -766.4186026714046
+Dev loss for epoch 43 : -766.3974129967327
+Test loss for epoch 43 : -766.4654940246315
+Dev Precision for epoch 43 : 0.2875318066157761
+Dev Recall for epoch 43 : 0.5978835978835979
+Dev F1 for epoch 43 : 0.38831615120274915
+Test Precision for epoch 43 : 0.3416289592760181
+Test Recall for epoch 43 : 0.6926605504587156
+Test F1 for epoch 43 : 0.4575757575757575
+
+
+theta for epoch 44 : tensor([1.6600, 1.6639, 1.6995, 1.6900, 1.6673, 0.1915, 1.6623, 0.1522, 0.1520,
+        0.1479], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 44 : -766.4710319083705
+Dev loss for epoch 44 : -766.4499280541
+Test loss for epoch 44 : -766.5175560881738
+Dev Precision for epoch 44 : 0.2875318066157761
+Dev Recall for epoch 44 : 0.5978835978835979
+Dev F1 for epoch 44 : 0.38831615120274915
+Test Precision for epoch 44 : 0.3416289592760181
+Test Recall for epoch 44 : 0.6926605504587156
+Test F1 for epoch 44 : 0.4575757575757575
+
+
+theta for epoch 45 : tensor([1.6496, 1.6536, 1.6905, 1.6806, 1.6571, 0.1958, 1.6519, 0.1556, 0.1554,
+        0.1513], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 45 : -766.5246712381418
+Dev loss for epoch 45 : -766.5036558000401
+Test loss for epoch 45 : -766.5708188249803
+Dev Precision for epoch 45 : 0.2875318066157761
+Dev Recall for epoch 45 : 0.5978835978835979
+Dev F1 for epoch 45 : 0.38831615120274915
+Test Precision for epoch 45 : 0.3416289592760181
+Test Recall for epoch 45 : 0.6926605504587156
+Test F1 for epoch 45 : 0.4575757575757575
+
+
+theta for epoch 46 : tensor([1.6388, 1.6430, 1.6813, 1.6710, 1.6467, 0.2003, 1.6413, 0.1591, 0.1590,
+        0.1548], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 46 : -766.5793767668368
+Dev loss for epoch 46 : -766.5584523812587
+Test loss for epoch 46 : -766.6251391091694
+Dev Precision for epoch 46 : 0.2875318066157761
+Dev Recall for epoch 46 : 0.5978835978835979
+Dev F1 for epoch 46 : 0.38831615120274915
+Test Precision for epoch 46 : 0.3416289592760181
+Test Recall for epoch 46 : 0.6926605504587156
+Test F1 for epoch 46 : 0.4575757575757575
+
+
+theta for epoch 47 : tensor([1.6279, 1.6323, 1.6718, 1.6612, 1.6361, 0.2050, 1.6305, 0.1628, 0.1627,
+        0.1584], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 47 : -766.6350393142307
+Dev loss for epoch 47 : -766.6142086585158
+Test loss for epoch 47 : -766.6804084878265
+Dev Precision for epoch 47 : 0.2875318066157761
+Dev Recall for epoch 47 : 0.5978835978835979
+Dev F1 for epoch 47 : 0.38831615120274915
+Test Precision for epoch 47 : 0.3416289592760181
+Test Recall for epoch 47 : 0.6926605504587156
+Test F1 for epoch 47 : 0.4575757575757575
+
+
+theta for epoch 48 : tensor([1.6168, 1.6213, 1.6622, 1.6512, 1.6253, 0.2098, 1.6195, 0.1666, 0.1665,
+        0.1622], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 48 : -766.6915171938269
+Dev loss for epoch 48 : -766.6707829860497
+Test loss for epoch 48 : -766.7364859657516
+Dev Precision for epoch 48 : 0.2875318066157761
+Dev Recall for epoch 48 : 0.5978835978835979
+Dev F1 for epoch 48 : 0.38831615120274915
+Test Precision for epoch 48 : 0.3416289592760181
+Test Recall for epoch 48 : 0.6926605504587156
+Test F1 for epoch 48 : 0.4575757575757575
+
+
+theta for epoch 49 : tensor([1.6055, 1.6102, 1.6524, 1.6411, 1.6143, 0.2148, 1.6084, 0.1706, 0.1704,
+        0.1661], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 49 : -766.7486999868781
+Dev loss for epoch 49 : -766.7280649847613
+Test loss for epoch 49 : -766.7932617843511
+Dev Precision for epoch 49 : 0.2875318066157761
+Dev Recall for epoch 49 : 0.5978835978835979
+Dev F1 for epoch 49 : 0.38831615120274915
+Test Precision for epoch 49 : 0.3416289592760181
+Test Recall for epoch 49 : 0.6926605504587156
+Test F1 for epoch 49 : 0.4575757575757575
+
+
+theta for epoch 50 : tensor([1.5941, 1.5989, 1.6425, 1.6307, 1.6031, 0.2199, 1.5971, 0.1746, 0.1745,
+        0.1701], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 50 : -766.8064607398578
+Dev loss for epoch 50 : -766.7859277389155
+Test loss for epoch 50 : -766.8506096239088
+Dev Precision for epoch 50 : 0.2875318066157761
+Dev Recall for epoch 50 : 0.5978835978835979
+Dev F1 for epoch 50 : 0.38831615120274915
+Test Precision for epoch 50 : 0.3416289592760181
+Test Recall for epoch 50 : 0.6926605504587156
+Test F1 for epoch 50 : 0.4575757575757575
+
+
+theta for epoch 51 : tensor([1.5824, 1.5875, 1.6324, 1.6203, 1.5918, 0.2251, 1.5856, 0.1787, 0.1786,
+        0.1742], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 51 : -766.8646819195139
+Dev loss for epoch 51 : -766.8442537506419
+Test loss for epoch 51 : -766.908412561887
+Dev Precision for epoch 51 : 0.2875318066157761
+Dev Recall for epoch 51 : 0.5978835978835979
+Dev F1 for epoch 51 : 0.38831615120274915
+Test Precision for epoch 51 : 0.3416289592760181
+Test Recall for epoch 51 : 0.6926605504587156
+Test F1 for epoch 51 : 0.4575757575757575
+
+
+theta for epoch 52 : tensor([1.5707, 1.5759, 1.6222, 1.6097, 1.5804, 0.2305, 1.5739, 0.1829, 0.1829,
+        0.1784], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 52 : -766.9232509146001
+Dev loss for epoch 52 : -766.9029304402278
+Test loss for epoch 52 : -766.9665585807053
+Dev Precision for epoch 52 : 0.2875318066157761
+Dev Recall for epoch 52 : 0.5978835978835979
+Dev F1 for epoch 52 : 0.38831615120274915
+Test Precision for epoch 52 : 0.3416289592760181
+Test Recall for epoch 52 : 0.6926605504587156
+Test F1 for epoch 52 : 0.4575757575757575
+
+
+theta for epoch 53 : tensor([1.5588, 1.5642, 1.6118, 1.5990, 1.5688, 0.2359, 1.5622, 0.1872, 0.1872,
+        0.1826], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 53 : -766.9820228972749
+Dev loss for epoch 53 : -766.9618130068981
+Test loss for epoch 53 : -767.0249034318692
+Dev Precision for epoch 53 : 0.2875318066157761
+Dev Recall for epoch 53 : 0.5978835978835979
+Dev F1 for epoch 53 : 0.38831615120274915
+Test Precision for epoch 53 : 0.3416289592760181
+Test Recall for epoch 53 : 0.6926605504587156
+Test F1 for epoch 53 : 0.4575757575757575
+
+
+theta for epoch 54 : tensor([1.5468, 1.5524, 1.6014, 1.5881, 1.5571, 0.2414, 1.5503, 0.1916, 0.1916,
+        0.1869], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 54 : -767.0408923915242
+Dev loss for epoch 54 : -767.0207959959065
+Test loss for epoch 54 : -767.0833422088521
+Dev Precision for epoch 54 : 0.2875318066157761
+Dev Recall for epoch 54 : 0.5978835978835979
+Dev F1 for epoch 54 : 0.38831615120274915
+Test Precision for epoch 54 : 0.3416289592760181
+Test Recall for epoch 54 : 0.6926605504587156
+Test F1 for epoch 54 : 0.4575757575757575
+
+
+theta for epoch 55 : tensor([1.5347, 1.5404, 1.5908, 1.5772, 1.5453, 0.2470, 1.5384, 0.1960, 0.1960,
+        0.1913], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 55 : -767.0997178474565
+Dev loss for epoch 55 : -767.0797378713887
+Test loss for epoch 55 : -767.1417339257262
+Dev Precision for epoch 55 : 0.2875318066157761
+Dev Recall for epoch 55 : 0.5978835978835979
+Dev F1 for epoch 55 : 0.38831615120274915
+Test Precision for epoch 55 : 0.3416289592760181
+Test Recall for epoch 55 : 0.6926605504587156
+Test F1 for epoch 55 : 0.4575757575757575
+
+
+theta for epoch 56 : tensor([1.5225, 1.5284, 1.5802, 1.5662, 1.5335, 0.2527, 1.5263, 0.2005, 0.2004,
+        0.1957], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 56 : -767.1583713561904
+Dev loss for epoch 56 : -767.1385107301512
+Test loss for epoch 56 : -767.1999512345727
+Dev Precision for epoch 56 : 0.2875318066157761
+Dev Recall for epoch 56 : 0.5978835978835979
+Dev F1 for epoch 56 : 0.38831615120274915
+Test Precision for epoch 56 : 0.3416289592760181
+Test Recall for epoch 56 : 0.6926605504587156
+Test F1 for epoch 56 : 0.4575757575757575
+
+
+theta for epoch 57 : tensor([1.5102, 1.5163, 1.5695, 1.5551, 1.5215, 0.2584, 1.5141, 0.2049, 0.2049,
+        0.2001], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 57 : -767.2167081867048
+Dev loss for epoch 57 : -767.1969698361827
+Test loss for epoch 57 : -767.2578499680684
+Dev Precision for epoch 57 : 0.2875318066157761
+Dev Recall for epoch 57 : 0.5978835978835979
+Dev F1 for epoch 57 : 0.38831615120274915
+Test Precision for epoch 57 : 0.3416289592760181
+Test Recall for epoch 57 : 0.6926605504587156
+Test F1 for epoch 57 : 0.4575757575757575
+
+
+theta for epoch 58 : tensor([1.4978, 1.5041, 1.5587, 1.5440, 1.5095, 0.2642, 1.5019, 0.2095, 0.2094,
+        0.2045], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 58 : -767.2745897951633
+Dev loss for epoch 58 : -767.2549766286853
+Test loss for epoch 58 : -767.3152921505238
+Dev Precision for epoch 58 : 0.2875318066157761
+Dev Recall for epoch 58 : 0.5978835978835979
+Dev F1 for epoch 58 : 0.38831615120274915
+Test Precision for epoch 58 : 0.3416289592760181
+Test Recall for epoch 58 : 0.6926605504587156
+Test F1 for epoch 58 : 0.4575757575757575
+
+
+theta for epoch 59 : tensor([1.4854, 1.4919, 1.5479, 1.5328, 1.4974, 0.2700, 1.4897, 0.2140, 0.2140,
+        0.2090], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 59 : -767.331862378903
+Dev loss for epoch 59 : -767.3123772734135
+Test loss for epoch 59 : -767.3721245568522
+Dev Precision for epoch 59 : 0.2875318066157761
+Dev Recall for epoch 59 : 0.5978835978835979
+Dev F1 for epoch 59 : 0.38831615120274915
+Test Precision for epoch 59 : 0.3416289592760181
+Test Recall for epoch 59 : 0.6926605504587156
+Test F1 for epoch 59 : 0.4575757575757575
+
+
+theta for epoch 60 : tensor([1.4730, 1.4796, 1.5371, 1.5215, 1.4853, 0.2759, 1.4773, 0.2185, 0.2185,
+        0.2134], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 60 : -767.3883713836026
+Dev loss for epoch 60 : -767.3690171679549
+Test loss for epoch 60 : -767.4281932217798
+Dev Precision for epoch 60 : 0.2875318066157761
+Dev Recall for epoch 60 : 0.5978835978835979
+Dev F1 for epoch 60 : 0.38831615120274915
+Test Precision for epoch 60 : 0.3416289592760181
+Test Recall for epoch 60 : 0.6926605504587156
+Test F1 for epoch 60 : 0.4575757575757575
+
+
+theta for epoch 61 : tensor([1.4605, 1.4673, 1.5262, 1.5103, 1.4731, 0.2818, 1.4650, 0.2230, 0.2230,
+        0.2178], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 61 : -767.443966196751
+Dev loss for epoch 61 : -767.4247456324476
+Test loss for epoch 61 : -767.4833481369511
+Dev Precision for epoch 61 : 0.2875318066157761
+Dev Recall for epoch 61 : 0.5978835978835979
+Dev F1 for epoch 61 : 0.38831615120274915
+Test Precision for epoch 61 : 0.3416289592760181
+Test Recall for epoch 61 : 0.6926605504587156
+Test F1 for epoch 61 : 0.4575757575757575
+
+
+theta for epoch 62 : tensor([1.4480, 1.4550, 1.5153, 1.4990, 1.4609, 0.2877, 1.4526, 0.2275, 0.2275,
+        0.2222], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 62 : -767.4984578488878
+Dev loss for epoch 62 : -767.4793736078678
+Test loss for epoch 62 : -767.537400955709
+Dev Precision for epoch 62 : 0.2875318066157761
+Dev Recall for epoch 62 : 0.5978835978835979
+Dev F1 for epoch 62 : 0.38831615120274915
+Test Precision for epoch 62 : 0.3416289592760181
+Test Recall for epoch 62 : 0.6926605504587156
+Test F1 for epoch 62 : 0.4575757575757575
+
+
+theta for epoch 63 : tensor([1.4355, 1.4426, 1.5044, 1.4877, 1.4487, 0.2936, 1.4403, 0.2320, 0.2320,
+        0.2265], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 63 : -767.5516791087169
+Dev loss for epoch 63 : -767.5327337480328
+Test loss for epoch 63 : -767.5901850911478
+Dev Precision for epoch 63 : 0.2875318066157761
+Dev Recall for epoch 63 : 0.5978835978835979
+Dev F1 for epoch 63 : 0.38831615120274915
+Test Precision for epoch 63 : 0.3416289592760181
+Test Recall for epoch 63 : 0.6926605504587156
+Test F1 for epoch 63 : 0.4575757575757575
+
+
+theta for epoch 64 : tensor([1.4230, 1.4303, 1.4936, 1.4765, 1.4366, 0.2994, 1.4279, 0.2363, 0.2363,
+        0.2308], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 64 : -767.603455927874
+Dev loss for epoch 64 : -767.5846518612364
+Test loss for epoch 64 : -767.6415271632627
+Dev Precision for epoch 64 : 0.2875318066157761
+Dev Recall for epoch 64 : 0.5978835978835979
+Dev F1 for epoch 64 : 0.38831615120274915
+Test Precision for epoch 64 : 0.3416289592760181
+Test Recall for epoch 64 : 0.6926605504587156
+Test F1 for epoch 64 : 0.4575757575757575
+
+
+theta for epoch 65 : tensor([1.4105, 1.4181, 1.4827, 1.4652, 1.4245, 0.3053, 1.4156, 0.2407, 0.2407,
+        0.2350], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 65 : -767.6536123397191
+Dev loss for epoch 65 : -767.6349518059304
+Test loss for epoch 65 : -767.6912518993935
+Dev Precision for epoch 65 : 0.2875318066157761
+Dev Recall for epoch 65 : 0.5978835978835979
+Dev F1 for epoch 65 : 0.38831615120274915
+Test Precision for epoch 65 : 0.3416289592760181
+Test Recall for epoch 65 : 0.6926605504587156
+Test F1 for epoch 65 : 0.4575757575757575
+
+
+theta for epoch 66 : tensor([1.3981, 1.4058, 1.4720, 1.4541, 1.4124, 0.3111, 1.4033, 0.2449, 0.2449,
+        0.2391], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 66 : -767.701954457554
+Dev loss for epoch 66 : -767.6834394851219
+Test loss for epoch 66 : -767.739166135463
+Dev Precision for epoch 66 : 0.2875318066157761
+Dev Recall for epoch 66 : 0.5978835978835979
+Dev F1 for epoch 66 : 0.38831615120274915
+Test Precision for epoch 66 : 0.3416289592760181
+Test Recall for epoch 66 : 0.6926605504587156
+Test F1 for epoch 66 : 0.4575757575757575
+
+
+theta for epoch 67 : tensor([1.3857, 1.3937, 1.4613, 1.4430, 1.4004, 0.3168, 1.3911, 0.2491, 0.2491,
+        0.2431], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 67 : -767.7483000668702
+Dev loss for epoch 67 : -767.7299324358677
+Test loss for epoch 67 : -767.7850884078684
+Dev Precision for epoch 67 : 0.2875318066157761
+Dev Recall for epoch 67 : 0.5978835978835979
+Dev F1 for epoch 67 : 0.38831615120274915
+Test Precision for epoch 67 : 0.3416289592760181
+Test Recall for epoch 67 : 0.6926605504587156
+Test F1 for epoch 67 : 0.4575757575757575
+
+
+theta for epoch 68 : tensor([1.3735, 1.3816, 1.4507, 1.4320, 1.3884, 0.3225, 1.3790, 0.2531, 0.2531,
+        0.2470], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 68 : -767.792466923772
+Dev loss for epoch 68 : -767.7742481240432
+Test loss for epoch 68 : -767.8288372539859
+Dev Precision for epoch 68 : 0.2875318066157761
+Dev Recall for epoch 68 : 0.5978835978835979
+Dev F1 for epoch 68 : 0.38831615120274915
+Test Precision for epoch 68 : 0.3416289592760181
+Test Recall for epoch 68 : 0.6926605504587156
+Test F1 for epoch 68 : 0.4575757575757575
+
+
+theta for epoch 69 : tensor([1.3613, 1.3696, 1.4402, 1.4211, 1.3766, 0.3281, 1.3670, 0.2570, 0.2570,
+        0.2507], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 69 : -767.8342879890243
+Dev loss for epoch 69 : -767.8162191758407
+Test loss for epoch 69 : -767.8702464453854
+Dev Precision for epoch 69 : 0.2875318066157761
+Dev Recall for epoch 69 : 0.5978835978835979
+Dev F1 for epoch 69 : 0.38831615120274915
+Test Precision for epoch 69 : 0.3416289592760181
+Test Recall for epoch 69 : 0.6926605504587156
+Test F1 for epoch 69 : 0.4575757575757575
+
+
+theta for epoch 70 : tensor([1.3493, 1.3578, 1.4298, 1.4103, 1.3649, 0.3335, 1.3551, 0.2608, 0.2607,
+        0.2543], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 70 : -767.8736044242268
+Dev loss for epoch 70 : -767.8556863715812
+Test loss for epoch 70 : -767.9091579833241
+Dev Precision for epoch 70 : 0.2875318066157761
+Dev Recall for epoch 70 : 0.5978835978835979
+Dev F1 for epoch 70 : 0.38831615120274915
+Test Precision for epoch 70 : 0.3416289592760181
+Test Recall for epoch 70 : 0.6926605504587156
+Test F1 for epoch 70 : 0.4575757575757575
+
+
+theta for epoch 71 : tensor([1.3374, 1.3461, 1.4196, 1.3997, 1.3534, 0.3388, 1.3433, 0.2643, 0.2643,
+        0.2577], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 71 : -767.9102729766365
+Dev loss for epoch 71 : -767.8925060294013
+Test loss for epoch 71 : -767.9454294805765
+Dev Precision for epoch 71 : 0.2875318066157761
+Dev Recall for epoch 71 : 0.5978835978835979
+Dev F1 for epoch 71 : 0.38831615120274915
+Test Precision for epoch 71 : 0.3416289592760181
+Test Recall for epoch 71 : 0.6926605504587156
+Test F1 for epoch 71 : 0.4575757575757575
+
+
+theta for epoch 72 : tensor([1.3257, 1.3346, 1.4096, 1.3893, 1.3420, 0.3439, 1.3318, 0.2677, 0.2676,
+        0.2608], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 72 : -767.9441787116931
+Dev loss for epoch 72 : -767.9265627369526
+Test loss for epoch 72 : -767.9789468915956
+Dev Precision for epoch 72 : 0.2875318066157761
+Dev Recall for epoch 72 : 0.5978835978835979
+Dev F1 for epoch 72 : 0.38831615120274915
+Test Precision for epoch 72 : 0.3416289592760181
+Test Recall for epoch 72 : 0.6926605504587156
+Test F1 for epoch 72 : 0.4575757575757575
+
+
+theta for epoch 73 : tensor([1.3142, 1.3233, 1.3997, 1.3791, 1.3308, 0.3489, 1.3204, 0.2708, 0.2707,
+        0.2638], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 73 : -767.975218748525
+Dev loss for epoch 73 : -767.9577530891338
+Test loss for epoch 73 : -768.0096082401184
+Dev Precision for epoch 73 : 0.2875318066157761
+Dev Recall for epoch 73 : 0.5978835978835979
+Dev F1 for epoch 73 : 0.38831615120274915
+Test Precision for epoch 73 : 0.3416289592760181
+Test Recall for epoch 73 : 0.6926605504587156
+Test F1 for epoch 73 : 0.4575757575757575
+
+
+theta for epoch 74 : tensor([1.3029, 1.3122, 1.3902, 1.3691, 1.3199, 0.3536, 1.3093, 0.2737, 0.2736,
+        0.2665], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 74 : -768.0033560736554
+Dev loss for epoch 74 : -767.9860395029406
+Test loss for epoch 74 : -768.0373774299551
+Dev Precision for epoch 74 : 0.2875318066157761
+Dev Recall for epoch 74 : 0.5978835978835979
+Dev F1 for epoch 74 : 0.38831615120274915
+Test Precision for epoch 74 : 0.3416289592760181
+Test Recall for epoch 74 : 0.6926605504587156
+Test F1 for epoch 74 : 0.4575757575757575
+
+
+theta for epoch 75 : tensor([1.2919, 1.3013, 1.3808, 1.3593, 1.3092, 0.3581, 1.2984, 0.2764, 0.2762,
+        0.2689], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 75 : -768.0285743953904
+Dev loss for epoch 75 : -768.0114050779426
+Test loss for epoch 75 : -768.0622390873995
+Dev Precision for epoch 75 : 0.2875318066157761
+Dev Recall for epoch 75 : 0.5978835978835979
+Dev F1 for epoch 75 : 0.38831615120274915
+Test Precision for epoch 75 : 0.3416289592760181
+Test Recall for epoch 75 : 0.6926605504587156
+Test F1 for epoch 75 : 0.4575757575757575
+
+
+theta for epoch 76 : tensor([1.2812, 1.2908, 1.3717, 1.3498, 1.2988, 0.3623, 1.2878, 0.2787, 0.2785,
+        0.2710], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 76 : -768.0509023418189
+Dev loss for epoch 76 : -768.0338778003821
+Test loss for epoch 76 : -768.0842227508529
+Dev Precision for epoch 76 : 0.2875318066157761
+Dev Recall for epoch 76 : 0.5978835978835979
+Dev F1 for epoch 76 : 0.38831615120274915
+Test Precision for epoch 76 : 0.3416289592760181
+Test Recall for epoch 76 : 0.6926605504587156
+Test F1 for epoch 76 : 0.4575757575757575
+
+
+theta for epoch 77 : tensor([1.2707, 1.2805, 1.3630, 1.3407, 1.2887, 0.3662, 1.2775, 0.2807, 0.2805,
+        0.2728], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 77 : -768.0704259802022
+Dev loss for epoch 77 : -768.0535430723703
+Test loss for epoch 77 : -768.1034153766998
+Dev Precision for epoch 77 : 0.2875318066157761
+Dev Recall for epoch 77 : 0.5978835978835979
+Dev F1 for epoch 77 : 0.38831615120274915
+Test Precision for epoch 77 : 0.3416289592760181
+Test Recall for epoch 77 : 0.6926605504587156
+Test F1 for epoch 77 : 0.4575757575757575
+
+
+theta for epoch 78 : tensor([1.2606, 1.2706, 1.3545, 1.3319, 1.2789, 0.3698, 1.2675, 0.2824, 0.2821,
+        0.2742], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 78 : -768.0872907312859
+Dev loss for epoch 78 : -768.0705456372388
+Test loss for epoch 78 : -768.1199632410264
+Dev Precision for epoch 78 : 0.2875318066157761
+Dev Recall for epoch 78 : 0.5978835978835979
+Dev F1 for epoch 78 : 0.38831615120274915
+Test Precision for epoch 78 : 0.3416289592760181
+Test Recall for epoch 78 : 0.6926605504587156
+Test F1 for epoch 78 : 0.4575757575757575
+
+
+theta for epoch 79 : tensor([1.2508, 1.2610, 1.3465, 1.3234, 1.2694, 0.3731, 1.2579, 0.2836, 0.2834,
+        0.2752], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 79 : -768.101681068023
+Dev loss for epoch 79 : -768.0850692930564
+Test loss for epoch 79 : -768.1340516210751
+Dev Precision for epoch 79 : 0.2875318066157761
+Dev Recall for epoch 79 : 0.5978835978835979
+Dev F1 for epoch 79 : 0.38831615120274915
+Test Precision for epoch 79 : 0.3416289592760181
+Test Recall for epoch 79 : 0.6926605504587156
+Test F1 for epoch 79 : 0.4575757575757575
+
+
+theta for epoch 80 : tensor([1.2414, 1.2518, 1.3388, 1.3153, 1.2604, 0.3760, 1.2486, 0.2845, 0.2842,
+        0.2759], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 80 : -768.1138411745376
+Dev loss for epoch 80 : -768.0973575670528
+Test loss for epoch 80 : -768.1459254388088
+Dev Precision for epoch 80 : 0.2875318066157761
+Dev Recall for epoch 80 : 0.5978835978835979
+Dev F1 for epoch 80 : 0.38831615120274915
+Test Precision for epoch 80 : 0.3416289592760181
+Test Recall for epoch 80 : 0.6926605504587156
+Test F1 for epoch 80 : 0.4575757575757575
+
+
+theta for epoch 81 : tensor([1.2324, 1.2430, 1.3315, 1.3076, 1.2517, 0.3785, 1.2398, 0.2850, 0.2847,
+        0.2761], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 81 : -768.124052823323
+Dev loss for epoch 81 : -768.1076916112523
+Test loss for epoch 81 : -768.1558671187976
+Dev Precision for epoch 81 : 0.2875318066157761
+Dev Recall for epoch 81 : 0.5978835978835979
+Dev F1 for epoch 81 : 0.38831615120274915
+Test Precision for epoch 81 : 0.3416289592760181
+Test Recall for epoch 81 : 0.6926605504587156
+Test F1 for epoch 81 : 0.4575757575757575
+
+
+theta for epoch 82 : tensor([1.2239, 1.2346, 1.3246, 1.3003, 1.2435, 0.3806, 1.2313, 0.2851, 0.2847,
+        0.2759], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 82 : -768.1326288189633
+Dev loss for epoch 82 : -768.1163836642658
+Test loss for epoch 82 : -768.1641900153455
+Dev Precision for epoch 82 : 0.2875318066157761
+Dev Recall for epoch 82 : 0.5978835978835979
+Dev F1 for epoch 82 : 0.38831615120274915
+Test Precision for epoch 82 : 0.3416289592760181
+Test Recall for epoch 82 : 0.6926605504587156
+Test F1 for epoch 82 : 0.4575757575757575
+
+
+theta for epoch 83 : tensor([1.2157, 1.2266, 1.3181, 1.2934, 1.2356, 0.3823, 1.2233, 0.2847, 0.2843,
+        0.2753], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 83 : -768.1399168436966
+Dev loss for epoch 83 : -768.1237809156804
+Test loss for epoch 83 : -768.1712422403936
+Dev Precision for epoch 83 : 0.2875318066157761
+Dev Recall for epoch 83 : 0.5978835978835979
+Dev F1 for epoch 83 : 0.38831615120274915
+Test Precision for epoch 83 : 0.3416289592760181
+Test Recall for epoch 83 : 0.6926605504587156
+Test F1 for epoch 83 : 0.4575757575757575
+
+
+theta for epoch 84 : tensor([1.2080, 1.2191, 1.3121, 1.2870, 1.2283, 0.3835, 1.2157, 0.2839, 0.2834,
+        0.2741], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 84 : -768.1462605724068
+Dev loss for epoch 84 : -768.130226639023
+Test loss for epoch 84 : -768.1773677619908
+Dev Precision for epoch 84 : 0.2875318066157761
+Dev Recall for epoch 84 : 0.5978835978835979
+Dev F1 for epoch 84 : 0.38831615120274915
+Test Precision for epoch 84 : 0.3416289592760181
+Test Recall for epoch 84 : 0.6926605504587156
+Test F1 for epoch 84 : 0.4575757575757575
+
+
+theta for epoch 85 : tensor([1.2007, 1.2120, 1.3066, 1.2810, 1.2213, 0.3843, 1.2086, 0.2826, 0.2821,
+        0.2726], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 85 : -768.151995379236
+Dev loss for epoch 85 : -768.136055913667
+Test loss for epoch 85 : -768.1829020977834
+Dev Precision for epoch 85 : 0.2875318066157761
+Dev Recall for epoch 85 : 0.5978835978835979
+Dev F1 for epoch 85 : 0.38831615120274915
+Test Precision for epoch 85 : 0.3416289592760181
+Test Recall for epoch 85 : 0.6926605504587156
+Test F1 for epoch 85 : 0.4575757575757575
+
+
+theta for epoch 86 : tensor([1.1939, 1.2054, 1.3014, 1.2755, 1.2148, 0.3847, 1.2019, 0.2808, 0.2803,
+        0.2705], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 86 : -768.1574490259948
+Dev loss for epoch 86 : -768.1415963261895
+Test loss for epoch 86 : -768.188172991756
+Dev Precision for epoch 86 : 0.2875318066157761
+Dev Recall for epoch 86 : 0.5978835978835979
+Dev F1 for epoch 86 : 0.38831615120274915
+Test Precision for epoch 86 : 0.3416289592760181
+Test Recall for epoch 86 : 0.6926605504587156
+Test F1 for epoch 86 : 0.4575757575757575
+
+
+theta for epoch 87 : tensor([1.1875, 1.1992, 1.2968, 1.2705, 1.2088, 0.3846, 1.1956, 0.2786, 0.2781,
+        0.2680], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 87 : -768.1629007338826
+Dev loss for epoch 87 : -768.1471270503923
+Test loss for epoch 87 : -768.1934594792236
+Dev Precision for epoch 87 : 0.2875318066157761
+Dev Recall for epoch 87 : 0.5978835978835979
+Dev F1 for epoch 87 : 0.38831615120274915
+Test Precision for epoch 87 : 0.3416289592760181
+Test Recall for epoch 87 : 0.6926605504587156
+Test F1 for epoch 87 : 0.4575757575757575
+
+
+theta for epoch 88 : tensor([1.1816, 1.1934, 1.2925, 1.2658, 1.2032, 0.3840, 1.1898, 0.2760, 0.2754,
+        0.2651], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 88 : -768.1685911753477
+Dev loss for epoch 88 : -768.1528888433913
+Test loss for epoch 88 : -768.1990018748785
+Dev Precision for epoch 88 : 0.2875318066157761
+Dev Recall for epoch 88 : 0.5978835978835979
+Dev F1 for epoch 88 : 0.38831615120274915
+Test Precision for epoch 88 : 0.3416289592760181
+Test Recall for epoch 88 : 0.6926605504587156
+Test F1 for epoch 88 : 0.4575757575757575
+
+
+theta for epoch 89 : tensor([1.1760, 1.1881, 1.2887, 1.2616, 1.1980, 0.3831, 1.1845, 0.2729, 0.2722,
+        0.2617], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 89 : -768.17469779989
+Dev loss for epoch 89 : -768.1590593699575
+Test loss for epoch 89 : -768.2049771004586
+Dev Precision for epoch 89 : 0.2875318066157761
+Dev Recall for epoch 89 : 0.5978835978835979
+Dev F1 for epoch 89 : 0.38831615120274915
+Test Precision for epoch 89 : 0.3416289592760181
+Test Recall for epoch 89 : 0.6926605504587156
+Test F1 for epoch 89 : 0.4575757575757575
+
+
+theta for epoch 90 : tensor([1.1709, 1.1832, 1.2853, 1.2578, 1.1932, 0.3817, 1.1795, 0.2694, 0.2687,
+        0.2579], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 90 : -768.1813530584772
+Dev loss for epoch 90 : -768.1657714202757
+Test loss for epoch 90 : -768.2115169158857
+Dev Precision for epoch 90 : 0.2875318066157761
+Dev Recall for epoch 90 : 0.5978835978835979
+Dev F1 for epoch 90 : 0.38831615120274915
+Test Precision for epoch 90 : 0.3416289592760181
+Test Recall for epoch 90 : 0.6926605504587156
+Test F1 for epoch 90 : 0.4575757575757575
+
+
+theta for epoch 91 : tensor([1.1662, 1.1786, 1.2823, 1.2544, 1.1888, 0.3799, 1.1749, 0.2654, 0.2647,
+        0.2537], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 91 : -768.1886177050314
+Dev loss for epoch 91 : -768.1730862004371
+Test loss for epoch 91 : -768.218681231167
+Dev Precision for epoch 91 : 0.2875318066157761
+Dev Recall for epoch 91 : 0.5978835978835979
+Dev F1 for epoch 91 : 0.38831615120274915
+Test Precision for epoch 91 : 0.3416289592760181
+Test Recall for epoch 91 : 0.6926605504587156
+Test F1 for epoch 91 : 0.4575757575757575
+
+
+theta for epoch 92 : tensor([1.1618, 1.1744, 1.2797, 1.2513, 1.1847, 0.3777, 1.1706, 0.2612, 0.2604,
+        0.2491], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 92 : -768.1965130492371
+Dev loss for epoch 92 : -768.1810255696157
+Test loss for epoch 92 : -768.2264903748143
+Dev Precision for epoch 92 : 0.2875318066157761
+Dev Recall for epoch 92 : 0.5978835978835979
+Dev F1 for epoch 92 : 0.38831615120274915
+Test Precision for epoch 92 : 0.3416289592760181
+Test Recall for epoch 92 : 0.6926605504587156
+Test F1 for epoch 92 : 0.4575757575757575
+
+
+theta for epoch 93 : tensor([1.1577, 1.1706, 1.2773, 1.2486, 1.1810, 0.3752, 1.1667, 0.2565, 0.2557,
+        0.2442], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 93 : -768.2050011532332
+Dev loss for epoch 93 : -768.1895522185699
+Test loss for epoch 93 : -768.2349053085297
+Dev Precision for epoch 93 : 0.2875318066157761
+Dev Recall for epoch 93 : 0.5978835978835979
+Dev F1 for epoch 93 : 0.38831615120274915
+Test Precision for epoch 93 : 0.3416289592760181
+Test Recall for epoch 93 : 0.6926605504587156
+Test F1 for epoch 93 : 0.4575757575757575
+
+
+theta for epoch 94 : tensor([1.1540, 1.1670, 1.2753, 1.2462, 1.1776, 0.3724, 1.1631, 0.2516, 0.2507,
+        0.2389], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 94 : -768.2140133030535
+Dev loss for epoch 94 : -768.1985981200946
+Test loss for epoch 94 : -768.243856121091
+Dev Precision for epoch 94 : 0.2875318066157761
+Dev Recall for epoch 94 : 0.5978835978835979
+Dev F1 for epoch 94 : 0.38831615120274915
+Test Precision for epoch 94 : 0.3416289592760181
+Test Recall for epoch 94 : 0.6926605504587156
+Test F1 for epoch 94 : 0.4575757575757575
+
+
+theta for epoch 95 : tensor([1.1505, 1.1637, 1.2735, 1.2440, 1.1744, 0.3693, 1.1597, 0.2464, 0.2455,
+        0.2334], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 95 : -768.2234734730783
+Dev loss for epoch 95 : -768.2080879721124
+Test loss for epoch 95 : -768.2532655163254
+Dev Precision for epoch 95 : 0.2875318066157761
+Dev Recall for epoch 95 : 0.5978835978835979
+Dev F1 for epoch 95 : 0.38831615120274915
+Test Precision for epoch 95 : 0.3416289592760181
+Test Recall for epoch 95 : 0.6926605504587156
+Test F1 for epoch 95 : 0.4575757575757575
+
+
+theta for epoch 96 : tensor([1.1472, 1.1606, 1.2720, 1.2420, 1.1714, 0.3659, 1.1566, 0.2409, 0.2400,
+        0.2277], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 96 : -768.2332583198653
+Dev loss for epoch 96 : -768.2178991707701
+Test loss for epoch 96 : -768.2630088307769
+Dev Precision for epoch 96 : 0.2875318066157761
+Dev Recall for epoch 96 : 0.5978835978835979
+Dev F1 for epoch 96 : 0.38831615120274915
+Test Precision for epoch 96 : 0.3416289592760181
+Test Recall for epoch 96 : 0.6926605504587156
+Test F1 for epoch 96 : 0.4575757575757575
+
+
+theta for epoch 97 : tensor([1.1441, 1.1577, 1.2706, 1.2402, 1.1687, 0.3623, 1.1536, 0.2352, 0.2342,
+        0.2217], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 97 : -768.2432773354499
+Dev loss for epoch 97 : -768.2279419435343
+Test loss for epoch 97 : -768.272994212585
+Dev Precision for epoch 97 : 0.2875318066157761
+Dev Recall for epoch 97 : 0.5978835978835979
+Dev F1 for epoch 97 : 0.38831615120274915
+Test Precision for epoch 97 : 0.3416289592760181
+Test Recall for epoch 97 : 0.6926605504587156
+Test F1 for epoch 97 : 0.4575757575757575
+
+
+theta for epoch 98 : tensor([1.1411, 1.1549, 1.2694, 1.2386, 1.1660, 0.3586, 1.1508, 0.2294, 0.2284,
+        0.2156], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 98 : -768.2534056117862
+Dev loss for epoch 98 : -768.2380920970228
+Test loss for epoch 98 : -768.2830954077322
+Dev Precision for epoch 98 : 0.2875318066157761
+Dev Recall for epoch 98 : 0.5978835978835979
+Dev F1 for epoch 98 : 0.38831615120274915
+Test Precision for epoch 98 : 0.3416289592760181
+Test Recall for epoch 98 : 0.6926605504587156
+Test F1 for epoch 98 : 0.4575757575757575
+
+
+theta for epoch 99 : tensor([1.1383, 1.1523, 1.2683, 1.2371, 1.1635, 0.3547, 1.1481, 0.2234, 0.2223,
+        0.2094], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 99 : -768.2635676514384
+Dev loss for epoch 99 : -768.2482748116432
+Test loss for epoch 99 : -768.2932355956942
+Dev Precision for epoch 99 : 0.2875318066157761
+Dev Recall for epoch 99 : 0.5978835978835979
+Dev F1 for epoch 99 : 0.38831615120274915
+Test Precision for epoch 99 : 0.3416289592760181
+Test Recall for epoch 99 : 0.6926605504587156
+Test F1 for epoch 99 : 0.4575757575757575
+
+
+Max Dev F1 is for epoch 0 : 0.4282744282744283
+Max Test F1 is for epoch 0 : 0.49569707401032703
+Dev F1 is for epoch 6 (10 epochs) : 0.39304347826086955
+Dev F1 is for epoch 6 (20 epochs) : 0.39304347826086955
+Dev F1 is for epoch 6 (30 epochs) : 0.39304347826086955
+Test F1 is for epoch 6 (10 epochs) : 0.4603658536585365
+Test F1 is for epoch 6 (20 epochs) : 0.4603658536585365
+Test F1 is for epoch 6 (30 epochs) : 0.4603658536585365

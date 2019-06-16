@@ -1,0 +1,13 @@
+theta for epoch 0 : tensor([1., 1., 1., 1., 1., 1., 1., 1., 1., 1.], dtype=torch.float64,
+       requires_grad=True)
+Train loss for epoch 0 : 8.812009670170859
+Dev loss for epoch 0 : 8.082328234447253
+Test loss for epoch 0 : 8.059404489373978
+Dev Precision for epoch 0 : 0.3527397260273973
+Dev Recall for epoch 0 : 0.544973544973545
+Dev F1 for epoch 0 : 0.4282744282744283
+Test Precision for epoch 0 : 0.39669421487603307
+Test Recall for epoch 0 : 0.6605504587155964
+Test F1 for epoch 0 : 0.49569707401032703
+
+

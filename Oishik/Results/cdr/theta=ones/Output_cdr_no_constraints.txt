@@ -1666,3 +1666,9 @@ Test F1 for epoch 99 : 0.5846702317290553
 
 Max Dev F1 is for epoch 28 : 0.6983372921615201
 Max Test F1 is for epoch 12 : 0.6984287886467309
+Dev F1 is for epoch 9 (10 epochs) : 0.6460674157303371
+Dev F1 is for epoch 19 (20 epochs) : 0.6956521739130436
+Dev F1 is for epoch 29 (30 epochs) : 0.6983372921615201
+Test F1 is for epoch 9 (10 epochs) : 0.6904196357878069
+Test F1 is for epoch 19 (20 epochs) : 0.6948828311812529
+Test F1 is for epoch 29 (30 epochs) : 0.6952627857647891
