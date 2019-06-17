@@ -1,3 +1,7 @@
+(17 June 2019) Compare softplus and binomial curves for precision constraint.  Use binomial for recall constraint.
+(17 June 2019) Think about alternative ways of implementing precision constraints treated as a lowerbound.
+(17 June 2019) UCI dataset for continuous attributes.
+
 (17 June 2019) Final plots on the right way of incorporating precision recall constraints on all data.
 (17 June 2019) Bayesian model for continuous attributes.
 (17 June 2019) More datasets
