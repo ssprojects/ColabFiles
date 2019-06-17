@@ -1,3 +1,7 @@
+(17 June 2019) Final plots on the right way of incorporating precision recall constraints on all data.
+(17 June 2019) Bayesian model for continuous attributes.
+(17 June 2019) More datasets
+
 (12 June 2019) Question classification: create multiple overlapping fine-grained LFs
  
 (12 June 2019) Why does likelihood function become negative for continuous s?
