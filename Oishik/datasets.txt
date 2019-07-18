@@ -1,0 +1,8 @@
+----------------------------------------Latest------------------------------------------
+https://archive.ics.uci.edu/ml/datasets/Ionosphere - Ionosphere
+https://archive.ics.uci.edu/ml/datasets/Breast+Cancer - Breast Cancer
+https://archive.ics.uci.edu/ml/datasets/Glass+Identification - Glass Identification
+
+------------------------------------------Old-------------------------------------------
+https://archive.ics.uci.edu/ml/datasets/Iris - Iris
+https://archive.ics.uci.edu/ml/datasets/Electrical+Grid+Stability+Simulated+Data+ - Grid

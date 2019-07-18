@@ -1,0 +1,4014 @@
+theta for epoch 0 : tensor([1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 0 : 28.38484634529594
+Test loss for epoch 0 : 29.96590612598549
+Test Precision for epoch 0 : 1.0
+Test Recall for epoch 0 : 1.0
+Test F1 for epoch 0 : 1.0
+
+
+theta for epoch 1 : tensor([1.1000, 0.9000, 0.9000, 0.9000, 1.1000, 1.1000, 0.9000, 0.9000, 0.9000,
+        0.9000, 0.9000, 0.9000, 0.9000, 0.9000, 0.9000, 0.9000, 0.9000, 0.9000],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 1 : 28.451460841040813
+Test loss for epoch 1 : 30.152696735427305
+Test Precision for epoch 1 : 1.0
+Test Recall for epoch 1 : 1.0
+Test F1 for epoch 1 : 1.0
+
+
+theta for epoch 2 : tensor([1.0300, 0.8181, 0.8194, 0.8153, 1.0274, 1.0280, 0.8195, 0.8205, 0.8178,
+        0.9578, 0.9534, 0.9548, 0.9511, 0.9539, 0.9539, 0.9546, 0.9524, 0.9521],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 2 : 28.569341574763648
+Test loss for epoch 2 : 30.11972789722774
+Test Precision for epoch 2 : 1.0
+Test Recall for epoch 2 : 1.0
+Test F1 for epoch 2 : 1.0
+
+
+theta for epoch 3 : tensor([1.0410, 0.8081, 0.8127, 0.7973, 1.0344, 1.0360, 0.8131, 0.8164, 0.8072,
+        0.9329, 0.9242, 0.9270, 0.9200, 0.9252, 0.9252, 0.9265, 0.9224, 0.9219],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 3 : 27.947545185050913
+Test loss for epoch 3 : 29.516690401667148
+Test Precision for epoch 3 : 1.0
+Test Recall for epoch 3 : 1.0
+Test F1 for epoch 3 : 1.0
+
+
+theta for epoch 4 : tensor([1.0741, 0.8200, 0.8282, 0.8003, 1.0636, 1.0660, 0.8288, 0.8347, 0.8184,
+        0.8870, 0.8748, 0.8787, 0.8690, 0.8761, 0.8761, 0.8781, 0.8722, 0.8716],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 4 : 27.5793071423499
+Test loss for epoch 4 : 29.213762740551918
+Test Precision for epoch 4 : 1.0
+Test Recall for epoch 4 : 1.0
+Test F1 for epoch 4 : 1.0
+
+
+theta for epoch 5 : tensor([1.0884, 0.8114, 0.8234, 0.7826, 1.0734, 1.0770, 0.8242, 0.8328, 0.8090,
+        0.8572, 0.8407, 0.8459, 0.8328, 0.8425, 0.8424, 0.8451, 0.8372, 0.8363],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 5 : 27.911300894055366
+Test loss for epoch 5 : 29.57090826144391
+Test Precision for epoch 5 : 1.0
+Test Recall for epoch 5 : 1.0
+Test F1 for epoch 5 : 1.0
+
+
+theta for epoch 6 : tensor([1.0743, 0.7771, 0.7922, 0.7409, 1.0551, 1.0597, 0.7933, 0.8041, 0.7740,
+        0.8557, 0.8345, 0.8412, 0.8243, 0.8367, 0.8367, 0.8401, 0.8299, 0.8288],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 6 : 27.454582898167956
+Test loss for epoch 6 : 29.07996064244901
+Test Precision for epoch 6 : 1.0
+Test Recall for epoch 6 : 1.0
+Test F1 for epoch 6 : 1.0
+
+
+theta for epoch 7 : tensor([1.0482, 0.7317, 0.7497, 0.6887, 1.0248, 1.0304, 0.7510, 0.7640, 0.7280,
+        0.8661, 0.8398, 0.8481, 0.8273, 0.8426, 0.8426, 0.8467, 0.8342, 0.8329],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 7 : 27.175637239524875
+Test loss for epoch 7 : 28.741406251907513
+Test Precision for epoch 7 : 1.0
+Test Recall for epoch 7 : 1.0
+Test F1 for epoch 7 : 1.0
+
+
+theta for epoch 8 : tensor([1.0296, 0.6922, 0.7135, 0.6419, 1.0017, 1.0083, 0.7150, 0.7303, 0.6879,
+        0.8677, 0.8363, 0.8462, 0.8213, 0.8396, 0.8396, 0.8446, 0.8296, 0.8280],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 8 : 27.356108221978037
+Test loss for epoch 8 : 28.87781788934523
+Test Precision for epoch 8 : 1.0
+Test Recall for epoch 8 : 1.0
+Test F1 for epoch 8 : 1.0
+
+
+theta for epoch 9 : tensor([1.0295, 0.6701, 0.6949, 0.6114, 0.9971, 1.0047, 0.6966, 0.7146, 0.6651,
+        0.8510, 0.8147, 0.8262, 0.7974, 0.8186, 0.8186, 0.8243, 0.8070, 0.8052],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 9 : 27.163488985241152
+Test loss for epoch 9 : 28.68009502413818
+Test Precision for epoch 9 : 1.0
+Test Recall for epoch 9 : 1.0
+Test F1 for epoch 9 : 1.0
+
+
+theta for epoch 10 : tensor([1.0423, 0.6603, 0.6888, 0.5926, 1.0052, 1.0140, 0.6908, 0.7114, 0.6545,
+        0.8219, 0.7811, 0.7940, 0.7617, 0.7854, 0.7854, 0.7918, 0.7724, 0.7703],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 10 : 26.824882465022135
+Test loss for epoch 10 : 28.363435409598946
+Test Precision for epoch 10 : 1.0
+Test Recall for epoch 10 : 1.0
+Test F1 for epoch 10 : 1.0
+
+
+theta for epoch 11 : tensor([1.0552, 0.6500, 0.6824, 0.5730, 1.0134, 1.0233, 0.6846, 0.7080, 0.6434,
+        0.7921, 0.7466, 0.7610, 0.7250, 0.7514, 0.7514, 0.7586, 0.7369, 0.7346],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 11 : 26.835252917661535
+Test loss for epoch 11 : 28.395807683637912
+Test Precision for epoch 11 : 1.0
+Test Recall for epoch 11 : 1.0
+Test F1 for epoch 11 : 1.0
+
+
+theta for epoch 12 : tensor([1.0568, 0.6286, 0.6647, 0.5429, 1.0102, 1.0212, 0.6673, 0.6933, 0.6213,
+        0.7731, 0.7226, 0.7386, 0.6987, 0.7279, 0.7279, 0.7359, 0.7119, 0.7094],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 12 : 26.836862591086877
+Test loss for epoch 12 : 28.395254655646575
+Test Precision for epoch 12 : 1.0
+Test Recall for epoch 12 : 1.0
+Test F1 for epoch 12 : 1.0
+
+
+theta for epoch 13 : tensor([1.0453, 0.5954, 0.6350, 0.5016, 0.9940, 1.0062, 0.6378, 0.6663, 0.5874,
+        0.7670, 0.7115, 0.7290, 0.6852, 0.7173, 0.7173, 0.7261, 0.6997, 0.6969],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 13 : 26.577427189432925
+Test loss for epoch 13 : 28.106248026853017
+Test Precision for epoch 13 : 1.0
+Test Recall for epoch 13 : 1.0
+Test F1 for epoch 13 : 1.0
+
+
+theta for epoch 14 : tensor([1.0277, 0.5565, 0.5995, 0.4551, 0.9718, 0.9850, 0.6025, 0.6335, 0.5478,
+        0.7667, 0.7061, 0.7253, 0.6773, 0.7125, 0.7124, 0.7220, 0.6932, 0.6901],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 14 : 26.42078628620045
+Test loss for epoch 14 : 27.907076999310846
+Test Precision for epoch 14 : 1.0
+Test Recall for epoch 14 : 1.0
+Test F1 for epoch 14 : 1.0
+
+
+theta for epoch 15 : tensor([1.0142, 0.5212, 0.5676, 0.4118, 0.9536, 0.9679, 0.5709, 0.6044, 0.5119,
+        0.7621, 0.6962, 0.7171, 0.6650, 0.7032, 0.7032, 0.7136, 0.6822, 0.6790],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 15 : 26.451499672268003
+Test loss for epoch 15 : 27.90355922059011
+Test Precision for epoch 15 : 1.0
+Test Recall for epoch 15 : 1.0
+Test F1 for epoch 15 : 1.0
+
+
+theta for epoch 16 : tensor([1.0114, 0.4960, 0.5461, 0.3782, 0.9459, 0.9614, 0.5496, 0.5857, 0.4860,
+        0.7470, 0.6762, 0.6986, 0.6425, 0.6837, 0.6836, 0.6948, 0.6611, 0.6576],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 16 : 26.344749843775674
+Test loss for epoch 16 : 27.78497793063295
+Test Precision for epoch 16 : 1.0
+Test Recall for epoch 16 : 1.0
+Test F1 for epoch 16 : 1.0
+
+
+theta for epoch 17 : tensor([1.0175, 0.4796, 0.5333, 0.3530, 0.9472, 0.9639, 0.5371, 0.5759, 0.4688,
+        0.7233, 0.6476, 0.6716, 0.6118, 0.6557, 0.6556, 0.6675, 0.6315, 0.6278],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 17 : 26.141152993572035
+Test loss for epoch 17 : 27.588390199798223
+Test Precision for epoch 17 : 1.0
+Test Recall for epoch 17 : 1.0
+Test F1 for epoch 17 : 1.0
+
+
+theta for epoch 18 : tensor([1.0250, 0.4644, 0.5219, 0.3290, 0.9500, 0.9678, 0.5259, 0.5675, 0.4529,
+        0.6980, 0.6176, 0.6430, 0.5795, 0.6261, 0.6260, 0.6387, 0.6005, 0.5965],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 18 : 26.08996051733577
+Test loss for epoch 18 : 27.54706256561155
+Test Precision for epoch 18 : 1.0
+Test Recall for epoch 18 : 1.0
+Test F1 for epoch 18 : 1.0
+
+
+theta for epoch 19 : tensor([1.0261, 0.4432, 0.5043, 0.2993, 0.9462, 0.9651, 0.5086, 0.5527, 0.4310,
+        0.6790, 0.5938, 0.6208, 0.5534, 0.6029, 0.6028, 0.6162, 0.5757, 0.5715],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 19 : 26.07671018797757
+Test loss for epoch 19 : 27.529638544894194
+Test Precision for epoch 19 : 1.0
+Test Recall for epoch 19 : 1.0
+Test F1 for epoch 19 : 1.0
+
+
+theta for epoch 20 : tensor([1.0179, 0.4136, 0.4782, 0.2617, 0.9334, 0.9534, 0.4827, 0.5294, 0.4008,
+        0.6693, 0.5792, 0.6077, 0.5365, 0.5887, 0.5886, 0.6029, 0.5600, 0.5555],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 20 : 25.9336452684594
+Test loss for epoch 20 : 27.362871266471252
+Test Precision for epoch 20 : 1.0
+Test Recall for epoch 20 : 1.0
+Test F1 for epoch 20 : 1.0
+
+
+theta for epoch 21 : tensor([1.0046, 0.3795, 0.4474, 0.2199, 0.9154, 0.9366, 0.4521, 0.5012, 0.3659,
+        0.6647, 0.5697, 0.5998, 0.5247, 0.5798, 0.5797, 0.5947, 0.5495, 0.5448],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 21 : 25.816116126703463
+Test loss for epoch 21 : 27.210329020632177
+Test Precision for epoch 21 : 1.0
+Test Recall for epoch 21 : 1.0
+Test F1 for epoch 21 : 1.0
+
+
+theta for epoch 22 : tensor([0.9933, 0.3474, 0.4187, 0.1801, 0.8995, 0.9218, 0.4236, 0.4751, 0.3332,
+        0.6581, 0.5583, 0.5899, 0.5110, 0.5690, 0.5688, 0.5846, 0.5371, 0.5321],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 22 : 25.806739482202055
+Test loss for epoch 22 : 27.16993978814396
+Test Precision for epoch 22 : 1.0
+Test Recall for epoch 22 : 1.0
+Test F1 for epoch 22 : 1.0
+
+
+theta for epoch 23 : tensor([0.9894, 0.3227, 0.3974, 0.1475, 0.8911, 0.9144, 0.4025, 0.4565, 0.3079,
+        0.6444, 0.5400, 0.5730, 0.4903, 0.5511, 0.5509, 0.5674, 0.5177, 0.5125],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 23 : 25.742283650591745
+Test loss for epoch 23 : 27.09009147212413
+Test Precision for epoch 23 : 1.0
+Test Recall for epoch 23 : 1.0
+Test F1 for epoch 23 : 1.0
+
+
+theta for epoch 24 : tensor([0.9924, 0.3048, 0.3830, 0.1216, 0.8895, 0.9139, 0.3884, 0.4448, 0.2894,
+        0.6241, 0.5152, 0.5497, 0.4635, 0.5268, 0.5267, 0.5439, 0.4920, 0.4867],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 24 : 25.620725805711004
+Test loss for epoch 24 : 26.967665313438765
+Test Precision for epoch 24 : 1.0
+Test Recall for epoch 24 : 1.0
+Test F1 for epoch 24 : 1.0
+
+
+theta for epoch 25 : tensor([0.9966, 0.2886, 0.3701, 0.0974, 0.8893, 0.9148, 0.3757, 0.4346, 0.2725,
+        0.6026, 0.4895, 0.5253, 0.4356, 0.5015, 0.5013, 0.5193, 0.4653, 0.4597],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 25 : 25.57940222566059
+Test loss for epoch 25 : 26.92808017125349
+Test Precision for epoch 25 : 1.0
+Test Recall for epoch 25 : 1.0
+Test F1 for epoch 25 : 1.0
+
+
+theta for epoch 26 : tensor([0.9961, 0.2681, 0.3529, 0.0692, 0.8844, 0.9109, 0.3587, 0.4200, 0.2514,
+        0.5861, 0.4686, 0.5059, 0.4127, 0.4812, 0.4810, 0.4996, 0.4435, 0.4378],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 26 : 25.558720121151588
+Test loss for epoch 26 : 26.89850500524425
+Test Precision for epoch 26 : 1.0
+Test Recall for epoch 26 : 1.0
+Test F1 for epoch 26 : 1.0
+
+
+theta for epoch 27 : tensor([0.9887, 0.2416, 0.3296, 0.0354, 0.8727, 0.9003, 0.3355, 0.3991, 0.2243,
+        0.5765, 0.4548, 0.4934, 0.3968, 0.4678, 0.4676, 0.4869, 0.4287, 0.4228],
+       dtype=torch.float64, requires_grad=True)
+Train loss for epoch 27 : 25.470633394380215
+Test loss for epoch 27 : 26.78655754419502
+Test Precision for epoch 27 : 1.0
+Test Recall for epoch 27 : 1.0
+Test F1 for epoch 27 : 1.0
+
+
+theta for epoch 28 : tensor([ 9.7781e-01,  2.1219e-01,  3.0323e-01, -8.8002e-04,  8.5769e-01,
+         8.8626e-01,  3.0936e-01,  3.7511e-01,  1.9437e-01,  5.7062e-01,
+         4.4478e-01,  4.8474e-01,  3.8470e-01,  4.5826e-01,  4.5802e-01,
+         4.7796e-01,  4.1776e-01,  4.1164e-01], dtype=torch.float64,
+       requires_grad=True)
+Train loss for epoch 28 : 25.408358969235593
+Test loss for epoch 28 : 26.692473667581133
+Test Precision for epoch 28 : 1.0
+Test Recall for epoch 28 : 1.0
+Test F1 for epoch 28 : 1.0
+
+
+theta for epoch 29 : tensor([ 0.9693,  0.1855,  0.2795, -0.0345,  0.8451,  0.8746,  0.2858,  0.3537,
+         0.1671,  0.5626,  0.4328,  0.4740,  0.3707,  0.4467,  0.4464,  0.4670,
+         0.4048,  0.3985], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 29 : 25.39816942872061
+Test loss for epoch 29 : 26.65512545032003
+Test Precision for epoch 29 : 1.0
+Test Recall for epoch 29 : 1.0
+Test F1 for epoch 29 : 1.0
+
+
+theta for epoch 30 : tensor([ 0.9667,  0.1650,  0.2620, -0.0619,  0.8385,  0.8690,  0.2685,  0.3386,
+         0.1461,  0.5490,  0.4153,  0.4578,  0.3513,  0.4297,  0.4294,  0.4506,
+         0.3865,  0.3801], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 30 : 25.346779124323277
+Test loss for epoch 30 : 26.589426880832455
+Test Precision for epoch 30 : 1.0
+Test Recall for epoch 30 : 1.0
+Test F1 for epoch 30 : 1.0
+
+
+theta for epoch 31 : tensor([ 0.9686,  0.1494,  0.2494, -0.0845,  0.8366,  0.8681,  0.2560,  0.3282,
+         0.1300,  0.5311,  0.3939,  0.4376,  0.3281,  0.4087,  0.4083,  0.4301,
+         0.3643,  0.3576], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 31 : 25.284039257211944
+Test loss for epoch 31 : 26.522279440001988
+Test Precision for epoch 31 : 1.0
+Test Recall for epoch 31 : 1.0
+Test F1 for epoch 31 : 1.0
+
+
+theta for epoch 32 : tensor([ 0.9702,  0.1340,  0.2369, -0.1067,  0.8345,  0.8669,  0.2436,  0.3179,
+         0.1141,  0.5139,  0.3732,  0.4180,  0.3056,  0.3884,  0.3880,  0.4104,
+         0.3428,  0.3360], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 32 : 25.270727790233042
+Test loss for epoch 32 : 26.503470180602847
+Test Precision for epoch 32 : 1.0
+Test Recall for epoch 32 : 1.0
+Test F1 for epoch 32 : 1.0
+
+
+theta for epoch 33 : tensor([ 0.9671,  0.1146,  0.2203, -0.1325,  0.8277,  0.8610,  0.2271,  0.3034,
+         0.0942,  0.5016,  0.3576,  0.4035,  0.2883,  0.3732,  0.3728,  0.3956,
+         0.3264,  0.3195], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 33 : 25.244580902354453
+Test loss for epoch 33 : 26.46121023868134
+Test Precision for epoch 33 : 1.0
+Test Recall for epoch 33 : 1.0
+Test F1 for epoch 33 : 1.0
+
+
+theta for epoch 34 : tensor([ 0.9592,  0.0913,  0.1996, -0.1619,  0.8164,  0.8505,  0.2065,  0.2847,
+         0.0705,  0.4943,  0.3471,  0.3941,  0.2761,  0.3631,  0.3627,  0.3860,
+         0.3152,  0.3081], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 34 : 25.193094103653117
+Test loss for epoch 34 : 26.382729085857086
+Test Precision for epoch 34 : 1.0
+Test Recall for epoch 34 : 1.0
+Test F1 for epoch 34 : 1.0
+
+
+theta for epoch 35 : tensor([ 0.9504,  0.0678,  0.1785, -0.1913,  0.8043,  0.8393,  0.1855,  0.2656,
+         0.0465,  0.4882,  0.3379,  0.3859,  0.2652,  0.3542,  0.3538,  0.3776,
+         0.3052,  0.2980], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 35 : 25.176309609227435
+Test loss for epoch 35 : 26.336694298030224
+Test Precision for epoch 35 : 0.96875
+Test Recall for epoch 35 : 1.0
+Test F1 for epoch 35 : 0.9841269841269841
+
+
+theta for epoch 36 : tensor([ 0.9452,  0.0482,  0.1615, -0.2166,  0.7960,  0.8318,  0.1685,  0.2504,
+         0.0266,  0.4788,  0.3257,  0.3746,  0.2514,  0.3424,  0.3419,  0.3662,
+         0.2923,  0.2849], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 36 : 25.16396852247661
+Test loss for epoch 36 : 26.302955287632216
+Test Precision for epoch 36 : 0.96875
+Test Recall for epoch 36 : 1.0
+Test F1 for epoch 36 : 0.9841269841269841
+
+
+theta for epoch 37 : tensor([ 0.9446,  0.0338,  0.1495, -0.2368,  0.7924,  0.8289,  0.1565,  0.2402,
+         0.0117,  0.4651,  0.3094,  0.3593,  0.2337,  0.3264,  0.3259,  0.3506,
+         0.2754,  0.2679], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 37 : 25.126142398238834
+Test loss for epoch 37 : 26.254218416993382
+Test Precision for epoch 37 : 0.96875
+Test Recall for epoch 37 : 1.0
+Test F1 for epoch 37 : 0.9841269841269841
+
+
+theta for epoch 38 : tensor([ 0.9455,  0.0215,  0.1396, -0.2547,  0.7905,  0.8278,  0.1466,  0.2320,
+        -0.0010,  0.4502,  0.2921,  0.3428,  0.2150,  0.3094,  0.3089,  0.3340,
+         0.2574,  0.2498], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 38 : 25.10925702593505
+Test loss for epoch 38 : 26.230031672475686
+Test Precision for epoch 38 : 0.9117647058823529
+Test Recall for epoch 38 : 1.0
+Test F1 for epoch 38 : 0.9538461538461539
+
+
+theta for epoch 39 : tensor([ 0.9438,  0.0073,  0.1276, -0.2743,  0.7862,  0.8242,  0.1346,  0.2217,
+        -0.0155,  0.4382,  0.2778,  0.3293,  0.1994,  0.2955,  0.2949,  0.3203,
+         0.2426,  0.2349], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 39 : 25.103662753793973
+Test loss for epoch 39 : 26.21109349108066
+Test Precision for epoch 39 : 0.9117647058823529
+Test Recall for epoch 39 : 1.0
+Test F1 for epoch 39 : 0.9538461538461539
+
+
+theta for epoch 40 : tensor([ 0.9379, -0.0103,  0.1122, -0.2969,  0.7779,  0.8166,  0.1192,  0.2078,
+        -0.0334,  0.4306,  0.2682,  0.3204,  0.1885,  0.2861,  0.2854,  0.3112,
+         0.2323,  0.2246], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 40 : 25.077324049355717
+Test loss for epoch 40 : 26.161766700149105
+Test Precision for epoch 40 : 0.8611111111111112
+Test Recall for epoch 40 : 1.0
+Test F1 for epoch 40 : 0.9253731343283582
+
+
+theta for epoch 41 : tensor([ 0.9302, -0.0289,  0.0955, -0.3203,  0.7679,  0.8072,  0.1024,  0.1926,
+        -0.0524,  0.4251,  0.2608,  0.3137,  0.1799,  0.2790,  0.2783,  0.3044,
+         0.2244,  0.2166], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 41 : 25.0628870591283
+Test loss for epoch 41 : 26.11999198040766
+Test Precision for epoch 41 : 0.8611111111111112
+Test Recall for epoch 41 : 1.0
+Test F1 for epoch 41 : 0.9253731343283582
+
+
+theta for epoch 42 : tensor([ 0.9244, -0.0450,  0.0814, -0.3410,  0.7600,  0.8000,  0.0882,  0.1798,
+        -0.0688,  0.4178,  0.2519,  0.3054,  0.1699,  0.2704,  0.2696,  0.2960,
+         0.2151,  0.2071], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 42 : 25.060569024215848
+Test loss for epoch 42 : 26.095086283312362
+Test Precision for epoch 42 : 0.8611111111111112
+Test Recall for epoch 42 : 1.0
+Test F1 for epoch 42 : 0.9253731343283582
+
+
+theta for epoch 43 : tensor([ 0.9224, -0.0568,  0.0715, -0.3575,  0.7562,  0.7967,  0.0781,  0.1712,
+        -0.0810,  0.4072,  0.2398,  0.2939,  0.1568,  0.2585,  0.2577,  0.2843,
+         0.2025,  0.1945], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 43 : 25.042463063422566
+Test loss for epoch 43 : 26.06345335944725
+Test Precision for epoch 43 : 0.8378378378378378
+Test Recall for epoch 43 : 1.0
+Test F1 for epoch 43 : 0.911764705882353
+
+
+theta for epoch 44 : tensor([ 0.9222, -0.0662,  0.0639, -0.3713,  0.7543,  0.7954,  0.0704,  0.1648,
+        -0.0906,  0.3949,  0.2264,  0.2809,  0.1425,  0.2453,  0.2444,  0.2712,
+         0.1887,  0.1806], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 44 : 25.031513180555997
+Test loss for epoch 44 : 26.0436389921979
+Test Precision for epoch 44 : 0.8157894736842105
+Test Recall for epoch 44 : 1.0
+Test F1 for epoch 44 : 0.898550724637681
+
+
+theta for epoch 45 : tensor([ 0.9203, -0.0765,  0.0553, -0.3859,  0.7510,  0.7925,  0.0616,  0.1573,
+        -0.1013,  0.3845,  0.2150,  0.2700,  0.1303,  0.2341,  0.2332,  0.2601,
+         0.1770,  0.1688], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 45 : 25.030835282642286
+Test loss for epoch 45 : 26.030422379891547
+Test Precision for epoch 45 : 0.8157894736842105
+Test Recall for epoch 45 : 1.0
+Test F1 for epoch 45 : 0.898550724637681
+
+
+theta for epoch 46 : tensor([ 0.9150, -0.0894,  0.0440, -0.4028,  0.7445,  0.7865,  0.0500,  0.1471,
+        -0.1144,  0.3777,  0.2074,  0.2627,  0.1218,  0.2267,  0.2257,  0.2527,
+         0.1690,  0.1608], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 46 : 25.018190570076456
+Test loss for epoch 46 : 25.997542825473992
+Test Precision for epoch 46 : 0.8157894736842105
+Test Recall for epoch 46 : 1.0
+Test F1 for epoch 46 : 0.898550724637681
+
+
+theta for epoch 47 : tensor([ 0.9081, -0.1033,  0.0316, -0.4204,  0.7365,  0.7790,  0.0373,  0.1356,
+        -0.1286,  0.3728,  0.2018,  0.2575,  0.1156,  0.2213,  0.2203,  0.2473,
+         0.1631,  0.1549], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 47 : 25.010669096743136
+Test loss for epoch 47 : 25.96596316961297
+Test Precision for epoch 47 : 0.7948717948717948
+Test Recall for epoch 47 : 1.0
+Test F1 for epoch 47 : 0.8857142857142858
+
+
+theta for epoch 48 : tensor([ 0.9025, -0.1152,  0.0212, -0.4359,  0.7302,  0.7730,  0.0266,  0.1260,
+        -0.1408,  0.3666,  0.1953,  0.2512,  0.1084,  0.2149,  0.2138,  0.2409,
+         0.1563,  0.1481], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 48 : 25.010767229393394
+Test loss for epoch 48 : 25.945848657880504
+Test Precision for epoch 48 : 0.775
+Test Recall for epoch 48 : 1.0
+Test F1 for epoch 48 : 0.8732394366197184
+
+
+theta for epoch 49 : tensor([ 0.8998, -0.1236,  0.0141, -0.4478,  0.7270,  0.7701,  0.0192,  0.1197,
+        -0.1494,  0.3577,  0.1862,  0.2423,  0.0988,  0.2060,  0.2048,  0.2319,
+         0.1471,  0.1388], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 49 : 25.001631732645386
+Test loss for epoch 49 : 25.92406608027087
+Test Precision for epoch 49 : 0.7380952380952381
+Test Recall for epoch 49 : 1.0
+Test F1 for epoch 49 : 0.8493150684931507
+
+
+theta for epoch 50 : tensor([ 0.8985, -0.1301,  0.0089, -0.4577,  0.7253,  0.7688,  0.0136,  0.1153,
+        -0.1562,  0.3476,  0.1762,  0.2324,  0.0884,  0.1960,  0.1948,  0.2219,
+         0.1369,  0.1286], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 50 : 24.997039404061006
+Test loss for epoch 50 : 25.910600516668563
+Test Precision for epoch 50 : 0.7209302325581395
+Test Recall for epoch 50 : 1.0
+Test F1 for epoch 50 : 0.8378378378378378
+
+
+theta for epoch 51 : tensor([ 0.8956, -0.1374,  0.0028, -0.4683,  0.7223,  0.7661,  0.0071,  0.1098,
+        -0.1638,  0.3391,  0.1681,  0.2242,  0.0798,  0.1879,  0.1867,  0.2137,
+         0.1286,  0.1203], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 51 : 24.997322383242377
+Test loss for epoch 51 : 25.898821534740577
+Test Precision for epoch 51 : 0.7209302325581395
+Test Recall for epoch 51 : 1.0
+Test F1 for epoch 51 : 0.8378378378378378
+
+
+theta for epoch 52 : tensor([ 0.8901, -0.1467, -0.0054, -0.4806,  0.7169,  0.7609, -0.0016,  0.1021,
+        -0.1734,  0.3335,  0.1628,  0.2190,  0.0743,  0.1828,  0.1815,  0.2084,
+         0.1232,  0.1150], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 52 : 24.990496590993082
+Test loss for epoch 52 : 25.873890012436853
+Test Precision for epoch 52 : 0.7045454545454546
+Test Recall for epoch 52 : 1.0
+Test F1 for epoch 52 : 0.8266666666666667
+
+
+theta for epoch 53 : tensor([ 0.8834, -0.1565, -0.0141, -0.4931,  0.7106,  0.7548, -0.0108,  0.0938,
+        -0.1835,  0.3290,  0.1590,  0.2151,  0.0703,  0.1790,  0.1776,  0.2044,
+         0.1193,  0.1111], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 53 : 24.988169701476842
+Test loss for epoch 53 : 25.851294424694448
+Test Precision for epoch 53 : 0.7045454545454546
+Test Recall for epoch 53 : 1.0
+Test F1 for epoch 53 : 0.8266666666666667
+
+
+theta for epoch 54 : tensor([ 0.8782, -0.1643, -0.0210, -0.5036,  0.7059,  0.7503, -0.0182,  0.0873,
+        -0.1916,  0.3232,  0.1540,  0.2100,  0.0652,  0.1740,  0.1726,  0.1992,
+         0.1143,  0.1061], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 54 : 24.988197200652024
+Test loss for epoch 54 : 25.83516048160161
+Test Precision for epoch 54 : 0.6888888888888889
+Test Recall for epoch 54 : 1.0
+Test F1 for epoch 54 : 0.8157894736842105
+
+
+theta for epoch 55 : tensor([ 0.8751, -0.1695, -0.0251, -0.5114,  0.7036,  0.7482, -0.0230,  0.0834,
+        -0.1970,  0.3153,  0.1471,  0.2029,  0.0583,  0.1671,  0.1656,  0.1921,
+         0.1075,  0.0992], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 55 : 24.983037365144376
+Test loss for epoch 55 : 25.81990238050785
+Test Precision for epoch 55 : 0.6888888888888889
+Test Recall for epoch 55 : 1.0
+Test F1 for epoch 55 : 0.8157894736842105
+
+
+theta for epoch 56 : tensor([ 0.8726, -0.1736, -0.0284, -0.5179,  0.7021,  0.7467, -0.0268,  0.0804,
+        -0.2014,  0.3069,  0.1400,  0.1955,  0.0512,  0.1599,  0.1584,  0.1846,
+         0.1004,  0.0921], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 56 : 24.982307249705975
+Test loss for epoch 56 : 25.810946357127634
+Test Precision for epoch 56 : 0.6888888888888889
+Test Recall for epoch 56 : 1.0
+Test F1 for epoch 56 : 0.8157894736842105
+
+
+theta for epoch 57 : tensor([ 0.8684, -0.1787, -0.0328, -0.5254,  0.6991,  0.7438, -0.0318,  0.0762,
+        -0.2068,  0.3003,  0.1347,  0.1899,  0.0460,  0.1546,  0.1530,  0.1790,
+         0.0952,  0.0870], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 57 : 24.981786734616342
+Test loss for epoch 57 : 25.798618241170455
+Test Precision for epoch 57 : 0.6888888888888889
+Test Recall for epoch 57 : 1.0
+Test F1 for epoch 57 : 0.8157894736842105
+
+
+theta for epoch 58 : tensor([ 0.8622, -0.1854, -0.0386, -0.5341,  0.6942,  0.7390, -0.0383,  0.0703,
+        -0.2137,  0.2956,  0.1316,  0.1864,  0.0431,  0.1515,  0.1498,  0.1755,
+         0.0922,  0.0840], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 58 : 24.97801569673223
+Test loss for epoch 58 : 25.778639014590418
+Test Precision for epoch 58 : 0.6888888888888889
+Test Recall for epoch 58 : 1.0
+Test F1 for epoch 58 : 0.8157894736842105
+
+
+theta for epoch 59 : tensor([ 0.8558, -0.1917, -0.0443, -0.5424,  0.6894,  0.7341, -0.0447,  0.0646,
+        -0.2204,  0.2913,  0.1289,  0.1833,  0.0407,  0.1487,  0.1470,  0.1724,
+         0.0897,  0.0815], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 59 : 24.978210622330558
+Test loss for epoch 59 : 25.762600466072787
+Test Precision for epoch 59 : 0.6739130434782609
+Test Recall for epoch 59 : 1.0
+Test F1 for epoch 59 : 0.8051948051948052
+
+
+theta for epoch 60 : tensor([ 0.8509, -0.1961, -0.0481, -0.5486,  0.6862,  0.7309, -0.0492,  0.0608,
+        -0.2250,  0.2854,  0.1249,  0.1788,  0.0370,  0.1446,  0.1429,  0.1679,
+         0.0858,  0.0777], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 60 : 24.97705746747503
+Test loss for epoch 60 : 25.74968705174144
+Test Precision for epoch 60 : 0.6739130434782609
+Test Recall for epoch 60 : 1.0
+Test F1 for epoch 60 : 0.8051948051948052
+
+
+theta for epoch 61 : tensor([ 0.8475, -0.1987, -0.0501, -0.5530,  0.6847,  0.7293, -0.0519,  0.0587,
+        -0.2279,  0.2782,  0.1196,  0.1730,  0.0322,  0.1392,  0.1374,  0.1621,
+         0.0808,  0.0727], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 61 : 24.974565820229287
+Test loss for epoch 61 : 25.73953802546827
+Test Precision for epoch 61 : 0.6739130434782609
+Test Recall for epoch 61 : 1.0
+Test F1 for epoch 61 : 0.8051948051948052
+
+
+theta for epoch 62 : tensor([ 0.8437, -0.2012, -0.0521, -0.5572,  0.6829,  0.7275, -0.0547,  0.0566,
+        -0.2308,  0.2713,  0.1149,  0.1677,  0.0279,  0.1343,  0.1325,  0.1568,
+         0.0763,  0.0683], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 62 : 24.97504679262458
+Test loss for epoch 62 : 25.731947517496025
+Test Precision for epoch 62 : 0.6595744680851063
+Test Recall for epoch 62 : 1.0
+Test F1 for epoch 62 : 0.7948717948717948
+
+
+theta for epoch 63 : tensor([ 0.8382, -0.2050, -0.0554, -0.5624,  0.6796,  0.7240, -0.0588,  0.0530,
+        -0.2348,  0.2662,  0.1120,  0.1642,  0.0256,  0.1312,  0.1294,  0.1533,
+         0.0736,  0.0657], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 63 : 24.97341706392583
+Test loss for epoch 63 : 25.718493035927473
+Test Precision for epoch 63 : 0.6595744680851063
+Test Recall for epoch 63 : 1.0
+Test F1 for epoch 63 : 0.7948717948717948
+
+
+theta for epoch 64 : tensor([ 0.8316, -0.2094, -0.0595, -0.5682,  0.6753,  0.7196, -0.0636,  0.0487,
+        -0.2396,  0.2622,  0.1102,  0.1618,  0.0244,  0.1293,  0.1275,  0.1510,
+         0.0722,  0.0644], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 64 : 24.972074640632627
+Test loss for epoch 64 : 25.703048196402193
+Test Precision for epoch 64 : 0.6595744680851063
+Test Recall for epoch 64 : 1.0
+Test F1 for epoch 64 : 0.7948717948717948
+
+
+theta for epoch 65 : tensor([ 0.8256, -0.2129, -0.0626, -0.5730,  0.6718,  0.7159, -0.0676,  0.0452,
+        -0.2434,  0.2575,  0.1080,  0.1590,  0.0229,  0.1269,  0.1251,  0.1481,
+         0.0703,  0.0625], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 65 : 24.972307396018266
+Test loss for epoch 65 : 25.69118620021376
+Test Precision for epoch 65 : 0.6595744680851063
+Test Recall for epoch 65 : 1.0
+Test F1 for epoch 65 : 0.7948717948717948
+
+
+theta for epoch 66 : tensor([ 0.8210, -0.2148, -0.0642, -0.5760,  0.6698,  0.7138, -0.0699,  0.0433,
+        -0.2456,  0.2515,  0.1045,  0.1548,  0.0201,  0.1232,  0.1213,  0.1440,
+         0.0672,  0.0595], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 66 : 24.970556281596075
+Test loss for epoch 66 : 25.681344232102493
+Test Precision for epoch 66 : 0.6595744680851063
+Test Recall for epoch 66 : 1.0
+Test F1 for epoch 66 : 0.7948717948717948
+
+
+theta for epoch 67 : tensor([ 0.8169, -0.2159, -0.0650, -0.5782,  0.6683,  0.7121, -0.0715,  0.0421,
+        -0.2470,  0.2451,  0.1007,  0.1502,  0.0171,  0.1192,  0.1173,  0.1395,
+         0.0638,  0.0561], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 67 : 24.970081150834844
+Test loss for epoch 67 : 25.674315832760648
+Test Precision for epoch 67 : 0.6458333333333334
+Test Recall for epoch 67 : 1.0
+Test F1 for epoch 67 : 0.7848101265822784
+
+
+theta for epoch 68 : tensor([ 0.8118, -0.2177, -0.0665, -0.5809,  0.6660,  0.7095, -0.0739,  0.0401,
+        -0.2491,  0.2397,  0.0980,  0.1467,  0.0152,  0.1162,  0.1143,  0.1360,
+         0.0614,  0.0539], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 68 : 24.96976330661945
+Test loss for epoch 68 : 25.665224179548957
+Test Precision for epoch 68 : 0.6458333333333334
+Test Recall for epoch 68 : 1.0
+Test F1 for epoch 68 : 0.7848101265822784
+
+
+theta for epoch 69 : tensor([ 0.8054, -0.2205, -0.0691, -0.5845,  0.6625,  0.7058, -0.0772,  0.0371,
+        -0.2522,  0.2356,  0.0966,  0.1445,  0.0147,  0.1146,  0.1127,  0.1339,
+         0.0605,  0.0530], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 69 : 24.968302326779707
+Test loss for epoch 69 : 25.65217894743931
+Test Precision for epoch 69 : 0.6458333333333334
+Test Recall for epoch 69 : 1.0
+Test F1 for epoch 69 : 0.7848101265822784
+
+
+theta for epoch 70 : tensor([ 0.7990, -0.2231, -0.0716, -0.5878,  0.6590,  0.7020, -0.0805,  0.0341,
+        -0.2551,  0.2316,  0.0953,  0.1424,  0.0143,  0.1131,  0.1111,  0.1319,
+         0.0596,  0.0522], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 70 : 24.96824158423877
+Test loss for epoch 70 : 25.64074825231605
+Test Precision for epoch 70 : 0.6326530612244898
+Test Recall for epoch 70 : 1.0
+Test F1 for epoch 70 : 0.775
+
+
+theta for epoch 71 : tensor([ 0.7937, -0.2245, -0.0728, -0.5898,  0.6566,  0.6994, -0.0825,  0.0324,
+        -0.2568,  0.2265,  0.0931,  0.1393,  0.0131,  0.1105,  0.1086,  0.1289,
+         0.0578,  0.0505], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 71 : 24.967400303486215
+Test loss for epoch 71 : 25.631541839098375
+Test Precision for epoch 71 : 0.6326530612244898
+Test Recall for epoch 71 : 1.0
+Test F1 for epoch 71 : 0.775
+
+
+theta for epoch 72 : tensor([ 0.7891, -0.2249, -0.0731, -0.5908,  0.6551,  0.6976, -0.0836,  0.0315,
+        -0.2575,  0.2207,  0.0901,  0.1355,  0.0111,  0.1073,  0.1054,  0.1252,
+         0.0553,  0.0481], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 72 : 24.966484451526075
+Test loss for epoch 72 : 25.624479934019167
+Test Precision for epoch 72 : 0.6326530612244898
+Test Recall for epoch 72 : 1.0
+Test F1 for epoch 72 : 0.775
+
+
+theta for epoch 73 : tensor([ 0.7841, -0.2257, -0.0737, -0.5921,  0.6531,  0.6953, -0.0850,  0.0303,
+        -0.2585,  0.2154,  0.0877,  0.1322,  0.0097,  0.1046,  0.1027,  0.1220,
+         0.0534,  0.0463], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 73 : 24.966359522571658
+Test loss for epoch 73 : 25.617257583202655
+Test Precision for epoch 73 : 0.6326530612244898
+Test Recall for epoch 73 : 1.0
+Test F1 for epoch 73 : 0.775
+
+
+theta for epoch 74 : tensor([ 0.7780, -0.2273, -0.0753, -0.5940,  0.6502,  0.6920, -0.0873,  0.0282,
+        -0.2604,  0.2113,  0.0864,  0.1300,  0.0095,  0.1031,  0.1011,  0.1199,
+         0.0526,  0.0455], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 74 : 24.96530718226199
+Test loss for epoch 74 : 25.606602598301595
+Test Precision for epoch 74 : 0.6326530612244898
+Test Recall for epoch 74 : 1.0
+Test F1 for epoch 74 : 0.775
+
+
+theta for epoch 75 : tensor([ 0.7716, -0.2291, -0.0771, -0.5961,  0.6469,  0.6884, -0.0899,  0.0258,
+        -0.2625,  0.2075,  0.0855,  0.1282,  0.0097,  0.1019,  0.0999,  0.1182,
+         0.0522,  0.0452], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 75 : 24.964883832077305
+Test loss for epoch 75 : 25.595888275628962
+Test Precision for epoch 75 : 0.6326530612244898
+Test Recall for epoch 75 : 1.0
+Test F1 for epoch 75 : 0.775
+
+
+theta for epoch 76 : tensor([ 0.7659, -0.2301, -0.0781, -0.5973,  0.6443,  0.6855, -0.0916,  0.0241,
+        -0.2638,  0.2030,  0.0839,  0.1258,  0.0092,  0.1000,  0.0980,  0.1159,
+         0.0511,  0.0443], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 76 : 24.96441786939048
+Test loss for epoch 76 : 25.58714291836569
+Test Precision for epoch 76 : 0.6326530612244898
+Test Recall for epoch 76 : 1.0
+Test F1 for epoch 76 : 0.775
+
+
+theta for epoch 77 : tensor([ 0.7611, -0.2303, -0.0782, -0.5977,  0.6426,  0.6834, -0.0925,  0.0233,
+        -0.2643,  0.1978,  0.0816,  0.1225,  0.0081,  0.0974,  0.0954,  0.1128,
+         0.0493,  0.0426], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 77 : 24.963534444065203
+Test loss for epoch 77 : 25.580154149341823
+Test Precision for epoch 77 : 0.6326530612244898
+Test Recall for epoch 77 : 1.0
+Test F1 for epoch 77 : 0.775
+
+
+theta for epoch 78 : tensor([ 0.7561, -0.2305, -0.0785, -0.5980,  0.6407,  0.6812, -0.0935,  0.0225,
+        -0.2648,  0.1929,  0.0795,  0.1195,  0.0071,  0.0950,  0.0930,  0.1099,
+         0.0477,  0.0411], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 78 : 24.963287834360905
+Test loss for epoch 78 : 25.57357341005607
+Test Precision for epoch 78 : 0.6326530612244898
+Test Recall for epoch 78 : 1.0
+Test F1 for epoch 78 : 0.775
+
+
+theta for epoch 79 : tensor([ 0.7503, -0.2315, -0.0795, -0.5989,  0.6381,  0.6782, -0.0951,  0.0208,
+        -0.2660,  0.1888,  0.0782,  0.1174,  0.0070,  0.0934,  0.0915,  0.1078,
+         0.0470,  0.0404], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 79 : 24.96254064893517
+Test loss for epoch 79 : 25.564488383171955
+Test Precision for epoch 79 : 0.6326530612244898
+Test Recall for epoch 79 : 1.0
+Test F1 for epoch 79 : 0.775
+
+
+theta for epoch 80 : tensor([ 0.7441, -0.2328, -0.0809, -0.6002,  0.6349,  0.6747, -0.0972,  0.0188,
+        -0.2675,  0.1851,  0.0774,  0.1156,  0.0073,  0.0923,  0.0903,  0.1063,
+         0.0467,  0.0403], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 80 : 24.961994607367465
+Test loss for epoch 80 : 25.55462773135126
+Test Precision for epoch 80 : 0.6326530612244898
+Test Recall for epoch 80 : 1.0
+Test F1 for epoch 80 : 0.775
+
+
+theta for epoch 81 : tensor([ 0.7384, -0.2336, -0.0818, -0.6008,  0.6323,  0.6717, -0.0987,  0.0173,
+        -0.2686,  0.1811,  0.0761,  0.1135,  0.0072,  0.0907,  0.0888,  0.1042,
+         0.0460,  0.0396], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 81 : 24.961602619583992
+Test loss for epoch 81 : 25.54624727436297
+Test Precision for epoch 81 : 0.6326530612244898
+Test Recall for epoch 81 : 1.0
+Test F1 for epoch 81 : 0.775
+
+
+theta for epoch 82 : tensor([ 0.7335, -0.2337, -0.0819, -0.6008,  0.6304,  0.6694, -0.0995,  0.0164,
+        -0.2689,  0.1764,  0.0741,  0.1106,  0.0065,  0.0884,  0.0865,  0.1015,
+         0.0446,  0.0383], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 82 : 24.960853668893073
+Test loss for epoch 82 : 25.539363156095796
+Test Precision for epoch 82 : 0.6326530612244898
+Test Recall for epoch 82 : 1.0
+Test F1 for epoch 82 : 0.775
+
+
+theta for epoch 83 : tensor([ 0.7286, -0.2338, -0.0821, -0.6007,  0.6284,  0.6671, -0.1003,  0.0156,
+        -0.2692,  0.1718,  0.0722,  0.1078,  0.0058,  0.0862,  0.0843,  0.0989,
+         0.0432,  0.0370], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 83 : 24.960502996417482
+Test loss for epoch 83 : 25.532926358270608
+Test Precision for epoch 83 : 0.6326530612244898
+Test Recall for epoch 83 : 1.0
+Test F1 for epoch 83 : 0.775
+
+
+theta for epoch 84 : tensor([ 0.7231, -0.2345, -0.0829, -0.6011,  0.6258,  0.6641, -0.1017,  0.0142,
+        -0.2702,  0.1679,  0.0709,  0.1057,  0.0057,  0.0846,  0.0828,  0.0969,
+         0.0424,  0.0364], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 84 : 24.959892666065727
+Test loss for epoch 84 : 25.52464716538383
+Test Precision for epoch 84 : 0.6326530612244898
+Test Recall for epoch 84 : 1.0
+Test F1 for epoch 84 : 0.775
+
+
+theta for epoch 85 : tensor([ 0.7172, -0.2356, -0.0841, -0.6018,  0.6228,  0.6607, -0.1035,  0.0123,
+        -0.2714,  0.1644,  0.0700,  0.1039,  0.0060,  0.0834,  0.0816,  0.0952,
+         0.0421,  0.0361], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 85 : 24.959342663141413
+Test loss for epoch 85 : 25.515483496380263
+Test Precision for epoch 85 : 0.6326530612244898
+Test Recall for epoch 85 : 1.0
+Test F1 for epoch 85 : 0.775
+
+
+theta for epoch 86 : tensor([ 0.7117, -0.2364, -0.0850, -0.6021,  0.6202,  0.6577, -0.1048,  0.0108,
+        -0.2724,  0.1606,  0.0687,  0.1018,  0.0059,  0.0818,  0.0800,  0.0933,
+         0.0414,  0.0355], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 86 : 24.958925155719072
+Test loss for epoch 86 : 25.507392947743718
+Test Precision for epoch 86 : 0.6326530612244898
+Test Recall for epoch 86 : 1.0
+Test F1 for epoch 86 : 0.775
+
+
+theta for epoch 87 : tensor([ 0.7068, -0.2366, -0.0853, -0.6019,  0.6180,  0.6552, -0.1057,  0.0099,
+        -0.2728,  0.1563,  0.0669,  0.0992,  0.0053,  0.0797,  0.0780,  0.0908,
+         0.0401,  0.0343], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 87 : 24.95827058516111
+Test loss for epoch 87 : 25.500545592930674
+Test Precision for epoch 87 : 0.6326530612244898
+Test Recall for epoch 87 : 1.0
+Test F1 for epoch 87 : 0.775
+
+
+theta for epoch 88 : tensor([ 0.7020, -0.2368, -0.0857, -0.6017,  0.6159,  0.6527, -0.1065,  0.0090,
+        -0.2732,  0.1520,  0.0650,  0.0965,  0.0046,  0.0776,  0.0758,  0.0883,
+         0.0388,  0.0331], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 88 : 24.95785371735186
+Test loss for epoch 88 : 25.493986985083545
+Test Precision for epoch 88 : 0.6326530612244898
+Test Recall for epoch 88 : 1.0
+Test F1 for epoch 88 : 0.775
+
+
+theta for epoch 89 : tensor([ 0.6967, -0.2375, -0.0865, -0.6019,  0.6132,  0.6496, -0.1078,  0.0075,
+        -0.2741,  0.1483,  0.0637,  0.0943,  0.0044,  0.0759,  0.0742,  0.0863,
+         0.0379,  0.0324], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 89 : 24.957274186253407
+Test loss for epoch 89 : 25.485968884700867
+Test Precision for epoch 89 : 0.6326530612244898
+Test Recall for epoch 89 : 1.0
+Test F1 for epoch 89 : 0.775
+
+
+theta for epoch 90 : tensor([ 0.6911, -0.2386, -0.0877, -0.6024,  0.6102,  0.6463, -0.1094,  0.0057,
+        -0.2753,  0.1449,  0.0626,  0.0925,  0.0045,  0.0746,  0.0729,  0.0845,
+         0.0374,  0.0319], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 90 : 24.9567307099812
+Test loss for epoch 90 : 25.477212506710394
+Test Precision for epoch 90 : 0.6326530612244898
+Test Recall for epoch 90 : 1.0
+Test F1 for epoch 90 : 0.775
+
+
+theta for epoch 91 : tensor([ 0.6859, -0.2393, -0.0887, -0.6026,  0.6075,  0.6432, -0.1108,  0.0042,
+        -0.2762,  0.1413,  0.0612,  0.0903,  0.0043,  0.0729,  0.0712,  0.0825,
+         0.0365,  0.0312], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 91 : 24.956248544796917
+Test loss for epoch 91 : 25.469271372943556
+Test Precision for epoch 91 : 0.6326530612244898
+Test Recall for epoch 91 : 1.0
+Test F1 for epoch 91 : 0.775
+
+
+theta for epoch 92 : tensor([ 0.6812, -0.2398, -0.0892, -0.6023,  0.6052,  0.6405, -0.1117,  0.0031,
+        -0.2768,  0.1372,  0.0593,  0.0877,  0.0036,  0.0708,  0.0691,  0.0800,
+         0.0351,  0.0299], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 92 : 24.955621864361625
+Test loss for epoch 92 : 25.462307085174473
+Test Precision for epoch 92 : 0.6326530612244898
+Test Recall for epoch 92 : 1.0
+Test F1 for epoch 92 : 0.775
+
+
+theta for epoch 93 : tensor([ 0.6764, -0.2402, -0.0898, -0.6022,  0.6028,  0.6377, -0.1127,  0.0019,
+        -0.2774,  0.1332,  0.0574,  0.0851,  0.0029,  0.0686,  0.0670,  0.0776,
+         0.0338,  0.0287], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 93 : 24.955132390019436
+Test loss for epoch 93 : 25.45538556794804
+Test Precision for epoch 93 : 0.6326530612244898
+Test Recall for epoch 93 : 1.0
+Test F1 for epoch 93 : 0.775
+
+
+theta for epoch 94 : tensor([ 6.7130e-01, -2.4115e-01, -9.0922e-02, -6.0241e-01,  5.9992e-01,
+         6.3452e-01, -1.1411e-01,  2.4370e-04, -2.7842e-01,  1.2960e-01,
+         5.5946e-02,  8.2856e-02,  2.5375e-03,  6.6850e-02,  6.5261e-02,
+         7.5511e-02,  3.2811e-02,  2.7803e-02], dtype=torch.float64,
+       requires_grad=True)
+Train loss for epoch 94 : 24.9545151651717
+Test loss for epoch 94 : 25.4472259462799
+Test Precision for epoch 94 : 0.6326530612244898
+Test Recall for epoch 94 : 1.0
+Test F1 for epoch 94 : 0.775
+
+
+theta for epoch 95 : tensor([ 0.6660, -0.2423, -0.0922, -0.6029,  0.5968,  0.6311, -0.1158, -0.0016,
+        -0.2797,  0.1262,  0.0546,  0.0808,  0.0023,  0.0653,  0.0637,  0.0736,
+         0.0320,  0.0271], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 95 : 24.953935437651914
+Test loss for epoch 95 : 25.43854964107196
+Test Precision for epoch 95 : 0.6326530612244898
+Test Recall for epoch 95 : 1.0
+Test F1 for epoch 95 : 0.775
+
+
+theta for epoch 96 : tensor([ 0.6610, -0.2433, -0.0933, -0.6031,  0.5940,  0.6279, -0.1172, -0.0033,
+        -0.2808,  0.1226,  0.0530,  0.0785,  0.0018,  0.0633,  0.0618,  0.0714,
+         0.0308,  0.0260], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 96 : 24.953348412542617
+Test loss for epoch 96 : 25.4305275802829
+Test Precision for epoch 96 : 0.6326530612244898
+Test Recall for epoch 96 : 1.0
+Test F1 for epoch 96 : 0.775
+
+
+theta for epoch 97 : tensor([ 0.6563, -0.2439, -0.0942, -0.6030,  0.5914,  0.6249, -0.1183, -0.0046,
+        -0.2816,  0.1187,  0.0509,  0.0758,  0.0009,  0.0611,  0.0596,  0.0688,
+         0.0293,  0.0246], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 97 : 24.952679379274848
+Test loss for epoch 97 : 25.42319512132577
+Test Precision for epoch 97 : 0.6326530612244898
+Test Recall for epoch 97 : 1.0
+Test F1 for epoch 97 : 0.775
+
+
+theta for epoch 98 : tensor([ 6.5159e-01, -2.4476e-01, -9.5161e-02, -6.0303e-01,  5.8864e-01,
+         6.2185e-01, -1.1951e-01, -6.1244e-03, -2.8248e-01,  1.1478e-01,
+         4.8928e-02,  7.3093e-02,  4.2372e-05,  5.8813e-02,  5.7340e-02,
+         6.6337e-02,  2.7809e-02,  2.3210e-02], dtype=torch.float64,
+       requires_grad=True)
+Train loss for epoch 98 : 24.952070149304696
+Test loss for epoch 98 : 25.415618047135585
+Test Precision for epoch 98 : 0.6326530612244898
+Test Recall for epoch 98 : 1.0
+Test F1 for epoch 98 : 0.775
+
+
+theta for epoch 99 : tensor([ 6.4650e-01, -2.4598e-01, -9.6540e-02, -6.0344e-01,  5.8550e-01,
+         6.1837e-01, -1.2113e-01, -8.0189e-03, -2.8380e-01,  1.1124e-01,
+         4.7224e-02,  7.0735e-02, -5.4765e-04,  5.6863e-02,  5.5420e-02,
+         6.4126e-02,  2.6599e-02,  2.2102e-02], dtype=torch.float64,
+       requires_grad=True)
+Train loss for epoch 99 : 24.95135159980796
+Test loss for epoch 99 : 25.406963849273794
+Test Precision for epoch 99 : 0.6326530612244898
+Test Recall for epoch 99 : 1.0
+Test F1 for epoch 99 : 0.775
+
+
+theta for epoch 100 : tensor([ 0.6413, -0.2473, -0.0981, -0.6040,  0.5822,  0.6147, -0.1229, -0.0101,
+        -0.2853,  0.1078,  0.0456,  0.0684, -0.0011,  0.0549,  0.0535,  0.0620,
+         0.0254,  0.0210], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 100 : 24.95066040240001
+Test loss for epoch 100 : 25.398008328016125
+Test Precision for epoch 100 : 0.6326530612244898
+Test Recall for epoch 100 : 1.0
+Test F1 for epoch 100 : 0.775
+
+
+theta for epoch 101 : tensor([ 0.6364, -0.2485, -0.0994, -0.6043,  0.5791,  0.6113, -0.1244, -0.0119,
+        -0.2865,  0.1040,  0.0435,  0.0658, -0.0020,  0.0527,  0.0513,  0.0595,
+         0.0239,  0.0196], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 101 : 24.949907413198616
+Test loss for epoch 101 : 25.389567852958688
+Test Precision for epoch 101 : 0.6326530612244898
+Test Recall for epoch 101 : 1.0
+Test F1 for epoch 101 : 0.775
+
+
+theta for epoch 102 : tensor([ 0.6317, -0.2495, -0.1006, -0.6044,  0.5762,  0.6080, -0.1258, -0.0136,
+        -0.2876,  0.1000,  0.0413,  0.0629, -0.0032,  0.0502,  0.0488,  0.0567,
+         0.0221,  0.0179], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 102 : 24.949107990215804
+Test loss for epoch 102 : 25.381490713674776
+Test Precision for epoch 102 : 0.6326530612244898
+Test Recall for epoch 102 : 1.0
+Test F1 for epoch 102 : 0.775
+
+
+theta for epoch 103 : tensor([ 0.6268, -0.2508, -0.1020, -0.6048,  0.5730,  0.6045, -0.1274, -0.0155,
+        -0.2890,  0.0961,  0.0391,  0.0601, -0.0043,  0.0477,  0.0464,  0.0540,
+         0.0204,  0.0163], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 103 : 24.94829480981999
+Test loss for epoch 103 : 25.372879167626184
+Test Precision for epoch 103 : 0.6326530612244898
+Test Recall for epoch 103 : 1.0
+Test F1 for epoch 103 : 0.775
+
+
+theta for epoch 104 : tensor([ 0.6215, -0.2524, -0.1037, -0.6054,  0.5694,  0.6006, -0.1293, -0.0177,
+        -0.2906,  0.0924,  0.0371,  0.0574, -0.0052,  0.0455,  0.0442,  0.0516,
+         0.0189,  0.0149], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 104 : 24.947387109420823
+Test loss for epoch 104 : 25.363347980259032
+Test Precision for epoch 104 : 0.6326530612244898
+Test Recall for epoch 104 : 1.0
+Test F1 for epoch 104 : 0.775
+
+
+theta for epoch 105 : tensor([ 0.6163, -0.2540, -0.1055, -0.6061,  0.5658,  0.5967, -0.1312, -0.0200,
+        -0.2924,  0.0887,  0.0350,  0.0547, -0.0062,  0.0431,  0.0419,  0.0490,
+         0.0172,  0.0134], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 105 : 24.946467712330907
+Test loss for epoch 105 : 25.35366951424772
+Test Precision for epoch 105 : 0.62
+Test Recall for epoch 105 : 1.0
+Test F1 for epoch 105 : 0.7654320987654321
+
+
+theta for epoch 106 : tensor([ 0.6112, -0.2554, -0.1072, -0.6066,  0.5623,  0.5928, -0.1330, -0.0222,
+        -0.2939,  0.0846,  0.0325,  0.0517, -0.0075,  0.0405,  0.0393,  0.0461,
+         0.0153,  0.0115], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 106 : 24.945447991081124
+Test loss for epoch 106 : 25.344322848553418
+Test Precision for epoch 106 : 0.62
+Test Recall for epoch 106 : 1.0
+Test F1 for epoch 106 : 0.7654320987654321
+
+
+theta for epoch 107 : tensor([ 0.6061, -0.2569, -0.1088, -0.6071,  0.5588,  0.5890, -0.1348, -0.0243,
+        -0.2955,  0.0803,  0.0299,  0.0485, -0.0090,  0.0376,  0.0364,  0.0431,
+         0.0132,  0.0095], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 107 : 24.944378861241546
+Test loss for epoch 107 : 25.334954954885838
+Test Precision for epoch 107 : 0.62
+Test Recall for epoch 107 : 1.0
+Test F1 for epoch 107 : 0.7654320987654321
+
+
+theta for epoch 108 : tensor([ 0.6007, -0.2586, -0.1107, -0.6077,  0.5549,  0.5848, -0.1368, -0.0267,
+        -0.2973,  0.0762,  0.0274,  0.0453, -0.0104,  0.0348,  0.0337,  0.0401,
+         0.0111,  0.0076], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 108 : 24.94322276415781
+Test loss for epoch 108 : 25.32480418119188
+Test Precision for epoch 108 : 0.62
+Test Recall for epoch 108 : 1.0
+Test F1 for epoch 108 : 0.7654320987654321
+
+
+theta for epoch 109 : tensor([ 0.5951, -0.2606, -0.1128, -0.6086,  0.5508,  0.5804, -0.1390, -0.0294,
+        -0.2993,  0.0721,  0.0249,  0.0423, -0.0117,  0.0321,  0.0310,  0.0372,
+         0.0092,  0.0057], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 109 : 24.941967768499538
+Test loss for epoch 109 : 25.313886858903402
+Test Precision for epoch 109 : 0.62
+Test Recall for epoch 109 : 1.0
+Test F1 for epoch 109 : 0.7654320987654321
+
+
+theta for epoch 110 : tensor([ 0.5894, -0.2625, -0.1150, -0.6095,  0.5466,  0.5758, -0.1413, -0.0321,
+        -0.3014,  0.0677,  0.0222,  0.0390, -0.0132,  0.0292,  0.0282,  0.0341,
+         0.0070,  0.0036], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 110 : 24.9406272680247
+Test loss for epoch 110 : 25.302859113531746
+Test Precision for epoch 110 : 0.62
+Test Recall for epoch 110 : 1.0
+Test F1 for epoch 110 : 0.7654320987654321
+
+
+theta for epoch 111 : tensor([ 0.5837, -0.2644, -0.1170, -0.6102,  0.5424,  0.5713, -0.1434, -0.0347,
+        -0.3033,  0.0631,  0.0193,  0.0354, -0.0150,  0.0260,  0.0250,  0.0307,
+         0.0045,  0.0013], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 111 : 24.93914801305732
+Test loss for epoch 111 : 25.29187590515317
+Test Precision for epoch 111 : 0.62
+Test Recall for epoch 111 : 1.0
+Test F1 for epoch 111 : 0.7654320987654321
+
+
+theta for epoch 112 : tensor([ 0.5779, -0.2663, -0.1192, -0.6111,  0.5381,  0.5666, -0.1457, -0.0374,
+        -0.3054,  0.0583,  0.0162,  0.0317, -0.0169,  0.0226,  0.0217,  0.0271,
+         0.0019, -0.0012], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 112 : 24.937558075898956
+Test loss for epoch 112 : 25.280427978234542
+Test Precision for epoch 112 : 0.62
+Test Recall for epoch 112 : 1.0
+Test F1 for epoch 112 : 0.7654320987654321
+
+
+theta for epoch 113 : tensor([ 5.7171e-01, -2.6856e-01, -1.2169e-01, -6.1209e-01,  5.3334e-01,
+         5.6153e-01, -1.4826e-01, -4.0471e-02, -3.0781e-01,  5.3600e-02,
+         1.3133e-02,  2.8008e-02, -1.8660e-02,  1.9339e-02,  1.8408e-02,
+         2.3650e-02, -5.7985e-04, -3.5877e-03], dtype=torch.float64,
+       requires_grad=True)
+Train loss for epoch 113 : 24.93579832331078
+Test loss for epoch 113 : 25.268012807245967
+Test Precision for epoch 113 : 0.5476190476190477
+Test Recall for epoch 113 : 0.7419354838709677
+Test F1 for epoch 113 : 0.6301369863013699
+
+
+theta for epoch 114 : tensor([ 0.5652, -0.2710, -0.1243, -0.6132,  0.5283,  0.5562, -0.1510, -0.0437,
+        -0.3104,  0.0487,  0.0100,  0.0242, -0.0205,  0.0159,  0.0151,  0.0201,
+        -0.0032, -0.0061], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 114 : 24.93387772410234
+Test loss for epoch 114 : 25.254914120470172
+Test Precision for epoch 114 : 0.525
+Test Recall for epoch 114 : 0.6774193548387096
+Test F1 for epoch 114 : 0.5915492957746479
+
+
+theta for epoch 115 : tensor([ 0.5586, -0.2733, -0.1270, -0.6143,  0.5232,  0.5507, -0.1537, -0.0470,
+        -0.3129,  0.0435,  0.0066,  0.0202, -0.0226,  0.0122,  0.0114,  0.0162,
+        -0.0061, -0.0088], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 115 : 24.931752633774742
+Test loss for epoch 115 : 25.24155473792544
+Test Precision for epoch 115 : 0.5
+Test Recall for epoch 115 : 0.6129032258064516
+Test F1 for epoch 115 : 0.5507246376811595
+
+
+theta for epoch 116 : tensor([ 0.5519, -0.2757, -0.1296, -0.6153,  0.5179,  0.5450, -0.1564, -0.0503,
+        -0.3154,  0.0380,  0.0029,  0.0158, -0.0250,  0.0083,  0.0075,  0.0120,
+        -0.0092, -0.0118], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 116 : 24.92939757183065
+Test loss for epoch 116 : 25.22778977282553
+Test Precision for epoch 116 : 0.42857142857142855
+Test Recall for epoch 116 : 0.4838709677419355
+Test F1 for epoch 116 : 0.4545454545454545
+
+
+theta for epoch 117 : tensor([ 0.5447, -0.2783, -0.1325, -0.6165,  0.5123,  0.5390, -0.1594, -0.0539,
+        -0.3182,  0.0323, -0.0009,  0.0113, -0.0274,  0.0042,  0.0034,  0.0077,
+        -0.0124, -0.0149], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 117 : 24.926782176770672
+Test loss for epoch 117 : 25.213072130755364
+Test Precision for epoch 117 : 0.3103448275862069
+Test Recall for epoch 117 : 0.2903225806451613
+Test F1 for epoch 117 : 0.30000000000000004
+
+
+theta for epoch 118 : tensor([ 5.3704e-01, -2.8117e-01, -1.3573e-01, -6.1787e-01,  5.0619e-01,
+         5.3249e-01, -1.6262e-01, -5.7858e-02, -3.2131e-01,  2.6551e-02,
+        -4.7611e-03,  6.7125e-03, -2.9819e-02,  9.9471e-07, -6.7061e-04,
+         3.3881e-03, -1.5679e-02, -1.8052e-02], dtype=torch.float64,
+       requires_grad=True)
+Train loss for epoch 118 : 24.92384897435199
+Test loss for epoch 118 : 25.19721343195132
+Test Precision for epoch 118 : 0.2
+Test Recall for epoch 118 : 0.16129032258064516
+Test F1 for epoch 118 : 0.17857142857142855
+
+
+theta for epoch 119 : tensor([ 0.5290, -0.2841, -0.1391, -0.6192,  0.4998,  0.5257, -0.1660, -0.0620,
+        -0.3245,  0.0204, -0.0089,  0.0019, -0.0324, -0.0044, -0.0050, -0.0012,
+        -0.0192, -0.0214], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 119 : 24.920565295916013
+Test loss for epoch 119 : 25.180548354461454
+Test Precision for epoch 119 : 0.0
+Test Recall for epoch 119 : 0.0
+Test F1 for epoch 119 : 0.0
+
+
+theta for epoch 120 : tensor([ 0.5207, -0.2871, -0.1424, -0.6206,  0.4931,  0.5186, -0.1694, -0.0662,
+        -0.3278,  0.0139, -0.0134, -0.0034, -0.0354, -0.0092, -0.0098, -0.0062,
+        -0.0230, -0.0251], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 120 : 24.916848487626876
+Test loss for epoch 120 : 25.163184256147076
+Test Precision for epoch 120 : 0.0
+Test Recall for epoch 120 : 0.0
+Test F1 for epoch 120 : 0.0
+
+
+theta for epoch 121 : tensor([ 0.5120, -0.2903, -0.1460, -0.6219,  0.4860,  0.5110, -0.1730, -0.0707,
+        -0.3312,  0.0069, -0.0181, -0.0090, -0.0385, -0.0144, -0.0148, -0.0115,
+        -0.0271, -0.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 121 : 24.912640354433446
+Test loss for epoch 121 : 25.144739194088267
+Test Precision for epoch 121 : 0.0
+Test Recall for epoch 121 : 0.0
+Test F1 for epoch 121 : 0.0
+
+
+theta for epoch 122 : tensor([ 5.0252e-01, -2.9371e-01, -1.4994e-01, -6.2343e-01,  4.7829e-01,
+         5.0283e-01, -1.7700e-01, -7.5519e-02, -3.3494e-01, -2.4912e-04,
+        -2.3032e-02, -1.4717e-02, -4.1765e-02, -1.9642e-02, -2.0054e-02,
+        -1.7036e-02, -3.1377e-02, -3.3154e-02], dtype=torch.float64,
+       requires_grad=True)
+Train loss for epoch 122 : 24.90783292407587
+Test loss for epoch 122 : 25.124769559770293
+Test Precision for epoch 122 : 0.0
+Test Recall for epoch 122 : 0.0
+Test F1 for epoch 122 : 0.0
+
+
+theta for epoch 123 : tensor([ 0.4924, -0.2974, -0.1541, -0.6250,  0.4700,  0.4940, -0.1812, -0.0808,
+        -0.3390, -0.0078, -0.0282, -0.0208, -0.0452, -0.0252, -0.0256, -0.0228,
+        -0.0359, -0.0375], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 123 : 24.90232257659643
+Test loss for epoch 123 : 25.103297642799976
+Test Precision for epoch 123 : 0.0
+Test Recall for epoch 123 : 0.0
+Test F1 for epoch 123 : 0.0
+
+
+theta for epoch 124 : tensor([ 0.4817, -0.3012, -0.1585, -0.6266,  0.4612,  0.4847, -0.1857, -0.0863,
+        -0.3432, -0.0159, -0.0339, -0.0273, -0.0490, -0.0313, -0.0315, -0.0291,
+        -0.0408, -0.0422], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 124 : 24.89596214762424
+Test loss for epoch 124 : 25.08046454777969
+Test Precision for epoch 124 : 0.0
+Test Recall for epoch 124 : 0.0
+Test F1 for epoch 124 : 0.0
+
+
+theta for epoch 125 : tensor([ 0.4704, -0.3052, -0.1632, -0.6282,  0.4518,  0.4748, -0.1903, -0.0921,
+        -0.3476, -0.0246, -0.0400, -0.0344, -0.0532, -0.0378, -0.0380, -0.0358,
+        -0.0461, -0.0473], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 125 : 24.888577263385283
+Test loss for epoch 125 : 25.056030277907478
+Test Precision for epoch 125 : 0.0
+Test Recall for epoch 125 : 0.0
+Test F1 for epoch 125 : 0.0
+
+
+theta for epoch 126 : tensor([ 0.4581, -0.3094, -0.1682, -0.6298,  0.4415,  0.4639, -0.1954, -0.0984,
+        -0.3523, -0.0338, -0.0464, -0.0419, -0.0576, -0.0447, -0.0448, -0.0430,
+        -0.0517, -0.0528], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 126 : 24.879951016206533
+Test loss for epoch 126 : 25.029476542558605
+Test Precision for epoch 126 : 0.0
+Test Recall for epoch 126 : 0.0
+Test F1 for epoch 126 : 0.0
+
+
+theta for epoch 127 : tensor([ 0.4447, -0.3140, -0.1736, -0.6315,  0.4303,  0.4521, -0.2008, -0.1053,
+        -0.3575, -0.0436, -0.0533, -0.0498, -0.0624, -0.0520, -0.0520, -0.0506,
+        -0.0578, -0.0586], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 127 : 24.86980070308251
+Test loss for epoch 127 : 25.000487825031286
+Test Precision for epoch 127 : 0.0
+Test Recall for epoch 127 : 0.0
+Test F1 for epoch 127 : 0.0
+
+
+theta for epoch 128 : tensor([ 0.4303, -0.3189, -0.1795, -0.6332,  0.4182,  0.4393, -0.2067, -0.1127,
+        -0.3630, -0.0541, -0.0608, -0.0584, -0.0676, -0.0600, -0.0599, -0.0588,
+        -0.0643, -0.0650], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 128 : 24.857783799881275
+Test loss for epoch 128 : 24.969006931484998
+Test Precision for epoch 128 : 0.0
+Test Recall for epoch 128 : 0.0
+Test F1 for epoch 128 : 0.0
+
+
+theta for epoch 129 : tensor([ 0.4147, -0.3241, -0.1857, -0.6348,  0.4050,  0.4254, -0.2130, -0.1206,
+        -0.3688, -0.0655, -0.0689, -0.0677, -0.0734, -0.0686, -0.0684, -0.0677,
+        -0.0715, -0.0720], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 129 : 24.843447290950365
+Test loss for epoch 129 : 24.934770912091093
+Test Precision for epoch 129 : 0.0
+Test Recall for epoch 129 : 0.0
+Test F1 for epoch 129 : 0.0
+
+
+theta for epoch 130 : tensor([ 0.3976, -0.3296, -0.1925, -0.6364,  0.3905,  0.4102, -0.2197, -0.1292,
+        -0.3751, -0.0777, -0.0777, -0.0778, -0.0797, -0.0780, -0.0777, -0.0774,
+        -0.0794, -0.0796], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 130 : 24.826230906926593
+Test loss for epoch 130 : 24.89719072517714
+Test Precision for epoch 130 : 0.0
+Test Recall for epoch 130 : 0.0
+Test F1 for epoch 130 : 0.0
+
+
+theta for epoch 131 : tensor([ 0.3789, -0.3356, -0.1999, -0.6380,  0.3745,  0.3933, -0.2272, -0.1387,
+        -0.3819, -0.0908, -0.0873, -0.0886, -0.0866, -0.0881, -0.0877, -0.0878,
+        -0.0879, -0.0878], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 131 : 24.805398339095518
+Test loss for epoch 131 : 24.85564405639965
+Test Precision for epoch 131 : 0.0
+Test Recall for epoch 131 : 0.0
+Test F1 for epoch 131 : 0.0
+
+
+theta for epoch 132 : tensor([ 0.3583, -0.3421, -0.2080, -0.6395,  0.3567,  0.3747, -0.2353, -0.1491,
+        -0.3893, -0.1050, -0.0977, -0.1004, -0.0943, -0.0992, -0.0986, -0.0991,
+        -0.0972, -0.0969], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 132 : 24.78002247931918
+Test loss for epoch 132 : 24.80969304377333
+Test Precision for epoch 132 : 0.0
+Test Recall for epoch 132 : 0.0
+Test F1 for epoch 132 : 0.0
+
+
+theta for epoch 133 : tensor([ 0.3356, -0.3489, -0.2168, -0.6408,  0.3371,  0.3542, -0.2441, -0.1605,
+        -0.3973, -0.1205, -0.1091, -0.1133, -0.1029, -0.1113, -0.1106, -0.1116,
+        -0.1075, -0.1069], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 133 : 24.74890761605365
+Test loss for epoch 133 : 24.758812826887016
+Test Precision for epoch 133 : 0.0
+Test Recall for epoch 133 : 0.0
+Test F1 for epoch 133 : 0.0
+
+
+theta for epoch 134 : tensor([ 0.3105, -0.3563, -0.2264, -0.6418,  0.3152,  0.3313, -0.2538, -0.1730,
+        -0.4059, -0.1375, -0.1218, -0.1275, -0.1125, -0.1246, -0.1238, -0.1253,
+        -0.1189, -0.1181], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 134 : 24.710542588302317
+Test loss for epoch 134 : 24.702202202867227
+Test Precision for epoch 134 : 0.0
+Test Recall for epoch 134 : 0.0
+Test F1 for epoch 134 : 0.0
+
+
+theta for epoch 135 : tensor([ 0.2826, -0.3643, -0.2370, -0.6426,  0.2908,  0.3058, -0.2645, -0.1868,
+        -0.4152, -0.1559, -0.1356, -0.1431, -0.1232, -0.1392, -0.1382, -0.1403,
+        -0.1315, -0.1304], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 135 : 24.663030060045166
+Test loss for epoch 135 : 24.63894473072604
+Test Precision for epoch 135 : 0.0
+Test Recall for epoch 135 : 0.0
+Test F1 for epoch 135 : 0.0
+
+
+theta for epoch 136 : tensor([ 0.2514, -0.3730, -0.2488, -0.6430,  0.2633,  0.2771, -0.2763, -0.2020,
+        -0.4253, -0.1760, -0.1509, -0.1601, -0.1351, -0.1552, -0.1541, -0.1568,
+        -0.1454, -0.1440], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 136 : 24.60404806331134
+Test loss for epoch 136 : 24.568205193538546
+Test Precision for epoch 136 : 0.0
+Test Recall for epoch 136 : 0.0
+Test F1 for epoch 136 : 0.0
+
+
+theta for epoch 137 : tensor([ 0.2167, -0.3823, -0.2617, -0.6428,  0.2325,  0.2450, -0.2894, -0.2189,
+        -0.4362, -0.1980, -0.1679, -0.1789, -0.1486, -0.1730, -0.1718, -0.1751,
+        -0.1610, -0.1593], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 137 : 24.530850584721016
+Test loss for epoch 137 : 24.489152707787554
+Test Precision for epoch 137 : 0.0
+Test Recall for epoch 137 : 0.0
+Test F1 for epoch 137 : 0.0
+
+
+theta for epoch 138 : tensor([ 0.1779, -0.3922, -0.2759, -0.6419,  0.1979,  0.2090, -0.3038, -0.2375,
+        -0.4478, -0.2222, -0.1868, -0.1997, -0.1638, -0.1926, -0.1913, -0.1953,
+        -0.1783, -0.1763], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 138 : 24.440358220363237
+Test loss for epoch 138 : 24.40091803636181
+Test Precision for epoch 138 : 0.0
+Test Recall for epoch 138 : 0.0
+Test F1 for epoch 138 : 0.0
+
+
+theta for epoch 139 : tensor([ 0.1345, -0.4028, -0.2916, -0.6401,  0.1590,  0.1686, -0.3197, -0.2580,
+        -0.4601, -0.2488, -0.2076, -0.2225, -0.1809, -0.2143, -0.2128, -0.2176,
+        -0.1976, -0.1953], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 139 : 24.329409889343793
+Test loss for epoch 139 : 24.302829074071738
+Test Precision for epoch 139 : 0.0
+Test Recall for epoch 139 : 0.0
+Test F1 for epoch 139 : 0.0
+
+
+theta for epoch 140 : tensor([ 0.0861, -0.4142, -0.3088, -0.6374,  0.1153,  0.1233, -0.3372, -0.2806,
+        -0.4732, -0.2777, -0.2306, -0.2476, -0.2001, -0.2382, -0.2366, -0.2422,
+        -0.2190, -0.2163], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 140 : 24.19518895296162
+Test loss for epoch 140 : 24.194624218907897
+Test Precision for epoch 140 : 0.0
+Test Recall for epoch 140 : 0.0
+Test F1 for epoch 140 : 0.0
+
+
+theta for epoch 141 : tensor([ 0.0324, -0.4262, -0.3277, -0.6334,  0.0666,  0.0729, -0.3564, -0.3052,
+        -0.4867, -0.3093, -0.2559, -0.2752, -0.2214, -0.2644, -0.2627, -0.2691,
+        -0.2426, -0.2396], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 141 : 24.03583398488339
+Test loss for epoch 141 : 24.076538748856585
+Test Precision for epoch 141 : 0.0
+Test Recall for epoch 141 : 0.0
+Test F1 for epoch 141 : 0.0
+
+
+theta for epoch 142 : tensor([-0.0267, -0.4387, -0.3481, -0.6281,  0.0128,  0.0172, -0.3771, -0.3319,
+        -0.5007, -0.3435, -0.2837, -0.3052, -0.2451, -0.2931, -0.2912, -0.2986,
+        -0.2686, -0.2652], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 142 : 23.851093371993162
+Test loss for epoch 142 : 23.949506460618302
+Test Precision for epoch 142 : 0.0
+Test Recall for epoch 142 : 0.0
+Test F1 for epoch 142 : 0.0
+
+
+theta for epoch 143 : tensor([-0.0914, -0.4518, -0.3701, -0.6213, -0.0464, -0.0439, -0.3993, -0.3605,
+        -0.5148, -0.3804, -0.3137, -0.3376, -0.2710, -0.3241, -0.3221, -0.3305,
+        -0.2969, -0.2932], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 143 : 23.6428270253121
+Test loss for epoch 143 : 23.815460979318217
+Test Precision for epoch 143 : 0.0
+Test Recall for epoch 143 : 0.0
+Test F1 for epoch 143 : 0.0
+
+
+theta for epoch 144 : tensor([-0.1614, -0.4655, -0.3936, -0.6132, -0.1106, -0.1102, -0.4229, -0.3910,
+        -0.5289, -0.4196, -0.3460, -0.3723, -0.2991, -0.3573, -0.3551, -0.3646,
+        -0.3273, -0.3232], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 144 : 23.415056224844037
+Test loss for epoch 144 : 23.677278919056448
+Test Precision for epoch 144 : 0.0
+Test Recall for epoch 144 : 0.0
+Test F1 for epoch 144 : 0.0
+
+
+theta for epoch 145 : tensor([-0.2363, -0.4795, -0.4183, -0.6037, -0.1796, -0.1814, -0.4477, -0.4231,
+        -0.5430, -0.4610, -0.3802, -0.4090, -0.3291, -0.3924, -0.3902, -0.4008,
+        -0.3597, -0.3552], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 145 : 23.173513182925607
+Test loss for epoch 145 : 23.53843801474401
+Test Precision for epoch 145 : 0.0
+Test Recall for epoch 145 : 0.0
+Test F1 for epoch 145 : 0.0
+
+
+theta for epoch 146 : tensor([-0.3155, -0.4937, -0.4442, -0.5929, -0.2527, -0.2567, -0.4734, -0.4564,
+        -0.5567, -0.5043, -0.4161, -0.4474, -0.3609, -0.4293, -0.4269, -0.4387,
+        -0.3937, -0.3889], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 146 : 22.924820685171042
+Test loss for epoch 146 : 23.402733500646583
+Test Precision for epoch 146 : 0.0
+Test Recall for epoch 146 : 0.0
+Test F1 for epoch 146 : 0.0
+
+
+theta for epoch 147 : tensor([-0.3982, -0.5082, -0.4708, -0.5809, -0.3292, -0.3355, -0.4999, -0.4908,
+        -0.5701, -0.5491, -0.4534, -0.4872, -0.3941, -0.4674, -0.4651, -0.4781,
+        -0.4291, -0.4240], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 147 : 22.67561895501469
+Test loss for epoch 147 : 23.27405212712001
+Test Precision for epoch 147 : 0.0
+Test Recall for epoch 147 : 0.0
+Test F1 for epoch 147 : 0.0
+
+
+theta for epoch 148 : tensor([-0.4839, -0.5228, -0.4981, -0.5679, -0.4085, -0.4171, -0.5268, -0.5259,
+        -0.5830, -0.5949, -0.4916, -0.5280, -0.4283, -0.5065, -0.5041, -0.5184,
+        -0.4655, -0.4600], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 148 : 22.431864515592014
+Test loss for epoch 148 : 23.15595681021029
+Test Precision for epoch 148 : 0.0
+Test Recall for epoch 148 : 0.0
+Test F1 for epoch 148 : 0.0
+
+
+theta for epoch 149 : tensor([-0.5715, -0.5374, -0.5257, -0.5542, -0.4898, -0.5007, -0.5539, -0.5613,
+        -0.5953, -0.6414, -0.5304, -0.5693, -0.4631, -0.5462, -0.5437, -0.5593,
+        -0.5025, -0.4966], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 149 : 22.19844154878081
+Test loss for epoch 149 : 23.051272580110883
+Test Precision for epoch 149 : 0.0
+Test Recall for epoch 149 : 0.0
+Test F1 for epoch 149 : 0.0
+
+
+theta for epoch 150 : tensor([-0.6604, -0.5518, -0.5534, -0.5398, -0.5721, -0.5854, -0.5811, -0.5968,
+        -0.6071, -0.6881, -0.5695, -0.6108, -0.4983, -0.5861, -0.5836, -0.6004,
+        -0.5397, -0.5335], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 150 : 21.979036973252615
+Test loss for epoch 150 : 22.961959587102776
+Test Precision for epoch 150 : 0.0
+Test Recall for epoch 150 : 0.0
+Test F1 for epoch 150 : 0.0
+
+
+theta for epoch 151 : tensor([-0.7497, -0.5661, -0.5809, -0.5249, -0.6549, -0.6706, -0.6079, -0.6320,
+        -0.6182, -0.7347, -0.6084, -0.6522, -0.5336, -0.6258, -0.6234, -0.6415,
+        -0.5769, -0.5704], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 151 : 21.776189142423913
+Test loss for epoch 151 : 22.88922647397741
+Test Precision for epoch 151 : 0.0
+Test Recall for epoch 151 : 0.0
+Test F1 for epoch 151 : 0.0
+
+
+theta for epoch 152 : tensor([-0.8388, -0.5801, -0.6081, -0.5097, -0.7375, -0.7554, -0.6344, -0.6668,
+        -0.6286, -0.7808, -0.6470, -0.6932, -0.5686, -0.6652, -0.6627, -0.6822,
+        -0.6138, -0.6069], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 152 : 21.591423369221992
+Test loss for epoch 152 : 22.833608156493426
+Test Precision for epoch 152 : 0.0
+Test Recall for epoch 152 : 0.0
+Test F1 for epoch 152 : 0.0
+
+
+theta for epoch 153 : tensor([-0.9270, -0.5937, -0.6348, -0.4944, -0.8192, -0.8395, -0.6603, -0.7008,
+        -0.6383, -0.8261, -0.6849, -0.7334, -0.6031, -0.7038, -0.7013, -0.7221,
+        -0.6501, -0.6428], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 153 : 21.425410444702127
+Test loss for epoch 153 : 22.794944020675814
+Test Precision for epoch 153 : 0.0
+Test Recall for epoch 153 : 0.0
+Test F1 for epoch 153 : 0.0
+
+
+theta for epoch 154 : tensor([-1.0139, -0.6068, -0.6608, -0.4790, -0.8996, -0.9221, -0.6854, -0.7339,
+        -0.6473, -0.8705, -0.7218, -0.7726, -0.6368, -0.7414, -0.7390, -0.7611,
+        -0.6855, -0.6779], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 154 : 21.27813695512998
+Test loss for epoch 154 : 22.77245211358222
+Test Precision for epoch 154 : 0.0
+Test Recall for epoch 154 : 0.0
+Test F1 for epoch 154 : 0.0
+
+
+theta for epoch 155 : tensor([-1.0990, -0.6194, -0.6858, -0.4637, -0.9781, -1.0028, -0.7095, -0.7658,
+        -0.6555, -0.9136, -0.7577, -0.8107, -0.6696, -0.7780, -0.7756, -0.7989,
+        -0.7198, -0.7119], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 155 : 21.14905947043127
+Test loss for epoch 155 : 22.764941247995566
+Test Precision for epoch 155 : 0.0
+Test Recall for epoch 155 : 0.0
+Test F1 for epoch 155 : 0.0
+
+
+theta for epoch 156 : tensor([-1.1818, -0.6314, -0.7098, -0.4486, -1.0544, -1.0812, -0.7326, -0.7964,
+        -0.6630, -0.9552, -0.7923, -0.8475, -0.7014, -0.8132, -0.8109, -0.8354,
+        -0.7530, -0.7448], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 156 : 21.0372446073941
+Test loss for epoch 156 : 22.771004953156115
+Test Precision for epoch 156 : 0.0
+Test Recall for epoch 156 : 0.0
+Test F1 for epoch 156 : 0.0
+
+
+theta for epoch 157 : tensor([-1.2620, -0.6427, -0.7327, -0.4338, -1.1281, -1.1571, -0.7546, -0.8256,
+        -0.6697, -0.9953, -0.8255, -0.8827, -0.7318, -0.8470, -0.8448, -0.8705,
+        -0.7849, -0.7764], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 157 : 20.9414880211851
+Test loss for epoch 157 : 22.78907743266868
+Test Precision for epoch 157 : 0.0
+Test Recall for epoch 157 : 0.0
+Test F1 for epoch 157 : 0.0
+
+
+theta for epoch 158 : tensor([-1.3395, -0.6533, -0.7544, -0.4193, -1.1990, -1.2301, -0.7753, -0.8533,
+        -0.6756, -1.0336, -0.8572, -0.9163, -0.7609, -0.8791, -0.8770, -0.9039,
+        -0.8152, -0.8064], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 158 : 20.860416941218975
+Test loss for epoch 158 : 22.81744972951371
+Test Precision for epoch 158 : 0.0
+Test Recall for epoch 158 : 0.0
+Test F1 for epoch 158 : 0.0
+
+
+theta for epoch 159 : tensor([-1.4140, -0.6632, -0.7747, -0.4053, -1.2669, -1.3000, -0.7948, -0.8793,
+        -0.6808, -1.0701, -0.8872, -0.9482, -0.7886, -0.9097, -0.9077, -0.9357,
+        -0.8441, -0.8350], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 159 : 20.79257188358023
+Test loss for epoch 159 : 22.854362842107925
+Test Precision for epoch 159 : 0.0
+Test Recall for epoch 159 : 0.0
+Test F1 for epoch 159 : 0.0
+
+
+theta for epoch 160 : tensor([-1.4852, -0.6723, -0.7937, -0.3917, -1.3317, -1.3668, -0.8128, -0.9036,
+        -0.6851, -1.1047, -0.9156, -0.9784, -0.8147, -0.9385, -0.9366, -0.9657,
+        -0.8713, -0.8619], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 160 : 20.736473173928314
+Test loss for epoch 160 : 22.89814152902464
+Test Precision for epoch 160 : 0.0
+Test Recall for epoch 160 : 0.0
+Test F1 for epoch 160 : 0.0
+
+
+theta for epoch 161 : tensor([-1.5533, -0.6805, -0.8112, -0.3787, -1.3931, -1.4302, -0.8295, -0.9261,
+        -0.6888, -1.1374, -0.9422, -1.0068, -0.8393, -0.9656, -0.9638, -0.9939,
+        -0.8970, -0.8873], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 161 : 20.69066989462242
+Test loss for epoch 161 : 22.947247663077455
+Test Precision for epoch 161 : 0.0
+Test Recall for epoch 161 : 0.0
+Test F1 for epoch 161 : 0.0
+
+
+theta for epoch 162 : tensor([-1.6180, -0.6880, -0.8273, -0.3663, -1.4513, -1.4902, -0.8448, -0.9468,
+        -0.6917, -1.1681, -0.9671, -1.0333, -0.8623, -0.9909, -0.9892, -1.0204,
+        -0.9209, -0.9110], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 162 : 20.653776590373816
+Test loss for epoch 162 : 23.00025039880618
+Test Precision for epoch 162 : 0.0
+Test Recall for epoch 162 : 0.0
+Test F1 for epoch 162 : 0.0
+
+
+theta for epoch 163 : tensor([-1.6795, -0.6946, -0.8419, -0.3545, -1.5061, -1.5469, -0.8586, -0.9658,
+        -0.6939, -1.1968, -0.9903, -1.0580, -0.8837, -1.0145, -1.0129, -1.0450,
+        -0.9431, -0.9330], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 163 : 20.624499756007374
+Test loss for epoch 163 : 23.055812999351375
+Test Precision for epoch 163 : 0.0
+Test Recall for epoch 163 : 0.0
+Test F1 for epoch 163 : 0.0
+
+
+theta for epoch 164 : tensor([-1.7375, -0.7004, -0.8551, -0.3433, -1.5575, -1.6001, -0.8710, -0.9829,
+        -0.6954, -1.2236, -1.0117, -1.0809, -0.9036, -1.0362, -1.0348, -1.0678,
+        -0.9638, -0.9533], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 164 : 20.601652094890795
+Test loss for epoch 164 : 23.112739559075187
+Test Precision for epoch 164 : 0.0
+Test Recall for epoch 164 : 0.0
+Test F1 for epoch 164 : 0.0
+
+
+theta for epoch 165 : tensor([-1.7923, -0.7053, -0.8667, -0.3327, -1.6055, -1.6500, -0.8819, -0.9983,
+        -0.6962, -1.2485, -1.0315, -1.1020, -0.9218, -1.0563, -1.0550, -1.0888,
+        -0.9827, -0.9721], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 165 : 20.584161211066444
+Test loss for epoch 165 : 23.170022746545865
+Test Precision for epoch 165 : 0.0
+Test Recall for epoch 165 : 0.0
+Test F1 for epoch 165 : 0.0
+
+
+theta for epoch 166 : tensor([-1.8439, -0.7094, -0.8769, -0.3228, -1.6503, -1.6966, -0.8915, -1.0119,
+        -0.6964, -1.2715, -1.0496, -1.1214, -0.9385, -1.0747, -1.0735, -1.1081,
+        -1.0001, -0.9892], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 166 : 20.571073409426287
+Test loss for epoch 166 : 23.22682754248546
+Test Precision for epoch 166 : 0.0
+Test Recall for epoch 166 : 0.0
+Test F1 for epoch 166 : 0.0
+
+
+theta for epoch 167 : tensor([-1.8923, -0.7127, -0.8858, -0.3135, -1.6919, -1.7400, -0.8997, -1.0238,
+        -0.6960, -1.2926, -1.0660, -1.1390, -0.9537, -1.0914, -1.0903, -1.1257,
+        -1.0159, -1.0048], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 167 : 20.56155029733023
+Test loss for epoch 167 : 23.28243695979425
+Test Precision for epoch 167 : 0.0
+Test Recall for epoch 167 : 0.0
+Test F1 for epoch 167 : 0.0
+
+
+theta for epoch 168 : tensor([-1.9376, -0.7152, -0.8932, -0.3049, -1.7304, -1.7802, -0.9065, -1.0341,
+        -0.6950, -1.3119, -1.0809, -1.1550, -0.9675, -1.1065, -1.1055, -1.1417,
+        -1.0301, -1.0189], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 168 : 20.55486547782349
+Test loss for epoch 168 : 23.336236381791363
+Test Precision for epoch 168 : 0.0
+Test Recall for epoch 168 : 0.0
+Test F1 for epoch 168 : 0.0
+
+
+theta for epoch 169 : tensor([-1.9799, -0.7170, -0.8993, -0.2969, -1.7658, -1.8174, -0.9121, -1.0427,
+        -0.6935, -1.3295, -1.0943, -1.1695, -0.9798, -1.1201, -1.1192, -1.1560,
+        -1.0430, -1.0315], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 169 : 20.550397346868685
+Test loss for epoch 169 : 23.387739022796765
+Test Precision for epoch 169 : 0.0
+Test Recall for epoch 169 : 0.0
+Test F1 for epoch 169 : 0.0
+
+
+theta for epoch 170 : tensor([-2.0193, -0.7181, -0.9042, -0.2895, -1.7983, -1.8516, -0.9165, -1.0498,
+        -0.6915, -1.3455, -1.1062, -1.1824, -0.9908, -1.1322, -1.1314, -1.1689,
+        -1.0544, -1.0427], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 170 : 20.547620176676237
+Test loss for epoch 170 : 23.436597227439556
+Test Precision for epoch 170 : 0.0
+Test Recall for epoch 170 : 0.0
+Test F1 for epoch 170 : 0.0
+
+
+theta for epoch 171 : tensor([-2.0560, -0.7185, -0.9078, -0.2828, -1.8281, -1.8830, -0.9197, -1.0554,
+        -0.6891, -1.3598, -1.1167, -1.1939, -1.0005, -1.1430, -1.1423, -1.1803,
+        -1.0645, -1.0527], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 171 : 20.546095811994192
+Test loss for epoch 171 : 23.482569352355142
+Test Precision for epoch 171 : 0.0
+Test Recall for epoch 171 : 0.0
+Test F1 for epoch 171 : 0.0
+
+
+theta for epoch 172 : tensor([-2.0901, -0.7182, -0.9104, -0.2766, -1.8551, -1.9117, -0.9218, -1.0597,
+        -0.6862, -1.3726, -1.1259, -1.2039, -1.0090, -1.1524, -1.1518, -1.1904,
+        -1.0733, -1.0613], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 172 : 20.545464872651067
+Test loss for epoch 172 : 23.52547670755095
+Test Precision for epoch 172 : 0.0
+Test Recall for epoch 172 : 0.0
+Test F1 for epoch 172 : 0.0
+
+
+theta for epoch 173 : tensor([-2.1216, -0.7174, -0.9118, -0.2711, -1.8796, -1.9379, -0.9229, -1.0626,
+        -0.6830, -1.3840, -1.1339, -1.2127, -1.0164, -1.1605, -1.1600, -1.1992,
+        -1.0809, -1.0688], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 173 : 20.54543674199192
+Test loss for epoch 173 : 23.56519522459276
+Test Precision for epoch 173 : 0.0
+Test Recall for epoch 173 : 0.0
+Test F1 for epoch 173 : 0.0
+
+
+theta for epoch 174 : tensor([-2.1507, -0.7160, -0.9122, -0.2661, -1.9017, -1.9616, -0.9230, -1.0644,
+        -0.6795, -1.3941, -1.1408, -1.2203, -1.0226, -1.1675, -1.1671, -1.2067,
+        -1.0875, -1.0752], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 174 : 20.545780432856834
+Test loss for epoch 174 : 23.601674295518855
+Test Precision for epoch 174 : 0.0
+Test Recall for epoch 174 : 0.0
+Test F1 for epoch 174 : 0.0
+
+
+theta for epoch 175 : tensor([-2.1775, -0.7141, -0.9117, -0.2616, -1.9214, -1.9830, -0.9223, -1.0649,
+        -0.6757, -1.4028, -1.1465, -1.2268, -1.0279, -1.1734, -1.1730, -1.2131,
+        -1.0929, -1.0805], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 175 : 20.54631782602396
+Test loss for epoch 175 : 23.63493908905223
+Test Precision for epoch 175 : 0.0
+Test Recall for epoch 175 : 0.0
+Test F1 for epoch 175 : 0.0
+
+
+theta for epoch 176 : tensor([-2.2021, -0.7118, -0.9104, -0.2576, -1.9390, -2.0022, -0.9207, -1.0645,
+        -0.6717, -1.4104, -1.1513, -1.2321, -1.0322, -1.1783, -1.1780, -1.2185,
+        -1.0974, -1.0849], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 176 : 20.546914787396705
+Test loss for epoch 176 : 23.665058368320746
+Test Precision for epoch 176 : 0.0
+Test Recall for epoch 176 : 0.0
+Test F1 for epoch 176 : 0.0
+
+
+theta for epoch 177 : tensor([-2.2247, -0.7090, -0.9083, -0.2542, -1.9546, -2.0193, -0.9184, -1.0631,
+        -0.6675, -1.4168, -1.1551, -1.2365, -1.0356, -1.1822, -1.1820, -1.2228,
+        -1.1010, -1.0884], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 177 : 20.547473060978007
+Test loss for epoch 177 : 23.692114696274835
+Test Precision for epoch 177 : 0.0
+Test Recall for epoch 177 : 0.0
+Test F1 for epoch 177 : 0.0
+
+
+theta for epoch 178 : tensor([-2.2454, -0.7059, -0.9055, -0.2511, -1.9682, -2.0345, -0.9155, -1.0608,
+        -0.6632, -1.4222, -1.1580, -1.2400, -1.0382, -1.1852, -1.1851, -1.2262,
+        -1.1038, -1.0910], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 178 : 20.54792638616157
+Test loss for epoch 178 : 23.716209159198925
+Test Precision for epoch 178 : 0.0
+Test Recall for epoch 178 : 0.0
+Test F1 for epoch 178 : 0.0
+
+
+theta for epoch 179 : tensor([-2.2642, -0.7025, -0.9020, -0.2485, -1.9800, -2.0479, -0.9119, -1.0577,
+        -0.6587, -1.4266, -1.1602, -1.2426, -1.0401, -1.1874, -1.1873, -1.2288,
+        -1.1058, -1.0929], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 179 : 20.54823221938954
+Test loss for epoch 179 : 23.737475484664927
+Test Precision for epoch 179 : 0.0
+Test Recall for epoch 179 : 0.0
+Test F1 for epoch 179 : 0.0
+
+
+theta for epoch 180 : tensor([-2.2813, -0.6988, -0.8980, -0.2463, -1.9901, -2.0595, -0.9079, -1.0540,
+        -0.6541, -1.4302, -1.1616, -1.2445, -1.0413, -1.1890, -1.1889, -1.2307,
+        -1.1071, -1.0941], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 180 : 20.548368283866857
+Test loss for epoch 180 : 23.75607843331735
+Test Precision for epoch 180 : 0.0
+Test Recall for epoch 180 : 0.0
+Test F1 for epoch 180 : 0.0
+
+
+theta for epoch 181 : tensor([-2.2968, -0.6949, -0.8936, -0.2445, -1.9986, -2.0695, -0.9034, -1.0496,
+        -0.6496, -1.4329, -1.1624, -1.2456, -1.0419, -1.1898, -1.1898, -1.2318,
+        -1.1077, -1.0947], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 181 : 20.548327221343353
+Test loss for epoch 181 : 23.772188003726264
+Test Precision for epoch 181 : 0.0
+Test Recall for epoch 181 : 0.0
+Test F1 for epoch 181 : 0.0
+
+
+theta for epoch 182 : tensor([-2.3108, -0.6909, -0.8887, -0.2430, -2.0057, -2.0781, -0.8985, -1.0447,
+        -0.6450, -1.4348, -1.1626, -1.2461, -1.0419, -1.1900, -1.1901, -1.2323,
+        -1.1078, -1.0948], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 182 : 20.548113510133568
+Test loss for epoch 182 : 23.78596398038607
+Test Precision for epoch 182 : 0.0
+Test Recall for epoch 182 : 0.0
+Test F1 for epoch 182 : 0.0
+
+
+theta for epoch 183 : tensor([-2.3234, -0.6867, -0.8836, -0.2418, -2.0114, -2.0853, -0.8933, -1.0394,
+        -0.6405, -1.4360, -1.1622, -1.2461, -1.0415, -1.1897, -1.1898, -1.2322,
+        -1.1074, -1.0943], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 183 : 20.547739821368438
+Test loss for epoch 183 : 23.79756437972195
+Test Precision for epoch 183 : 0.0
+Test Recall for epoch 183 : 0.0
+Test F1 for epoch 183 : 0.0
+
+
+theta for epoch 184 : tensor([-2.3346, -0.6824, -0.8781, -0.2409, -2.0158, -2.0911, -0.8879, -1.0337,
+        -0.6360, -1.4367, -1.1614, -1.2455, -1.0407, -1.1890, -1.1891, -1.2316,
+        -1.1066, -1.0934], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 184 : 20.547223782180943
+Test loss for epoch 184 : 23.807158920700292
+Test Precision for epoch 184 : 0.0
+Test Recall for epoch 184 : 0.0
+Test F1 for epoch 184 : 0.0
+
+
+theta for epoch 185 : tensor([-2.3446, -0.6781, -0.8725, -0.2403, -2.0191, -2.0958, -0.8823, -1.0276,
+        -0.6316, -1.4367, -1.1602, -1.2445, -1.0394, -1.1878, -1.1879, -1.2306,
+        -1.1054, -1.0921], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 185 : 20.54658766231794
+Test loss for epoch 185 : 23.814925141163805
+Test Precision for epoch 185 : 0.0
+Test Recall for epoch 185 : 0.0
+Test F1 for epoch 185 : 0.0
+
+
+theta for epoch 186 : tensor([-2.3535, -0.6737, -0.8667, -0.2400, -2.0213, -2.0994, -0.8766, -1.0214,
+        -0.6273, -1.4363, -1.1587, -1.2431, -1.0379, -1.1862, -1.1864, -1.2292,
+        -1.1038, -1.0905], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 186 : 20.545854115115617
+Test loss for epoch 186 : 23.821026941353075
+Test Precision for epoch 186 : 0.0
+Test Recall for epoch 186 : 0.0
+Test F1 for epoch 186 : 0.0
+
+
+theta for epoch 187 : tensor([-2.3613, -0.6694, -0.8608, -0.2398, -2.0225, -2.1020, -0.8708, -1.0150,
+        -0.6232, -1.4354, -1.1568, -1.2414, -1.0360, -1.1844, -1.1846, -1.2274,
+        -1.1019, -1.0886], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 187 : 20.54504661373258
+Test loss for epoch 187 : 23.82561023726766
+Test Precision for epoch 187 : 0.0
+Test Recall for epoch 187 : 0.0
+Test F1 for epoch 187 : 0.0
+
+
+theta for epoch 188 : tensor([-2.3681, -0.6652, -0.8549, -0.2398, -2.0228, -2.1036, -0.8649, -1.0085,
+        -0.6192, -1.4341, -1.1547, -1.2393, -1.0340, -1.1822, -1.1825, -1.2254,
+        -1.0998, -1.0865], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 188 : 20.544187673411326
+Test loss for epoch 188 : 23.828814694257076
+Test Precision for epoch 188 : 0.0
+Test Recall for epoch 188 : 0.0
+Test F1 for epoch 188 : 0.0
+
+
+theta for epoch 189 : tensor([-2.3740, -0.6610, -0.8490, -0.2400, -2.0223, -2.1044, -0.8592, -1.0019,
+        -0.6154, -1.4324, -1.1523, -1.2370, -1.0317, -1.1799, -1.1801, -1.2231,
+        -1.0975, -1.0842], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 189 : 20.543297767013836
+Test loss for epoch 189 : 23.830783223563287
+Test Precision for epoch 189 : 0.0
+Test Recall for epoch 189 : 0.0
+Test F1 for epoch 189 : 0.0
+
+
+theta for epoch 190 : tensor([-2.3790, -0.6569, -0.8432, -0.2404, -2.0211, -2.1045, -0.8534, -0.9953,
+        -0.6118, -1.4305, -1.1498, -1.2346, -1.0293, -1.1774, -1.1776, -1.2206,
+        -1.0950, -1.0817], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 190 : 20.5423956835024
+Test loss for epoch 190 : 23.831654754136714
+Test Precision for epoch 190 : 0.0
+Test Recall for epoch 190 : 0.0
+Test F1 for epoch 190 : 0.0
+
+
+theta for epoch 191 : tensor([-2.3833, -0.6530, -0.8375, -0.2408, -2.0192, -2.1038, -0.8478, -0.9888,
+        -0.6084, -1.4283, -1.1471, -1.2319, -1.0268, -1.1747, -1.1750, -1.2179,
+        -1.0925, -1.0791], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 191 : 20.54149763501379
+Test loss for epoch 191 : 23.83155034661472
+Test Precision for epoch 191 : 0.0
+Test Recall for epoch 191 : 0.0
+Test F1 for epoch 191 : 0.0
+
+
+theta for epoch 192 : tensor([-2.3868, -0.6493, -0.8319, -0.2414, -2.0167, -2.1025, -0.8424, -0.9824,
+        -0.6052, -1.4259, -1.1444, -1.2291, -1.0242, -1.1719, -1.1722, -1.2152,
+        -1.0898, -1.0765], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 192 : 20.540616875876935
+Test loss for epoch 192 : 23.83057430057943
+Test Precision for epoch 192 : 0.0
+Test Recall for epoch 192 : 0.0
+Test F1 for epoch 192 : 0.0
+
+
+theta for epoch 193 : tensor([-2.3896, -0.6457, -0.8265, -0.2421, -2.0137, -2.1006, -0.8371, -0.9762,
+        -0.6022, -1.4233, -1.1416, -1.2263, -1.0216, -1.1691, -1.1694, -1.2123,
+        -1.0871, -1.0737], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 193 : 20.539764726125
+Test loss for epoch 193 : 23.82882798710148
+Test Precision for epoch 193 : 0.0
+Test Recall for epoch 193 : 0.0
+Test F1 for epoch 193 : 0.0
+
+
+theta for epoch 194 : tensor([-2.3918, -0.6423, -0.8214, -0.2429, -2.0102, -2.0982, -0.8320, -0.9701,
+        -0.5995, -1.4205, -1.1387, -1.2233, -1.0190, -1.1662, -1.1665, -1.2094,
+        -1.0843, -1.0710], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 194 : 20.538949477607666
+Test loss for epoch 194 : 23.82641309445927
+Test Precision for epoch 194 : 0.0
+Test Recall for epoch 194 : 0.0
+Test F1 for epoch 194 : 0.0
+
+
+theta for epoch 195 : tensor([-2.3935, -0.6391, -0.8164, -0.2437, -2.0063, -2.0954, -0.8272, -0.9642,
+        -0.5969, -1.4177, -1.1359, -1.2204, -1.0163, -1.1633, -1.1636, -1.2064,
+        -1.0815, -1.0682], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 195 : 20.538177199984816
+Test loss for epoch 195 : 23.823422629395118
+Test Precision for epoch 195 : 0.0
+Test Recall for epoch 195 : 0.0
+Test F1 for epoch 195 : 0.0
+
+
+theta for epoch 196 : tensor([-2.3947, -0.6361, -0.8117, -0.2445, -2.0020, -2.0921, -0.8226, -0.9586,
+        -0.5947, -1.4147, -1.1330, -1.2174, -1.0137, -1.1604, -1.1607, -1.2034,
+        -1.0788, -1.0655], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 196 : 20.53745173842697
+Test loss for epoch 196 : 23.819933204964123
+Test Precision for epoch 196 : 0.0
+Test Recall for epoch 196 : 0.0
+Test F1 for epoch 196 : 0.0
+
+
+theta for epoch 197 : tensor([-2.3954, -0.6334, -0.8072, -0.2454, -1.9975, -2.0885, -0.8183, -0.9532,
+        -0.5926, -1.4117, -1.1302, -1.2145, -1.0111, -1.1576, -1.1578, -1.2005,
+        -1.0761, -1.0628], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 197 : 20.53677507660811
+Test loss for epoch 197 : 23.81601154446703
+Test Precision for epoch 197 : 0.0
+Test Recall for epoch 197 : 0.0
+Test F1 for epoch 197 : 0.0
+
+
+theta for epoch 198 : tensor([-2.3956, -0.6309, -0.8031, -0.2463, -1.9927, -2.0846, -0.8142, -0.9481,
+        -0.5908, -1.4087, -1.1274, -1.2116, -1.0086, -1.1548, -1.1550, -1.1976,
+        -1.0735, -1.0602], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 198 : 20.53614807362851
+Test loss for epoch 198 : 23.8117251106166
+Test Precision for epoch 198 : 0.0
+Test Recall for epoch 198 : 0.0
+Test F1 for epoch 198 : 0.0
+
+
+theta for epoch 199 : tensor([-2.3955, -0.6286, -0.7992, -0.2473, -1.9876, -2.0805, -0.8105, -0.9434,
+        -0.5892, -1.4057, -1.1247, -1.2087, -1.0061, -1.1521, -1.1523, -1.1948,
+        -1.0709, -1.0577], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 199 : 20.53556977288074
+Test loss for epoch 199 : 23.80713993695965
+Test Precision for epoch 199 : 0.0
+Test Recall for epoch 199 : 0.0
+Test F1 for epoch 199 : 0.0
+
+
+theta for epoch 200 : tensor([-2.3950, -0.6265, -0.7957, -0.2482, -1.9824, -2.0761, -0.8070, -0.9389,
+        -0.5879, -1.4027, -1.1221, -1.2059, -1.0038, -1.1494, -1.1496, -1.1920,
+        -1.0684, -1.0552], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 200 : 20.535038588836862
+Test loss for epoch 200 : 23.8023124239107
+Test Precision for epoch 200 : 0.0
+Test Recall for epoch 200 : 0.0
+Test F1 for epoch 200 : 0.0
+
+
+theta for epoch 201 : tensor([-2.3943, -0.6247, -0.7924, -0.2491, -1.9771, -2.0715, -0.8039, -0.9347,
+        -0.5867, -1.3997, -1.1196, -1.2032, -1.0015, -1.1468, -1.1470, -1.1893,
+        -1.0660, -1.0529], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 201 : 20.534551882720535
+Test loss for epoch 201 : 23.797287026445467
+Test Precision for epoch 201 : 0.0
+Test Recall for epoch 201 : 0.0
+Test F1 for epoch 201 : 0.0
+
+
+theta for epoch 202 : tensor([-2.3932, -0.6231, -0.7895, -0.2500, -1.9716, -2.0668, -0.8010, -0.9309,
+        -0.5858, -1.3968, -1.1172, -1.2006, -0.9994, -1.1444, -1.1446, -1.1867,
+        -1.0638, -1.0506], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 202 : 20.534106911540473
+Test loss for epoch 202 : 23.792105460891122
+Test Precision for epoch 202 : 0.0
+Test Recall for epoch 202 : 0.0
+Test F1 for epoch 202 : 0.0
+
+
+theta for epoch 203 : tensor([-2.3919, -0.6217, -0.7868, -0.2509, -1.9661, -2.0620, -0.7985, -0.9274,
+        -0.5850, -1.3939, -1.1149, -1.1981, -0.9973, -1.1420, -1.1422, -1.1842,
+        -1.0616, -1.0485], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 203 : 20.533700219784528
+Test loss for epoch 203 : 23.786811193908818
+Test Precision for epoch 203 : 0.0
+Test Recall for epoch 203 : 0.0
+Test F1 for epoch 203 : 0.0
+
+
+theta for epoch 204 : tensor([-2.3904, -0.6206, -0.7845, -0.2518, -1.9606, -2.0572, -0.7962, -0.9243,
+        -0.5845, -1.3911, -1.1127, -1.1958, -0.9954, -1.1398, -1.1400, -1.1819,
+        -1.0595, -1.0465], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 204 : 20.53332860106612
+Test loss for epoch 204 : 23.781444953397887
+Test Precision for epoch 204 : 0.0
+Test Recall for epoch 204 : 0.0
+Test F1 for epoch 204 : 0.0
+
+
+theta for epoch 205 : tensor([-2.3886, -0.6196, -0.7825, -0.2527, -1.9551, -2.0522, -0.7943, -0.9215,
+        -0.5841, -1.3884, -1.1107, -1.1935, -0.9936, -1.1377, -1.1378, -1.1796,
+        -1.0576, -1.0446], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 205 : 20.53298820902514
+Test loss for epoch 205 : 23.776037543996857
+Test Precision for epoch 205 : 0.0
+Test Recall for epoch 205 : 0.0
+Test F1 for epoch 205 : 0.0
+
+
+theta for epoch 206 : tensor([-2.3868, -0.6189, -0.7808, -0.2535, -1.9495, -2.0473, -0.7926, -0.9190,
+        -0.5839, -1.3858, -1.1087, -1.1913, -0.9919, -1.1357, -1.1358, -1.1775,
+        -1.0558, -1.0429], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 206 : 20.532676422496372
+Test loss for epoch 206 : 23.770614821656963
+Test Precision for epoch 206 : 0.0
+Test Recall for epoch 206 : 0.0
+Test F1 for epoch 206 : 0.0
+
+
+theta for epoch 207 : tensor([-2.3847, -0.6184, -0.7793, -0.2543, -1.9441, -2.0423, -0.7912, -0.9168,
+        -0.5839, -1.3833, -1.1069, -1.1893, -0.9904, -1.1338, -1.1340, -1.1755,
+        -1.0541, -1.0412], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 207 : 20.532389618937174
+Test loss for epoch 207 : 23.765202653142286
+Test Precision for epoch 207 : 0.0
+Test Recall for epoch 207 : 0.0
+Test F1 for epoch 207 : 0.0
+
+
+theta for epoch 208 : tensor([-2.3826, -0.6180, -0.7781, -0.2550, -1.9387, -2.0373, -0.7901, -0.9150,
+        -0.5840, -1.3809, -1.1053, -1.1874, -0.9890, -1.1321, -1.1322, -1.1736,
+        -1.0526, -1.0397], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 208 : 20.532125665854892
+Test loss for epoch 208 : 23.759829256031566
+Test Precision for epoch 208 : 0.0
+Test Recall for epoch 208 : 0.0
+Test F1 for epoch 208 : 0.0
+
+
+theta for epoch 209 : tensor([-2.3803, -0.6178, -0.7772, -0.2557, -1.9333, -2.0324, -0.7893, -0.9134,
+        -0.5842, -1.3786, -1.1037, -1.1857, -0.9877, -1.1305, -1.1306, -1.1719,
+        -1.0512, -1.0383], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 209 : 20.531881447851326
+Test loss for epoch 209 : 23.75451639267132
+Test Precision for epoch 209 : 0.0
+Test Recall for epoch 209 : 0.0
+Test F1 for epoch 209 : 0.0
+
+
+theta for epoch 210 : tensor([-2.3780, -0.6178, -0.7766, -0.2564, -1.9281, -2.0276, -0.7886, -0.9121,
+        -0.5846, -1.3765, -1.1023, -1.1840, -0.9865, -1.1290, -1.1291, -1.1702,
+        -1.0499, -1.0370], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 210 : 20.53165498113971
+Test loss for epoch 210 : 23.74927984770527
+Test Precision for epoch 210 : 0.0
+Test Recall for epoch 210 : 0.0
+Test F1 for epoch 210 : 0.0
+
+
+theta for epoch 211 : tensor([-2.3756, -0.6179, -0.7761, -0.2571, -1.9230, -2.0228, -0.7882, -0.9111,
+        -0.5851, -1.3744, -1.1010, -1.1825, -0.9854, -1.1277, -1.1277, -1.1687,
+        -1.0487, -1.0359], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 211 : 20.531444683512433
+Test loss for epoch 211 : 23.744134258473203
+Test Precision for epoch 211 : 0.0
+Test Recall for epoch 211 : 0.0
+Test F1 for epoch 211 : 0.0
+
+
+theta for epoch 212 : tensor([-2.3731, -0.6182, -0.7759, -0.2577, -1.9181, -2.0181, -0.7881, -0.9104,
+        -0.5857, -1.3725, -1.0998, -1.1811, -0.9844, -1.1264, -1.1265, -1.1674,
+        -1.0476, -1.0349], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 212 : 20.531248272490803
+Test loss for epoch 212 : 23.73909560930887
+Test Precision for epoch 212 : 0.0
+Test Recall for epoch 212 : 0.0
+Test F1 for epoch 212 : 0.0
+
+
+theta for epoch 213 : tensor([-2.3706, -0.6186, -0.7759, -0.2582, -1.9132, -2.0136, -0.7881, -0.9099,
+        -0.5863, -1.3706, -1.0987, -1.1799, -0.9835, -1.1253, -1.1254, -1.1661,
+        -1.0466, -1.0339], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 213 : 20.531065453553353
+Test loss for epoch 213 : 23.734180135216324
+Test Precision for epoch 213 : 0.0
+Test Recall for epoch 213 : 0.0
+Test F1 for epoch 213 : 0.0
+
+
+theta for epoch 214 : tensor([-2.3681, -0.6191, -0.7761, -0.2588, -1.9086, -2.0091, -0.7883, -0.9097,
+        -0.5871, -1.3689, -1.0978, -1.1787, -0.9828, -1.1243, -1.1243, -1.1650,
+        -1.0458, -1.0331], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 214 : 20.530894963560456
+Test loss for epoch 214 : 23.729397185633566
+Test Precision for epoch 214 : 0.0
+Test Recall for epoch 214 : 0.0
+Test F1 for epoch 214 : 0.0
+
+
+theta for epoch 215 : tensor([-2.3655, -0.6197, -0.7764, -0.2593, -1.9041, -2.0047, -0.7886, -0.9096,
+        -0.5879, -1.3674, -1.0969, -1.1777, -0.9821, -1.1234, -1.1234, -1.1640,
+        -1.0450, -1.0324], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 215 : 20.53073567501495
+Test loss for epoch 215 : 23.7247528612804
+Test Precision for epoch 215 : 0.0
+Test Recall for epoch 215 : 0.0
+Test F1 for epoch 215 : 0.0
+
+
+theta for epoch 216 : tensor([-2.3630, -0.6203, -0.7769, -0.2597, -1.8997, -2.0005, -0.7891, -0.9098,
+        -0.5887, -1.3659, -1.0962, -1.1767, -0.9815, -1.1226, -1.1226, -1.1630,
+        -1.0443, -1.0317], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 216 : 20.53058768906792
+Test loss for epoch 216 : 23.720255877517772
+Test Precision for epoch 216 : 0.0
+Test Recall for epoch 216 : 0.0
+Test F1 for epoch 216 : 0.0
+
+
+theta for epoch 217 : tensor([-2.3604, -0.6211, -0.7776, -0.2602, -1.8956, -1.9965, -0.7898, -0.9101,
+        -0.5896, -1.3645, -1.0955, -1.1759, -0.9810, -1.1219, -1.1219, -1.1622,
+        -1.0438, -1.0312], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 217 : 20.530449404539645
+Test loss for epoch 217 : 23.71591393171958
+Test Precision for epoch 217 : 0.0
+Test Recall for epoch 217 : 0.0
+Test F1 for epoch 217 : 0.0
+
+
+theta for epoch 218 : tensor([-2.3579, -0.6219, -0.7783, -0.2606, -1.8916, -1.9925, -0.7905, -0.9106,
+        -0.5905, -1.3633, -1.0949, -1.1751, -0.9806, -1.1213, -1.1213, -1.1615,
+        -1.0432, -1.0307], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 218 : 20.53032123579852
+Test loss for epoch 218 : 23.7117331185405
+Test Precision for epoch 218 : 0.0
+Test Recall for epoch 218 : 0.0
+Test F1 for epoch 218 : 0.0
+
+
+theta for epoch 219 : tensor([-2.3554, -0.6228, -0.7792, -0.2610, -1.8878, -1.9888, -0.7914, -0.9112,
+        -0.5915, -1.3621, -1.0944, -1.1745, -0.9802, -1.1207, -1.1207, -1.1609,
+        -1.0428, -1.0303], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 219 : 20.530202869567965
+Test loss for epoch 219 : 23.70771480496868
+Test Precision for epoch 219 : 0.0
+Test Recall for epoch 219 : 0.0
+Test F1 for epoch 219 : 0.0
+
+
+theta for epoch 220 : tensor([-2.3530, -0.6237, -0.7801, -0.2613, -1.8842, -1.9851, -0.7923, -0.9120,
+        -0.5924, -1.3611, -1.0940, -1.1739, -0.9799, -1.1203, -1.1203, -1.1603,
+        -1.0425, -1.0300], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 220 : 20.530093470342848
+Test loss for epoch 220 : 23.703859883776218
+Test Precision for epoch 220 : 0.0
+Test Recall for epoch 220 : 0.0
+Test F1 for epoch 220 : 0.0
+
+
+theta for epoch 221 : tensor([-2.3506, -0.6247, -0.7812, -0.2616, -1.8808, -1.9817, -0.7933, -0.9129,
+        -0.5934, -1.3601, -1.0937, -1.1734, -0.9797, -1.1199, -1.1199, -1.1599,
+        -1.0422, -1.0297], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 221 : 20.529993610798183
+Test loss for epoch 221 : 23.70017235683629
+Test Precision for epoch 221 : 0.0
+Test Recall for epoch 221 : 0.0
+Test F1 for epoch 221 : 0.0
+
+
+theta for epoch 222 : tensor([-2.3482, -0.6256, -0.7822, -0.2619, -1.8776, -1.9784, -0.7944, -0.9138,
+        -0.5944, -1.3593, -1.0934, -1.1730, -0.9795, -1.1196, -1.1195, -1.1595,
+        -1.0419, -1.0295], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 222 : 20.52990220179103
+Test loss for epoch 222 : 23.696653203242565
+Test Precision for epoch 222 : 0.0
+Test Recall for epoch 222 : 0.0
+Test F1 for epoch 222 : 0.0
+
+
+theta for epoch 223 : tensor([-2.3459, -0.6266, -0.7834, -0.2622, -1.8745, -1.9752, -0.7955, -0.9149,
+        -0.5953, -1.3585, -1.0931, -1.1727, -0.9794, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0293], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 223 : 20.529819598674763
+Test loss for epoch 223 : 23.693301306509397
+Test Precision for epoch 223 : 0.0
+Test Recall for epoch 223 : 0.0
+Test F1 for epoch 223 : 0.0
+
+
+theta for epoch 224 : tensor([-2.3436, -0.6276, -0.7846, -0.2625, -1.8717, -1.9723, -0.7967, -0.9160,
+        -0.5963, -1.3578, -1.0929, -1.1724, -0.9793, -1.1191, -1.1190, -1.1588,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 224 : 20.529745260304082
+Test loss for epoch 224 : 23.690113542944566
+Test Precision for epoch 224 : 0.0
+Test Recall for epoch 224 : 0.0
+Test F1 for epoch 224 : 0.0
+
+
+theta for epoch 225 : tensor([-2.3414, -0.6286, -0.7857, -0.2627, -1.8690, -1.9694, -0.7979, -0.9172,
+        -0.5972, -1.3572, -1.0928, -1.1721, -0.9792, -1.1189, -1.1189, -1.1586,
+        -1.0415, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 225 : 20.52967861987671
+Test loss for epoch 225 : 23.687088452193382
+Test Precision for epoch 225 : 0.0
+Test Recall for epoch 225 : 0.0
+Test F1 for epoch 225 : 0.0
+
+
+theta for epoch 226 : tensor([-2.3392, -0.6295, -0.7869, -0.2629, -1.8665, -1.9668, -0.7990, -0.9184,
+        -0.5981, -1.3567, -1.0927, -1.1719, -0.9791, -1.1188, -1.1187, -1.1585,
+        -1.0414, -1.0290], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 226 : 20.529619840774377
+Test loss for epoch 226 : 23.684225565021194
+Test Precision for epoch 226 : 0.0
+Test Recall for epoch 226 : 0.0
+Test F1 for epoch 226 : 0.0
+
+
+theta for epoch 227 : tensor([-2.3371, -0.6305, -0.7881, -0.2631, -1.8642, -1.9643, -0.8002, -0.9196,
+        -0.5989, -1.3562, -1.0926, -1.1718, -0.9791, -1.1187, -1.1187, -1.1583,
+        -1.0414, -1.0290], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 227 : 20.529568107281577
+Test loss for epoch 227 : 23.681520937648862
+Test Precision for epoch 227 : 0.0
+Test Recall for epoch 227 : 0.0
+Test F1 for epoch 227 : 0.0
+
+
+theta for epoch 228 : tensor([-2.3351, -0.6314, -0.7893, -0.2633, -1.8621, -1.9619, -0.8014, -0.9208,
+        -0.5998, -1.3558, -1.0926, -1.1717, -0.9791, -1.1187, -1.1186, -1.1582,
+        -1.0414, -1.0290], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 228 : 20.529523130315546
+Test loss for epoch 228 : 23.678969436903706
+Test Precision for epoch 228 : 0.0
+Test Recall for epoch 228 : 0.0
+Test F1 for epoch 228 : 0.0
+
+
+theta for epoch 229 : tensor([-2.3332, -0.6323, -0.7905, -0.2635, -1.8601, -1.9598, -0.8026, -0.9221,
+        -0.6006, -1.3554, -1.0926, -1.1716, -0.9792, -1.1186, -1.1186, -1.1582,
+        -1.0414, -1.0290], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 229 : 20.52948433286099
+Test loss for epoch 229 : 23.676566786267145
+Test Precision for epoch 229 : 0.0
+Test Recall for epoch 229 : 0.0
+Test F1 for epoch 229 : 0.0
+
+
+theta for epoch 230 : tensor([-2.3313, -0.6332, -0.7917, -0.2637, -1.8583, -1.9577, -0.8037, -0.9233,
+        -0.6013, -1.3552, -1.0926, -1.1716, -0.9792, -1.1186, -1.1186, -1.1581,
+        -1.0414, -1.0290], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 230 : 20.529451217281192
+Test loss for epoch 230 : 23.674309914033955
+Test Precision for epoch 230 : 0.0
+Test Recall for epoch 230 : 0.0
+Test F1 for epoch 230 : 0.0
+
+
+theta for epoch 231 : tensor([-2.3294, -0.6340, -0.7928, -0.2638, -1.8567, -1.9558, -0.8048, -0.9245,
+        -0.6020, -1.3549, -1.0926, -1.1716, -0.9792, -1.1187, -1.1186, -1.1581,
+        -1.0415, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 231 : 20.529423439262548
+Test loss for epoch 231 : 23.672194593212456
+Test Precision for epoch 231 : 0.0
+Test Recall for epoch 231 : 0.0
+Test F1 for epoch 231 : 0.0
+
+
+theta for epoch 232 : tensor([-2.3277, -0.6348, -0.7938, -0.2640, -1.8552, -1.9541, -0.8058, -0.9257,
+        -0.6027, -1.3547, -1.0927, -1.1716, -0.9793, -1.1187, -1.1186, -1.1582,
+        -1.0415, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 232 : 20.529400412209448
+Test loss for epoch 232 : 23.670214558030644
+Test Precision for epoch 232 : 0.0
+Test Recall for epoch 232 : 0.0
+Test F1 for epoch 232 : 0.0
+
+
+theta for epoch 233 : tensor([-2.3260, -0.6355, -0.7949, -0.2641, -1.8539, -1.9525, -0.8068, -0.9269,
+        -0.6033, -1.3546, -1.0927, -1.1716, -0.9794, -1.1187, -1.1187, -1.1582,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 233 : 20.52938125232008
+Test loss for epoch 233 : 23.66836369155676
+Test Precision for epoch 233 : 0.0
+Test Recall for epoch 233 : 0.0
+Test F1 for epoch 233 : 0.0
+
+
+theta for epoch 234 : tensor([-2.3244, -0.6362, -0.7959, -0.2642, -1.8527, -1.9510, -0.8078, -0.9280,
+        -0.6039, -1.3544, -1.0928, -1.1717, -0.9794, -1.1188, -1.1187, -1.1582,
+        -1.0416, -1.0293], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 234 : 20.52936642892162
+Test loss for epoch 234 : 23.666638680793305
+Test Precision for epoch 234 : 0.0
+Test Recall for epoch 234 : 0.0
+Test F1 for epoch 234 : 0.0
+
+
+theta for epoch 235 : tensor([-2.3229, -0.6369, -0.7968, -0.2644, -1.8516, -1.9496, -0.8087, -0.9291,
+        -0.6044, -1.3543, -1.0929, -1.1717, -0.9795, -1.1189, -1.1188, -1.1583,
+        -1.0417, -1.0293], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 235 : 20.529354188043428
+Test loss for epoch 235 : 23.665033633238224
+Test Precision for epoch 235 : 0.0
+Test Recall for epoch 235 : 0.0
+Test F1 for epoch 235 : 0.0
+
+
+theta for epoch 236 : tensor([-2.3214, -0.6375, -0.7977, -0.2645, -1.8507, -1.9484, -0.8096, -0.9301,
+        -0.6049, -1.3543, -1.0929, -1.1718, -0.9795, -1.1189, -1.1189, -1.1584,
+        -1.0417, -1.0294], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 236 : 20.529345097439446
+Test loss for epoch 236 : 23.66354346974217
+Test Precision for epoch 236 : 0.0
+Test Recall for epoch 236 : 0.0
+Test F1 for epoch 236 : 0.0
+
+
+theta for epoch 237 : tensor([-2.3200, -0.6380, -0.7985, -0.2646, -1.8498, -1.9473, -0.8104, -0.9311,
+        -0.6053, -1.3543, -1.0930, -1.1718, -0.9796, -1.1190, -1.1189, -1.1584,
+        -1.0418, -1.0294], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 237 : 20.529338020732844
+Test loss for epoch 237 : 23.66216132044493
+Test Precision for epoch 237 : 0.0
+Test Recall for epoch 237 : 0.0
+Test F1 for epoch 237 : 0.0
+
+
+theta for epoch 238 : tensor([-2.3187, -0.6385, -0.7992, -0.2647, -1.8491, -1.9463, -0.8111, -0.9321,
+        -0.6057, -1.3542, -1.0931, -1.1719, -0.9796, -1.1191, -1.1190, -1.1585,
+        -1.0419, -1.0295], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 238 : 20.52933305388082
+Test loss for epoch 238 : 23.660882862431247
+Test Precision for epoch 238 : 0.0
+Test Recall for epoch 238 : 0.0
+Test F1 for epoch 238 : 0.0
+
+
+theta for epoch 239 : tensor([-2.3174, -0.6390, -0.7999, -0.2648, -1.8485, -1.9454, -0.8118, -0.9329,
+        -0.6060, -1.3543, -1.0931, -1.1720, -0.9797, -1.1191, -1.1191, -1.1586,
+        -1.0419, -1.0295], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 239 : 20.52932970622578
+Test loss for epoch 239 : 23.659703534937616
+Test Precision for epoch 239 : 0.0
+Test Recall for epoch 239 : 0.0
+Test F1 for epoch 239 : 0.0
+
+
+theta for epoch 240 : tensor([-2.3162, -0.6394, -0.8006, -0.2649, -1.8481, -1.9446, -0.8124, -0.9337,
+        -0.6063, -1.3543, -1.0932, -1.1721, -0.9797, -1.1192, -1.1191, -1.1587,
+        -1.0420, -1.0296], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 240 : 20.529327397119815
+Test loss for epoch 240 : 23.658617618836857
+Test Precision for epoch 240 : 0.0
+Test Recall for epoch 240 : 0.0
+Test F1 for epoch 240 : 0.0
+
+
+theta for epoch 241 : tensor([-2.3151, -0.6397, -0.8011, -0.2650, -1.8477, -1.9439, -0.8130, -0.9345,
+        -0.6066, -1.3543, -1.0932, -1.1721, -0.9797, -1.1193, -1.1192, -1.1587,
+        -1.0420, -1.0296], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 241 : 20.52932602588094
+Test loss for epoch 241 : 23.657619441942337
+Test Precision for epoch 241 : 0.0
+Test Recall for epoch 241 : 0.0
+Test F1 for epoch 241 : 0.0
+
+
+theta for epoch 242 : tensor([-2.3140, -0.6401, -0.8016, -0.2651, -1.8473, -1.9433, -0.8135, -0.9352,
+        -0.6068, -1.3544, -1.0933, -1.1722, -0.9797, -1.1193, -1.1193, -1.1588,
+        -1.0420, -1.0297], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 242 : 20.529325355998765
+Test loss for epoch 242 : 23.65670421437365
+Test Precision for epoch 242 : 0.0
+Test Recall for epoch 242 : 0.0
+Test F1 for epoch 242 : 0.0
+
+
+theta for epoch 243 : tensor([-2.3130, -0.6403, -0.8021, -0.2652, -1.8471, -1.9428, -0.8140, -0.9358,
+        -0.6070, -1.3544, -1.0933, -1.1723, -0.9798, -1.1194, -1.1193, -1.1589,
+        -1.0421, -1.0297], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 243 : 20.52932516751914
+Test loss for epoch 243 : 23.65586789532216
+Test Precision for epoch 243 : 0.0
+Test Recall for epoch 243 : 0.0
+Test F1 for epoch 243 : 0.0
+
+
+theta for epoch 244 : tensor([-2.3120, -0.6406, -0.8025, -0.2653, -1.8470, -1.9424, -0.8144, -0.9364,
+        -0.6072, -1.3545, -1.0934, -1.1723, -0.9798, -1.1194, -1.1194, -1.1589,
+        -1.0421, -1.0297], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 244 : 20.52932515154989
+Test loss for epoch 244 : 23.655105750462614
+Test Precision for epoch 244 : 0.0
+Test Recall for epoch 244 : 0.0
+Test F1 for epoch 244 : 0.0
+
+
+theta for epoch 245 : tensor([-2.3111, -0.6408, -0.8029, -0.2653, -1.8469, -1.9420, -0.8147, -0.9369,
+        -0.6073, -1.3546, -1.0934, -1.1724, -0.9797, -1.1194, -1.1194, -1.1590,
+        -1.0421, -1.0297], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 245 : 20.529325244936537
+Test loss for epoch 245 : 23.654412706734462
+Test Precision for epoch 245 : 0.0
+Test Recall for epoch 245 : 0.0
+Test F1 for epoch 245 : 0.0
+
+
+theta for epoch 246 : tensor([-2.3103, -0.6409, -0.8032, -0.2654, -1.8469, -1.9417, -0.8150, -0.9373,
+        -0.6074, -1.3547, -1.0934, -1.1724, -0.9797, -1.1195, -1.1194, -1.1590,
+        -1.0421, -1.0297], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 246 : 20.529325575491185
+Test loss for epoch 246 : 23.65378455406589
+Test Precision for epoch 246 : 0.0
+Test Recall for epoch 246 : 0.0
+Test F1 for epoch 246 : 0.0
+
+
+theta for epoch 247 : tensor([-2.3095, -0.6410, -0.8034, -0.2655, -1.8469, -1.9415, -0.8152, -0.9377,
+        -0.6075, -1.3547, -1.0934, -1.1725, -0.9797, -1.1195, -1.1194, -1.1591,
+        -1.0421, -1.0297], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 247 : 20.529325387097394
+Test loss for epoch 247 : 23.65321709360976
+Test Precision for epoch 247 : 0.0
+Test Recall for epoch 247 : 0.0
+Test F1 for epoch 247 : 0.0
+
+
+theta for epoch 248 : tensor([-2.3088, -0.6411, -0.8036, -0.2655, -1.8470, -1.9414, -0.8154, -0.9380,
+        -0.6075, -1.3548, -1.0935, -1.1725, -0.9797, -1.1195, -1.1195, -1.1591,
+        -1.0421, -1.0297], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 248 : 20.529325581906107
+Test loss for epoch 248 : 23.652707539219733
+Test Precision for epoch 248 : 0.0
+Test Recall for epoch 248 : 0.0
+Test F1 for epoch 248 : 0.0
+
+
+theta for epoch 249 : tensor([-2.3081, -0.6412, -0.8038, -0.2656, -1.8472, -1.9413, -0.8156, -0.9383,
+        -0.6075, -1.3549, -1.0935, -1.1725, -0.9797, -1.1195, -1.1195, -1.1591,
+        -1.0421, -1.0297], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 249 : 20.529325326692728
+Test loss for epoch 249 : 23.65225077787658
+Test Precision for epoch 249 : 0.0
+Test Recall for epoch 249 : 0.0
+Test F1 for epoch 249 : 0.0
+
+
+theta for epoch 250 : tensor([-2.3074, -0.6412, -0.8039, -0.2657, -1.8473, -1.9412, -0.8157, -0.9385,
+        -0.6075, -1.3550, -1.0935, -1.1726, -0.9796, -1.1195, -1.1195, -1.1592,
+        -1.0420, -1.0296], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 250 : 20.529324735415514
+Test loss for epoch 250 : 23.65184305930834
+Test Precision for epoch 250 : 0.0
+Test Recall for epoch 250 : 0.0
+Test F1 for epoch 250 : 0.0
+
+
+theta for epoch 251 : tensor([-2.3068, -0.6412, -0.8039, -0.2657, -1.8476, -1.9412, -0.8158, -0.9387,
+        -0.6075, -1.3551, -1.0934, -1.1726, -0.9796, -1.1195, -1.1195, -1.1592,
+        -1.0420, -1.0296], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 251 : 20.529324111662557
+Test loss for epoch 251 : 23.651481660480357
+Test Precision for epoch 251 : 0.0
+Test Recall for epoch 251 : 0.0
+Test F1 for epoch 251 : 0.0
+
+
+theta for epoch 252 : tensor([-2.3062, -0.6412, -0.8040, -0.2658, -1.8478, -1.9412, -0.8158, -0.9389,
+        -0.6075, -1.3551, -1.0934, -1.1726, -0.9795, -1.1195, -1.1195, -1.1592,
+        -1.0420, -1.0296], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 252 : 20.529323396204077
+Test loss for epoch 252 : 23.651163535682556
+Test Precision for epoch 252 : 0.0
+Test Recall for epoch 252 : 0.0
+Test F1 for epoch 252 : 0.0
+
+
+theta for epoch 253 : tensor([-2.3057, -0.6412, -0.8040, -0.2658, -1.8481, -1.9413, -0.8158, -0.9390,
+        -0.6074, -1.3552, -1.0934, -1.1726, -0.9795, -1.1195, -1.1195, -1.1592,
+        -1.0420, -1.0295], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 253 : 20.52932225418909
+Test loss for epoch 253 : 23.650884847269463
+Test Precision for epoch 253 : 0.0
+Test Recall for epoch 253 : 0.0
+Test F1 for epoch 253 : 0.0
+
+
+theta for epoch 254 : tensor([-2.3052, -0.6411, -0.8040, -0.2659, -1.8484, -1.9414, -0.8158, -0.9390,
+        -0.6074, -1.3553, -1.0934, -1.1726, -0.9794, -1.1195, -1.1195, -1.1592,
+        -1.0419, -1.0295], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 254 : 20.529321274914118
+Test loss for epoch 254 : 23.650642855585758
+Test Precision for epoch 254 : 0.0
+Test Recall for epoch 254 : 0.0
+Test F1 for epoch 254 : 0.0
+
+
+theta for epoch 255 : tensor([-2.3048, -0.6411, -0.8039, -0.2659, -1.8487, -1.9415, -0.8158, -0.9391,
+        -0.6073, -1.3554, -1.0934, -1.1726, -0.9794, -1.1195, -1.1194, -1.1592,
+        -1.0419, -1.0294], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 255 : 20.5293196415028
+Test loss for epoch 255 : 23.65043419398059
+Test Precision for epoch 255 : 0.0
+Test Recall for epoch 255 : 0.0
+Test F1 for epoch 255 : 0.0
+
+
+theta for epoch 256 : tensor([-2.3044, -0.6410, -0.8038, -0.2659, -1.8491, -1.9417, -0.8157, -0.9391,
+        -0.6072, -1.3554, -1.0933, -1.1726, -0.9793, -1.1194, -1.1194, -1.1592,
+        -1.0418, -1.0294], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 256 : 20.529318304698975
+Test loss for epoch 256 : 23.65025742996246
+Test Precision for epoch 256 : 0.0
+Test Recall for epoch 256 : 0.0
+Test F1 for epoch 256 : 0.0
+
+
+theta for epoch 257 : tensor([-2.3040, -0.6409, -0.8037, -0.2660, -1.8494, -1.9419, -0.8156, -0.9390,
+        -0.6071, -1.3555, -1.0933, -1.1726, -0.9793, -1.1194, -1.1194, -1.1592,
+        -1.0418, -1.0293], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 257 : 20.52931673487427
+Test loss for epoch 257 : 23.650109279799942
+Test Precision for epoch 257 : 0.0
+Test Recall for epoch 257 : 0.0
+Test F1 for epoch 257 : 0.0
+
+
+theta for epoch 258 : tensor([-2.3037, -0.6408, -0.8036, -0.2660, -1.8498, -1.9421, -0.8155, -0.9390,
+        -0.6070, -1.3555, -1.0933, -1.1726, -0.9792, -1.1194, -1.1194, -1.1591,
+        -1.0417, -1.0293], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 258 : 20.529315311394377
+Test loss for epoch 258 : 23.64998735690496
+Test Precision for epoch 258 : 0.0
+Test Recall for epoch 258 : 0.0
+Test F1 for epoch 258 : 0.0
+
+
+theta for epoch 259 : tensor([-2.3034, -0.6407, -0.8035, -0.2660, -1.8502, -1.9423, -0.8154, -0.9389,
+        -0.6069, -1.3556, -1.0932, -1.1726, -0.9792, -1.1194, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 259 : 20.52931388164886
+Test loss for epoch 259 : 23.649889398326465
+Test Precision for epoch 259 : 0.0
+Test Recall for epoch 259 : 0.0
+Test F1 for epoch 259 : 0.0
+
+
+theta for epoch 260 : tensor([-2.3031, -0.6406, -0.8034, -0.2660, -1.8506, -1.9426, -0.8153, -0.9388,
+        -0.6068, -1.3556, -1.0932, -1.1726, -0.9791, -1.1193, -1.1193, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 260 : 20.52931239104482
+Test loss for epoch 260 : 23.649813510429002
+Test Precision for epoch 260 : 0.0
+Test Recall for epoch 260 : 0.0
+Test F1 for epoch 260 : 0.0
+
+
+theta for epoch 261 : tensor([-2.3028, -0.6404, -0.8032, -0.2660, -1.8509, -1.9428, -0.8151, -0.9387,
+        -0.6067, -1.3557, -1.0931, -1.1725, -0.9790, -1.1193, -1.1193, -1.1591,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 261 : 20.529310892920424
+Test loss for epoch 261 : 23.64975760658224
+Test Precision for epoch 261 : 0.0
+Test Recall for epoch 261 : 0.0
+Test F1 for epoch 261 : 0.0
+
+
+theta for epoch 262 : tensor([-2.3026, -0.6403, -0.8031, -0.2660, -1.8513, -1.9431, -0.8150, -0.9385,
+        -0.6066, -1.3557, -1.0931, -1.1725, -0.9790, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 262 : 20.52930976648247
+Test loss for epoch 262 : 23.649719861541243
+Test Precision for epoch 262 : 0.0
+Test Recall for epoch 262 : 0.0
+Test F1 for epoch 262 : 0.0
+
+
+theta for epoch 263 : tensor([-2.3024, -0.6402, -0.8029, -0.2660, -1.8517, -1.9433, -0.8148, -0.9384,
+        -0.6065, -1.3558, -1.0931, -1.1725, -0.9790, -1.1192, -1.1192, -1.1590,
+        -1.0415, -1.0290], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 263 : 20.52930814865631
+Test loss for epoch 263 : 23.64969770676629
+Test Precision for epoch 263 : 0.0
+Test Recall for epoch 263 : 0.0
+Test F1 for epoch 263 : 0.0
+
+
+theta for epoch 264 : tensor([-2.3022, -0.6401, -0.8028, -0.2660, -1.8521, -1.9436, -0.8147, -0.9382,
+        -0.6064, -1.3558, -1.0930, -1.1725, -0.9789, -1.1192, -1.1192, -1.1590,
+        -1.0415, -1.0290], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 264 : 20.52930704632767
+Test loss for epoch 264 : 23.649690754330663
+Test Precision for epoch 264 : 0.0
+Test Recall for epoch 264 : 0.0
+Test F1 for epoch 264 : 0.0
+
+
+theta for epoch 265 : tensor([-2.3020, -0.6400, -0.8026, -0.2660, -1.8524, -1.9439, -0.8145, -0.9381,
+        -0.6063, -1.3558, -1.0930, -1.1724, -0.9789, -1.1192, -1.1191, -1.1590,
+        -1.0414, -1.0290], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 265 : 20.5293060105955
+Test loss for epoch 265 : 23.64969694941807
+Test Precision for epoch 265 : 0.0
+Test Recall for epoch 265 : 0.0
+Test F1 for epoch 265 : 0.0
+
+
+theta for epoch 266 : tensor([-2.3018, -0.6399, -0.8025, -0.2660, -1.8528, -1.9442, -0.8144, -0.9379,
+        -0.6062, -1.3559, -1.0930, -1.1724, -0.9788, -1.1191, -1.1191, -1.1590,
+        -1.0414, -1.0289], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 266 : 20.529304656995905
+Test loss for epoch 266 : 23.64971419006301
+Test Precision for epoch 266 : 0.0
+Test Recall for epoch 266 : 0.0
+Test F1 for epoch 266 : 0.0
+
+
+theta for epoch 267 : tensor([-2.3017, -0.6397, -0.8023, -0.2660, -1.8531, -1.9444, -0.8142, -0.9377,
+        -0.6062, -1.3559, -1.0929, -1.1724, -0.9788, -1.1191, -1.1191, -1.1589,
+        -1.0414, -1.0289], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 267 : 20.529303914304386
+Test loss for epoch 267 : 23.649742048159617
+Test Precision for epoch 267 : 0.0
+Test Recall for epoch 267 : 0.0
+Test F1 for epoch 267 : 0.0
+
+
+theta for epoch 268 : tensor([-2.3016, -0.6396, -0.8021, -0.2660, -1.8535, -1.9447, -0.8141, -0.9376,
+        -0.6061, -1.3559, -1.0929, -1.1724, -0.9788, -1.1191, -1.1190, -1.1589,
+        -1.0413, -1.0289], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 268 : 20.52930305763695
+Test loss for epoch 268 : 23.64977879088144
+Test Precision for epoch 268 : 0.0
+Test Recall for epoch 268 : 0.0
+Test F1 for epoch 268 : 0.0
+
+
+theta for epoch 269 : tensor([-2.3015, -0.6395, -0.8020, -0.2660, -1.8538, -1.9450, -0.8139, -0.9374,
+        -0.6060, -1.3559, -1.0929, -1.1724, -0.9787, -1.1190, -1.1190, -1.1589,
+        -1.0413, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 269 : 20.52930236508376
+Test loss for epoch 269 : 23.64982351698832
+Test Precision for epoch 269 : 0.0
+Test Recall for epoch 269 : 0.0
+Test F1 for epoch 269 : 0.0
+
+
+theta for epoch 270 : tensor([-2.3014, -0.6394, -0.8018, -0.2660, -1.8541, -1.9453, -0.8138, -0.9372,
+        -0.6059, -1.3559, -1.0929, -1.1723, -0.9787, -1.1190, -1.1190, -1.1589,
+        -1.0413, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 270 : 20.529301602727042
+Test loss for epoch 270 : 23.649874670928106
+Test Precision for epoch 270 : 0.0
+Test Recall for epoch 270 : 0.0
+Test F1 for epoch 270 : 0.0
+
+
+theta for epoch 271 : tensor([-2.3013, -0.6394, -0.8017, -0.2660, -1.8544, -1.9455, -0.8136, -0.9371,
+        -0.6058, -1.3560, -1.0928, -1.1723, -0.9787, -1.1190, -1.1190, -1.1589,
+        -1.0413, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 271 : 20.529301137800747
+Test loss for epoch 271 : 23.649931618984773
+Test Precision for epoch 271 : 0.0
+Test Recall for epoch 271 : 0.0
+Test F1 for epoch 271 : 0.0
+
+
+theta for epoch 272 : tensor([-2.3012, -0.6393, -0.8016, -0.2660, -1.8547, -1.9458, -0.8135, -0.9369,
+        -0.6058, -1.3560, -1.0928, -1.1723, -0.9787, -1.1190, -1.1190, -1.1588,
+        -1.0413, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 272 : 20.52930053179999
+Test loss for epoch 272 : 23.649993169315408
+Test Precision for epoch 272 : 0.0
+Test Recall for epoch 272 : 0.0
+Test F1 for epoch 272 : 0.0
+
+
+theta for epoch 273 : tensor([-2.3012, -0.6392, -0.8015, -0.2659, -1.8550, -1.9460, -0.8134, -0.9368,
+        -0.6057, -1.3560, -1.0928, -1.1723, -0.9787, -1.1190, -1.1189, -1.1588,
+        -1.0412, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 273 : 20.52930024225366
+Test loss for epoch 273 : 23.650058953705013
+Test Precision for epoch 273 : 0.0
+Test Recall for epoch 273 : 0.0
+Test F1 for epoch 273 : 0.0
+
+
+theta for epoch 274 : tensor([-2.3011, -0.6391, -0.8013, -0.2659, -1.8553, -1.9463, -0.8133, -0.9366,
+        -0.6057, -1.3560, -1.0928, -1.1723, -0.9787, -1.1190, -1.1189, -1.1588,
+        -1.0412, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 274 : 20.52929985264359
+Test loss for epoch 274 : 23.650127598286566
+Test Precision for epoch 274 : 0.0
+Test Recall for epoch 274 : 0.0
+Test F1 for epoch 274 : 0.0
+
+
+theta for epoch 275 : tensor([-2.3011, -0.6391, -0.8012, -0.2659, -1.8555, -1.9465, -0.8132, -0.9365,
+        -0.6056, -1.3560, -1.0928, -1.1723, -0.9787, -1.1189, -1.1189, -1.1588,
+        -1.0412, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 275 : 20.52929977738569
+Test loss for epoch 275 : 23.65019876414398
+Test Precision for epoch 275 : 0.0
+Test Recall for epoch 275 : 0.0
+Test F1 for epoch 275 : 0.0
+
+
+theta for epoch 276 : tensor([-2.3011, -0.6390, -0.8011, -0.2659, -1.8557, -1.9467, -0.8131, -0.9363,
+        -0.6056, -1.3560, -1.0928, -1.1723, -0.9787, -1.1189, -1.1189, -1.1588,
+        -1.0412, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 276 : 20.529299325093255
+Test loss for epoch 276 : 23.650271252350635
+Test Precision for epoch 276 : 0.0
+Test Recall for epoch 276 : 0.0
+Test F1 for epoch 276 : 0.0
+
+
+theta for epoch 277 : tensor([-2.3010, -0.6390, -0.8011, -0.2658, -1.8560, -1.9469, -0.8130, -0.9362,
+        -0.6056, -1.3560, -1.0928, -1.1723, -0.9787, -1.1189, -1.1189, -1.1588,
+        -1.0412, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 277 : 20.52929931627
+Test loss for epoch 277 : 23.650345320684107
+Test Precision for epoch 277 : 0.0
+Test Recall for epoch 277 : 0.0
+Test F1 for epoch 277 : 0.0
+
+
+theta for epoch 278 : tensor([-2.3010, -0.6389, -0.8010, -0.2658, -1.8562, -1.9471, -0.8129, -0.9361,
+        -0.6055, -1.3560, -1.0928, -1.1723, -0.9787, -1.1189, -1.1189, -1.1588,
+        -1.0412, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 278 : 20.52929894723861
+Test loss for epoch 278 : 23.65041948896281
+Test Precision for epoch 278 : 0.0
+Test Recall for epoch 278 : 0.0
+Test F1 for epoch 278 : 0.0
+
+
+theta for epoch 279 : tensor([-2.3010, -0.6389, -0.8009, -0.2658, -1.8564, -1.9473, -0.8128, -0.9360,
+        -0.6055, -1.3560, -1.0928, -1.1723, -0.9787, -1.1189, -1.1189, -1.1588,
+        -1.0412, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 279 : 20.529299014837154
+Test loss for epoch 279 : 23.65049402875582
+Test Precision for epoch 279 : 0.0
+Test Recall for epoch 279 : 0.0
+Test F1 for epoch 279 : 0.0
+
+
+theta for epoch 280 : tensor([-2.3010, -0.6388, -0.8008, -0.2658, -1.8565, -1.9475, -0.8128, -0.9359,
+        -0.6055, -1.3560, -1.0928, -1.1723, -0.9787, -1.1189, -1.1189, -1.1588,
+        -1.0412, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 280 : 20.529298684542724
+Test loss for epoch 280 : 23.65056778550435
+Test Precision for epoch 280 : 0.0
+Test Recall for epoch 280 : 0.0
+Test F1 for epoch 280 : 0.0
+
+
+theta for epoch 281 : tensor([-2.3010, -0.6388, -0.8008, -0.2657, -1.8567, -1.9477, -0.8127, -0.9358,
+        -0.6055, -1.3560, -1.0928, -1.1723, -0.9787, -1.1189, -1.1189, -1.1588,
+        -1.0413, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 281 : 20.52929879345244
+Test loss for epoch 281 : 23.650641229904988
+Test Precision for epoch 281 : 0.0
+Test Recall for epoch 281 : 0.0
+Test F1 for epoch 281 : 0.0
+
+
+theta for epoch 282 : tensor([-2.3010, -0.6388, -0.8007, -0.2657, -1.8568, -1.9478, -0.8127, -0.9357,
+        -0.6054, -1.3560, -1.0928, -1.1723, -0.9787, -1.1190, -1.1189, -1.1588,
+        -1.0413, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 282 : 20.529298581637647
+Test loss for epoch 282 : 23.65071315890993
+Test Precision for epoch 282 : 0.0
+Test Recall for epoch 282 : 0.0
+Test F1 for epoch 282 : 0.0
+
+
+theta for epoch 283 : tensor([-2.3010, -0.6388, -0.8007, -0.2657, -1.8570, -1.9480, -0.8126, -0.9357,
+        -0.6054, -1.3560, -1.0928, -1.1723, -0.9788, -1.1190, -1.1189, -1.1588,
+        -1.0413, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 283 : 20.529298838125683
+Test loss for epoch 283 : 23.650784015714827
+Test Precision for epoch 283 : 0.0
+Test Recall for epoch 283 : 0.0
+Test F1 for epoch 283 : 0.0
+
+
+theta for epoch 284 : tensor([-2.3010, -0.6388, -0.8007, -0.2657, -1.8571, -1.9481, -0.8126, -0.9356,
+        -0.6054, -1.3560, -1.0928, -1.1723, -0.9788, -1.1190, -1.1189, -1.1588,
+        -1.0413, -1.0288], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 284 : 20.529298849915637
+Test loss for epoch 284 : 23.650852916182416
+Test Precision for epoch 284 : 0.0
+Test Recall for epoch 284 : 0.0
+Test F1 for epoch 284 : 0.0
+
+
+theta for epoch 285 : tensor([-2.3010, -0.6388, -0.8006, -0.2657, -1.8572, -1.9483, -0.8126, -0.9356,
+        -0.6054, -1.3560, -1.0928, -1.1723, -0.9788, -1.1190, -1.1190, -1.1588,
+        -1.0413, -1.0289], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 285 : 20.52929880554724
+Test loss for epoch 285 : 23.650919848552576
+Test Precision for epoch 285 : 0.0
+Test Recall for epoch 285 : 0.0
+Test F1 for epoch 285 : 0.0
+
+
+theta for epoch 286 : tensor([-2.3011, -0.6387, -0.8006, -0.2656, -1.8573, -1.9484, -0.8125, -0.9355,
+        -0.6054, -1.3560, -1.0928, -1.1723, -0.9788, -1.1190, -1.1190, -1.1588,
+        -1.0413, -1.0289], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 286 : 20.529298677245663
+Test loss for epoch 286 : 23.65098449713978
+Test Precision for epoch 286 : 0.0
+Test Recall for epoch 286 : 0.0
+Test F1 for epoch 286 : 0.0
+
+
+theta for epoch 287 : tensor([-2.3011, -0.6387, -0.8006, -0.2656, -1.8574, -1.9485, -0.8125, -0.9355,
+        -0.6054, -1.3560, -1.0929, -1.1723, -0.9788, -1.1190, -1.1190, -1.1588,
+        -1.0414, -1.0289], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 287 : 20.52929874259251
+Test loss for epoch 287 : 23.6510469340775
+Test Precision for epoch 287 : 0.0
+Test Recall for epoch 287 : 0.0
+Test F1 for epoch 287 : 0.0
+
+
+theta for epoch 288 : tensor([-2.3011, -0.6387, -0.8006, -0.2656, -1.8575, -1.9486, -0.8125, -0.9355,
+        -0.6054, -1.3561, -1.0929, -1.1723, -0.9789, -1.1190, -1.1190, -1.1588,
+        -1.0414, -1.0289], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 288 : 20.529298762196973
+Test loss for epoch 288 : 23.651106891270594
+Test Precision for epoch 288 : 0.0
+Test Recall for epoch 288 : 0.0
+Test F1 for epoch 288 : 0.0
+
+
+theta for epoch 289 : tensor([-2.3011, -0.6388, -0.8006, -0.2656, -1.8575, -1.9487, -0.8125, -0.9354,
+        -0.6054, -1.3561, -1.0929, -1.1723, -0.9789, -1.1190, -1.1190, -1.1589,
+        -1.0414, -1.0289], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 289 : 20.52929882278034
+Test loss for epoch 289 : 23.651164343110498
+Test Precision for epoch 289 : 0.0
+Test Recall for epoch 289 : 0.0
+Test F1 for epoch 289 : 0.0
+
+
+theta for epoch 290 : tensor([-2.3011, -0.6388, -0.8006, -0.2656, -1.8576, -1.9488, -0.8125, -0.9354,
+        -0.6054, -1.3561, -1.0929, -1.1723, -0.9789, -1.1191, -1.1190, -1.1589,
+        -1.0414, -1.0290], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 290 : 20.529298690558136
+Test loss for epoch 290 : 23.651218901796124
+Test Precision for epoch 290 : 0.0
+Test Recall for epoch 290 : 0.0
+Test F1 for epoch 290 : 0.0
+
+
+theta for epoch 291 : tensor([-2.3012, -0.6388, -0.8006, -0.2655, -1.8576, -1.9489, -0.8125, -0.9354,
+        -0.6054, -1.3561, -1.0929, -1.1723, -0.9789, -1.1191, -1.1190, -1.1589,
+        -1.0414, -1.0290], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 291 : 20.529298602392647
+Test loss for epoch 291 : 23.65127072994693
+Test Precision for epoch 291 : 0.0
+Test Recall for epoch 291 : 0.0
+Test F1 for epoch 291 : 0.0
+
+
+theta for epoch 292 : tensor([-2.3012, -0.6388, -0.8006, -0.2655, -1.8577, -1.9489, -0.8125, -0.9354,
+        -0.6054, -1.3561, -1.0929, -1.1724, -0.9790, -1.1191, -1.1191, -1.1589,
+        -1.0415, -1.0290], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 292 : 20.52929863470286
+Test loss for epoch 292 : 23.65131996582426
+Test Precision for epoch 292 : 0.0
+Test Recall for epoch 292 : 0.0
+Test F1 for epoch 292 : 0.0
+
+
+theta for epoch 293 : tensor([-2.3012, -0.6388, -0.8006, -0.2655, -1.8577, -1.9490, -0.8125, -0.9354,
+        -0.6055, -1.3561, -1.0930, -1.1724, -0.9790, -1.1191, -1.1191, -1.1589,
+        -1.0415, -1.0290], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 293 : 20.529298646296084
+Test loss for epoch 293 : 23.651366405589695
+Test Precision for epoch 293 : 0.0
+Test Recall for epoch 293 : 0.0
+Test F1 for epoch 293 : 0.0
+
+
+theta for epoch 294 : tensor([-2.3012, -0.6388, -0.8006, -0.2655, -1.8577, -1.9491, -0.8126, -0.9354,
+        -0.6055, -1.3561, -1.0930, -1.1724, -0.9790, -1.1191, -1.1191, -1.1589,
+        -1.0415, -1.0290], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 294 : 20.529298464837083
+Test loss for epoch 294 : 23.65140983037464
+Test Precision for epoch 294 : 0.0
+Test Recall for epoch 294 : 0.0
+Test F1 for epoch 294 : 0.0
+
+
+theta for epoch 295 : tensor([-2.3013, -0.6388, -0.8007, -0.2655, -1.8578, -1.9491, -0.8126, -0.9354,
+        -0.6055, -1.3561, -1.0930, -1.1724, -0.9790, -1.1191, -1.1191, -1.1589,
+        -1.0415, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 295 : 20.529298580230385
+Test loss for epoch 295 : 23.651450761848523
+Test Precision for epoch 295 : 0.0
+Test Recall for epoch 295 : 0.0
+Test F1 for epoch 295 : 0.0
+
+
+theta for epoch 296 : tensor([-2.3013, -0.6388, -0.8007, -0.2655, -1.8578, -1.9491, -0.8126, -0.9354,
+        -0.6055, -1.3561, -1.0930, -1.1724, -0.9790, -1.1192, -1.1191, -1.1590,
+        -1.0415, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 296 : 20.529298551127244
+Test loss for epoch 296 : 23.651488834070875
+Test Precision for epoch 296 : 0.0
+Test Recall for epoch 296 : 0.0
+Test F1 for epoch 296 : 0.0
+
+
+theta for epoch 297 : tensor([-2.3013, -0.6388, -0.8007, -0.2655, -1.8578, -1.9492, -0.8126, -0.9354,
+        -0.6055, -1.3561, -1.0930, -1.1724, -0.9791, -1.1192, -1.1191, -1.1590,
+        -1.0415, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 297 : 20.529298504341575
+Test loss for epoch 297 : 23.65152421666761
+Test Precision for epoch 297 : 0.0
+Test Recall for epoch 297 : 0.0
+Test F1 for epoch 297 : 0.0
+
+
+theta for epoch 298 : tensor([-2.3014, -0.6389, -0.8007, -0.2655, -1.8578, -1.9492, -0.8126, -0.9354,
+        -0.6055, -1.3561, -1.0931, -1.1724, -0.9791, -1.1192, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 298 : 20.529298474870505
+Test loss for epoch 298 : 23.65155696313547
+Test Precision for epoch 298 : 0.0
+Test Recall for epoch 298 : 0.0
+Test F1 for epoch 298 : 0.0
+
+
+theta for epoch 299 : tensor([-2.3014, -0.6389, -0.8007, -0.2655, -1.8578, -1.9492, -0.8126, -0.9355,
+        -0.6055, -1.3561, -1.0931, -1.1725, -0.9791, -1.1192, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 299 : 20.529298680042437
+Test loss for epoch 299 : 23.651587328146334
+Test Precision for epoch 299 : 0.0
+Test Recall for epoch 299 : 0.0
+Test F1 for epoch 299 : 0.0
+
+
+theta for epoch 300 : tensor([-2.3014, -0.6389, -0.8008, -0.2655, -1.8578, -1.9493, -0.8127, -0.9355,
+        -0.6055, -1.3561, -1.0931, -1.1725, -0.9791, -1.1192, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 300 : 20.529298565874036
+Test loss for epoch 300 : 23.651614900484994
+Test Precision for epoch 300 : 0.0
+Test Recall for epoch 300 : 0.0
+Test F1 for epoch 300 : 0.0
+
+
+theta for epoch 301 : tensor([-2.3014, -0.6389, -0.8008, -0.2655, -1.8578, -1.9493, -0.8127, -0.9355,
+        -0.6055, -1.3561, -1.0931, -1.1725, -0.9791, -1.1192, -1.1192, -1.1590,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 301 : 20.529298559680136
+Test loss for epoch 301 : 23.651640207722096
+Test Precision for epoch 301 : 0.0
+Test Recall for epoch 301 : 0.0
+Test F1 for epoch 301 : 0.0
+
+
+theta for epoch 302 : tensor([-2.3015, -0.6389, -0.8008, -0.2655, -1.8577, -1.9493, -0.8127, -0.9355,
+        -0.6055, -1.3561, -1.0931, -1.1725, -0.9791, -1.1192, -1.1192, -1.1590,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 302 : 20.529298591672607
+Test loss for epoch 302 : 23.65166320096185
+Test Precision for epoch 302 : 0.0
+Test Recall for epoch 302 : 0.0
+Test F1 for epoch 302 : 0.0
+
+
+theta for epoch 303 : tensor([-2.3015, -0.6389, -0.8008, -0.2655, -1.8577, -1.9493, -0.8127, -0.9356,
+        -0.6055, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1590,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 303 : 20.529298437525476
+Test loss for epoch 303 : 23.65168375067979
+Test Precision for epoch 303 : 0.0
+Test Recall for epoch 303 : 0.0
+Test F1 for epoch 303 : 0.0
+
+
+theta for epoch 304 : tensor([-2.3015, -0.6389, -0.8008, -0.2655, -1.8577, -1.9493, -0.8127, -0.9356,
+        -0.6055, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 304 : 20.52929834156643
+Test loss for epoch 304 : 23.65170226324411
+Test Precision for epoch 304 : 0.0
+Test Recall for epoch 304 : 0.0
+Test F1 for epoch 304 : 0.0
+
+
+theta for epoch 305 : tensor([-2.3015, -0.6389, -0.8009, -0.2655, -1.8577, -1.9493, -0.8128, -0.9356,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9792, -1.1193, -1.1192, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 305 : 20.529298444785123
+Test loss for epoch 305 : 23.651718988505312
+Test Precision for epoch 305 : 0.0
+Test Recall for epoch 305 : 0.0
+Test F1 for epoch 305 : 0.0
+
+
+theta for epoch 306 : tensor([-2.3016, -0.6389, -0.8009, -0.2655, -1.8577, -1.9493, -0.8128, -0.9356,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 306 : 20.529298521378696
+Test loss for epoch 306 : 23.651733748425194
+Test Precision for epoch 306 : 0.0
+Test Recall for epoch 306 : 0.0
+Test F1 for epoch 306 : 0.0
+
+
+theta for epoch 307 : tensor([-2.3016, -0.6390, -0.8009, -0.2655, -1.8576, -1.9493, -0.8128, -0.9356,
+        -0.6056, -1.3561, -1.0932, -1.1725, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 307 : 20.52929849679515
+Test loss for epoch 307 : 23.651746581359006
+Test Precision for epoch 307 : 0.0
+Test Recall for epoch 307 : 0.0
+Test F1 for epoch 307 : 0.0
+
+
+theta for epoch 308 : tensor([-2.3016, -0.6390, -0.8009, -0.2655, -1.8576, -1.9493, -0.8128, -0.9357,
+        -0.6056, -1.3561, -1.0932, -1.1725, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 308 : 20.529298592886768
+Test loss for epoch 308 : 23.651757867202534
+Test Precision for epoch 308 : 0.0
+Test Recall for epoch 308 : 0.0
+Test F1 for epoch 308 : 0.0
+
+
+theta for epoch 309 : tensor([-2.3016, -0.6390, -0.8009, -0.2655, -1.8576, -1.9493, -0.8128, -0.9357,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 309 : 20.529298380230472
+Test loss for epoch 309 : 23.65176728517831
+Test Precision for epoch 309 : 0.0
+Test Recall for epoch 309 : 0.0
+Test F1 for epoch 309 : 0.0
+
+
+theta for epoch 310 : tensor([-2.3016, -0.6390, -0.8009, -0.2655, -1.8575, -1.9493, -0.8128, -0.9357,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 310 : 20.529298456737124
+Test loss for epoch 310 : 23.65177549848676
+Test Precision for epoch 310 : 0.0
+Test Recall for epoch 310 : 0.0
+Test F1 for epoch 310 : 0.0
+
+
+theta for epoch 311 : tensor([-2.3017, -0.6390, -0.8010, -0.2655, -1.8575, -1.9493, -0.8129, -0.9357,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 311 : 20.529298338235783
+Test loss for epoch 311 : 23.651782144878055
+Test Precision for epoch 311 : 0.0
+Test Recall for epoch 311 : 0.0
+Test F1 for epoch 311 : 0.0
+
+
+theta for epoch 312 : tensor([-2.3017, -0.6390, -0.8010, -0.2655, -1.8575, -1.9492, -0.8129, -0.9357,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 312 : 20.529298626286973
+Test loss for epoch 312 : 23.651787976543897
+Test Precision for epoch 312 : 0.0
+Test Recall for epoch 312 : 0.0
+Test F1 for epoch 312 : 0.0
+
+
+theta for epoch 313 : tensor([-2.3017, -0.6390, -0.8010, -0.2655, -1.8575, -1.9492, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 313 : 20.52929837429112
+Test loss for epoch 313 : 23.651792118790823
+Test Precision for epoch 313 : 0.0
+Test Recall for epoch 313 : 0.0
+Test F1 for epoch 313 : 0.0
+
+
+theta for epoch 314 : tensor([-2.3017, -0.6390, -0.8010, -0.2655, -1.8574, -1.9492, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 314 : 20.52929837491644
+Test loss for epoch 314 : 23.65179545292321
+Test Precision for epoch 314 : 0.0
+Test Recall for epoch 314 : 0.0
+Test F1 for epoch 314 : 0.0
+
+
+theta for epoch 315 : tensor([-2.3017, -0.6390, -0.8010, -0.2655, -1.8574, -1.9492, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 315 : 20.52929837242515
+Test loss for epoch 315 : 23.6517978296506
+Test Precision for epoch 315 : 0.0
+Test Recall for epoch 315 : 0.0
+Test F1 for epoch 315 : 0.0
+
+
+theta for epoch 316 : tensor([-2.3017, -0.6390, -0.8010, -0.2655, -1.8574, -1.9492, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 316 : 20.52929826001128
+Test loss for epoch 316 : 23.65179927990467
+Test Precision for epoch 316 : 0.0
+Test Recall for epoch 316 : 0.0
+Test F1 for epoch 316 : 0.0
+
+
+theta for epoch 317 : tensor([-2.3018, -0.6390, -0.8010, -0.2655, -1.8573, -1.9492, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 317 : 20.529298467204484
+Test loss for epoch 317 : 23.65180029930964
+Test Precision for epoch 317 : 0.0
+Test Recall for epoch 317 : 0.0
+Test F1 for epoch 317 : 0.0
+
+
+theta for epoch 318 : tensor([-2.3018, -0.6390, -0.8010, -0.2655, -1.8573, -1.9491, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 318 : 20.52929844953925
+Test loss for epoch 318 : 23.65180039768685
+Test Precision for epoch 318 : 0.0
+Test Recall for epoch 318 : 0.0
+Test F1 for epoch 318 : 0.0
+
+
+theta for epoch 319 : tensor([-2.3018, -0.6390, -0.8010, -0.2655, -1.8573, -1.9491, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 319 : 20.529298425566306
+Test loss for epoch 319 : 23.65179989923326
+Test Precision for epoch 319 : 0.0
+Test Recall for epoch 319 : 0.0
+Test F1 for epoch 319 : 0.0
+
+
+theta for epoch 320 : tensor([-2.3018, -0.6390, -0.8010, -0.2655, -1.8573, -1.9491, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 320 : 20.52929828392943
+Test loss for epoch 320 : 23.65179882209096
+Test Precision for epoch 320 : 0.0
+Test Recall for epoch 320 : 0.0
+Test F1 for epoch 320 : 0.0
+
+
+theta for epoch 321 : tensor([-2.3018, -0.6390, -0.8010, -0.2655, -1.8572, -1.9491, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 321 : 20.529298410523495
+Test loss for epoch 321 : 23.651797575674454
+Test Precision for epoch 321 : 0.0
+Test Recall for epoch 321 : 0.0
+Test F1 for epoch 321 : 0.0
+
+
+theta for epoch 322 : tensor([-2.3018, -0.6390, -0.8010, -0.2655, -1.8572, -1.9491, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9792, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 322 : 20.529298555725227
+Test loss for epoch 322 : 23.651795959160054
+Test Precision for epoch 322 : 0.0
+Test Recall for epoch 322 : 0.0
+Test F1 for epoch 322 : 0.0
+
+
+theta for epoch 323 : tensor([-2.3018, -0.6390, -0.8010, -0.2655, -1.8572, -1.9491, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9791, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 323 : 20.529298386828255
+Test loss for epoch 323 : 23.651793746045836
+Test Precision for epoch 323 : 0.0
+Test Recall for epoch 323 : 0.0
+Test F1 for epoch 323 : 0.0
+
+
+theta for epoch 324 : tensor([-2.3018, -0.6390, -0.8010, -0.2655, -1.8572, -1.9490, -0.8129, -0.9359,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9791, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 324 : 20.529298130876477
+Test loss for epoch 324 : 23.65179124310012
+Test Precision for epoch 324 : 0.0
+Test Recall for epoch 324 : 0.0
+Test F1 for epoch 324 : 0.0
+
+
+theta for epoch 325 : tensor([-2.3018, -0.6390, -0.8010, -0.2655, -1.8571, -1.9490, -0.8129, -0.9359,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9791, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 325 : 20.52929844152301
+Test loss for epoch 325 : 23.65178911453621
+Test Precision for epoch 325 : 0.0
+Test Recall for epoch 325 : 0.0
+Test F1 for epoch 325 : 0.0
+
+
+theta for epoch 326 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8571, -1.9490, -0.8129, -0.9359,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9791, -1.1193, -1.1193, -1.1591,
+        -1.0417, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 326 : 20.529298537890583
+Test loss for epoch 326 : 23.65178663154353
+Test Precision for epoch 326 : 0.0
+Test Recall for epoch 326 : 0.0
+Test F1 for epoch 326 : 0.0
+
+
+theta for epoch 327 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8571, -1.9490, -0.8129, -0.9359,
+        -0.6056, -1.3561, -1.0932, -1.1726, -0.9791, -1.1193, -1.1193, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 327 : 20.5292984559751
+Test loss for epoch 327 : 23.651783908277693
+Test Precision for epoch 327 : 0.0
+Test Recall for epoch 327 : 0.0
+Test F1 for epoch 327 : 0.0
+
+
+theta for epoch 328 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8571, -1.9490, -0.8129, -0.9359,
+        -0.6056, -1.3561, -1.0931, -1.1726, -0.9791, -1.1193, -1.1193, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 328 : 20.529298491472186
+Test loss for epoch 328 : 23.65178128171243
+Test Precision for epoch 328 : 0.0
+Test Recall for epoch 328 : 0.0
+Test F1 for epoch 328 : 0.0
+
+
+theta for epoch 329 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8571, -1.9490, -0.8129, -0.9359,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1193, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 329 : 20.529298390504827
+Test loss for epoch 329 : 23.651778506961175
+Test Precision for epoch 329 : 0.0
+Test Recall for epoch 329 : 0.0
+Test F1 for epoch 329 : 0.0
+
+
+theta for epoch 330 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8571, -1.9489, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1193, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 330 : 20.529298391139733
+Test loss for epoch 330 : 23.651775855337327
+Test Precision for epoch 330 : 0.0
+Test Recall for epoch 330 : 0.0
+Test F1 for epoch 330 : 0.0
+
+
+theta for epoch 331 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8571, -1.9489, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1193, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 331 : 20.5292983106305
+Test loss for epoch 331 : 23.65177320782763
+Test Precision for epoch 331 : 0.0
+Test Recall for epoch 331 : 0.0
+Test F1 for epoch 331 : 0.0
+
+
+theta for epoch 332 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9489, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 332 : 20.529298371908936
+Test loss for epoch 332 : 23.651770816693755
+Test Precision for epoch 332 : 0.0
+Test Recall for epoch 332 : 0.0
+Test F1 for epoch 332 : 0.0
+
+
+theta for epoch 333 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9489, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 333 : 20.52929858412231
+Test loss for epoch 333 : 23.651768653083924
+Test Precision for epoch 333 : 0.0
+Test Recall for epoch 333 : 0.0
+Test F1 for epoch 333 : 0.0
+
+
+theta for epoch 334 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9489, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 334 : 20.52929844207865
+Test loss for epoch 334 : 23.651766262665966
+Test Precision for epoch 334 : 0.0
+Test Recall for epoch 334 : 0.0
+Test F1 for epoch 334 : 0.0
+
+
+theta for epoch 335 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9489, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 335 : 20.529298543399143
+Test loss for epoch 335 : 23.651764302185697
+Test Precision for epoch 335 : 0.0
+Test Recall for epoch 335 : 0.0
+Test F1 for epoch 335 : 0.0
+
+
+theta for epoch 336 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9489, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 336 : 20.529298275856902
+Test loss for epoch 336 : 23.65176210931625
+Test Precision for epoch 336 : 0.0
+Test Recall for epoch 336 : 0.0
+Test F1 for epoch 336 : 0.0
+
+
+theta for epoch 337 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9489, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 337 : 20.52929832800553
+Test loss for epoch 337 : 23.651760386268016
+Test Precision for epoch 337 : 0.0
+Test Recall for epoch 337 : 0.0
+Test F1 for epoch 337 : 0.0
+
+
+theta for epoch 338 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9489, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 338 : 20.529298373025636
+Test loss for epoch 338 : 23.651758845638533
+Test Precision for epoch 338 : 0.0
+Test Recall for epoch 338 : 0.0
+Test F1 for epoch 338 : 0.0
+
+
+theta for epoch 339 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9489, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 339 : 20.529298262904216
+Test loss for epoch 339 : 23.6517573294302
+Test Precision for epoch 339 : 0.0
+Test Recall for epoch 339 : 0.0
+Test F1 for epoch 339 : 0.0
+
+
+theta for epoch 340 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 340 : 20.52929830637507
+Test loss for epoch 340 : 23.65175613856353
+Test Precision for epoch 340 : 0.0
+Test Recall for epoch 340 : 0.0
+Test F1 for epoch 340 : 0.0
+
+
+theta for epoch 341 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 341 : 20.529298376748557
+Test loss for epoch 341 : 23.65175515095121
+Test Precision for epoch 341 : 0.0
+Test Recall for epoch 341 : 0.0
+Test F1 for epoch 341 : 0.0
+
+
+theta for epoch 342 : tensor([-2.3019, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 342 : 20.529298413897678
+Test loss for epoch 342 : 23.651754306611473
+Test Precision for epoch 342 : 0.0
+Test Recall for epoch 342 : 0.0
+Test F1 for epoch 342 : 0.0
+
+
+theta for epoch 343 : tensor([-2.3019, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 343 : 20.52929833927532
+Test loss for epoch 343 : 23.651753517191747
+Test Precision for epoch 343 : 0.0
+Test Recall for epoch 343 : 0.0
+Test F1 for epoch 343 : 0.0
+
+
+theta for epoch 344 : tensor([-2.3019, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 344 : 20.529298397469145
+Test loss for epoch 344 : 23.651753028649257
+Test Precision for epoch 344 : 0.0
+Test Recall for epoch 344 : 0.0
+Test F1 for epoch 344 : 0.0
+
+
+theta for epoch 345 : tensor([-2.3019, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 345 : 20.529298569316776
+Test loss for epoch 345 : 23.65175282267945
+Test Precision for epoch 345 : 0.0
+Test Recall for epoch 345 : 0.0
+Test F1 for epoch 345 : 0.0
+
+
+theta for epoch 346 : tensor([-2.3019, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 346 : 20.529298287684288
+Test loss for epoch 346 : 23.651752299569562
+Test Precision for epoch 346 : 0.0
+Test Recall for epoch 346 : 0.0
+Test F1 for epoch 346 : 0.0
+
+
+theta for epoch 347 : tensor([-2.3019, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 347 : 20.52929831226959
+Test loss for epoch 347 : 23.65175221553052
+Test Precision for epoch 347 : 0.0
+Test Recall for epoch 347 : 0.0
+Test F1 for epoch 347 : 0.0
+
+
+theta for epoch 348 : tensor([-2.3019, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1192, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 348 : 20.529298081603756
+Test loss for epoch 348 : 23.651752017402124
+Test Precision for epoch 348 : 0.0
+Test Recall for epoch 348 : 0.0
+Test F1 for epoch 348 : 0.0
+
+
+theta for epoch 349 : tensor([-2.3019, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1192, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 349 : 20.52929837481424
+Test loss for epoch 349 : 23.65175247452485
+Test Precision for epoch 349 : 0.0
+Test Recall for epoch 349 : 0.0
+Test F1 for epoch 349 : 0.0
+
+
+theta for epoch 350 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1192, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 350 : 20.529298337354852
+Test loss for epoch 350 : 23.651752711871637
+Test Precision for epoch 350 : 0.0
+Test Recall for epoch 350 : 0.0
+Test F1 for epoch 350 : 0.0
+
+
+theta for epoch 351 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1192, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 351 : 20.529298270501883
+Test loss for epoch 351 : 23.6517530082093
+Test Precision for epoch 351 : 0.0
+Test Recall for epoch 351 : 0.0
+Test F1 for epoch 351 : 0.0
+
+
+theta for epoch 352 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1192, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 352 : 20.529298248854094
+Test loss for epoch 352 : 23.651753441806935
+Test Precision for epoch 352 : 0.0
+Test Recall for epoch 352 : 0.0
+Test F1 for epoch 352 : 0.0
+
+
+theta for epoch 353 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1192, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 353 : 20.52929850561501
+Test loss for epoch 353 : 23.651754254167315
+Test Precision for epoch 353 : 0.0
+Test Recall for epoch 353 : 0.0
+Test F1 for epoch 353 : 0.0
+
+
+theta for epoch 354 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1192, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 354 : 20.529298440246528
+Test loss for epoch 354 : 23.65175479824491
+Test Precision for epoch 354 : 0.0
+Test Recall for epoch 354 : 0.0
+Test F1 for epoch 354 : 0.0
+
+
+theta for epoch 355 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1192, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 355 : 20.5292984212832
+Test loss for epoch 355 : 23.65175544385556
+Test Precision for epoch 355 : 0.0
+Test Recall for epoch 355 : 0.0
+Test F1 for epoch 355 : 0.0
+
+
+theta for epoch 356 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 356 : 20.52929834524488
+Test loss for epoch 356 : 23.65175607911821
+Test Precision for epoch 356 : 0.0
+Test Recall for epoch 356 : 0.0
+Test F1 for epoch 356 : 0.0
+
+
+theta for epoch 357 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 357 : 20.529298472776574
+Test loss for epoch 357 : 23.651756971579374
+Test Precision for epoch 357 : 0.0
+Test Recall for epoch 357 : 0.0
+Test F1 for epoch 357 : 0.0
+
+
+theta for epoch 358 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 358 : 20.529298225716637
+Test loss for epoch 358 : 23.651757515164185
+Test Precision for epoch 358 : 0.0
+Test Recall for epoch 358 : 0.0
+Test F1 for epoch 358 : 0.0
+
+
+theta for epoch 359 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 359 : 20.52929842945526
+Test loss for epoch 359 : 23.65175851343041
+Test Precision for epoch 359 : 0.0
+Test Recall for epoch 359 : 0.0
+Test F1 for epoch 359 : 0.0
+
+
+theta for epoch 360 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 360 : 20.529298563403607
+Test loss for epoch 360 : 23.65175946989126
+Test Precision for epoch 360 : 0.0
+Test Recall for epoch 360 : 0.0
+Test F1 for epoch 360 : 0.0
+
+
+theta for epoch 361 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 361 : 20.529298379457522
+Test loss for epoch 361 : 23.651760129451795
+Test Precision for epoch 361 : 0.0
+Test Recall for epoch 361 : 0.0
+Test F1 for epoch 361 : 0.0
+
+
+theta for epoch 362 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1590,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 362 : 20.52929829812503
+Test loss for epoch 362 : 23.65176085701906
+Test Precision for epoch 362 : 0.0
+Test Recall for epoch 362 : 0.0
+Test F1 for epoch 362 : 0.0
+
+
+theta for epoch 363 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 363 : 20.529298401817144
+Test loss for epoch 363 : 23.65176177756024
+Test Precision for epoch 363 : 0.0
+Test Recall for epoch 363 : 0.0
+Test F1 for epoch 363 : 0.0
+
+
+theta for epoch 364 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 364 : 20.5292983155434
+Test loss for epoch 364 : 23.651762487660875
+Test Precision for epoch 364 : 0.0
+Test Recall for epoch 364 : 0.0
+Test F1 for epoch 364 : 0.0
+
+
+theta for epoch 365 : tensor([-2.3020, -0.6390, -0.8009, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0291], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 365 : 20.529298342067122
+Test loss for epoch 365 : 23.651763287800662
+Test Precision for epoch 365 : 0.0
+Test Recall for epoch 365 : 0.0
+Test F1 for epoch 365 : 0.0
+
+
+theta for epoch 366 : tensor([-2.3020, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 366 : 20.529298354561487
+Test loss for epoch 366 : 23.65176405016708
+Test Precision for epoch 366 : 0.0
+Test Recall for epoch 366 : 0.0
+Test F1 for epoch 366 : 0.0
+
+
+theta for epoch 367 : tensor([-2.3020, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 367 : 20.529298316798275
+Test loss for epoch 367 : 23.651764734669783
+Test Precision for epoch 367 : 0.0
+Test Recall for epoch 367 : 0.0
+Test F1 for epoch 367 : 0.0
+
+
+theta for epoch 368 : tensor([-2.3020, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 368 : 20.52929839857056
+Test loss for epoch 368 : 23.651765494342747
+Test Precision for epoch 368 : 0.0
+Test Recall for epoch 368 : 0.0
+Test F1 for epoch 368 : 0.0
+
+
+theta for epoch 369 : tensor([-2.3020, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 369 : 20.5292984310788
+Test loss for epoch 369 : 23.65176615953426
+Test Precision for epoch 369 : 0.0
+Test Recall for epoch 369 : 0.0
+Test F1 for epoch 369 : 0.0
+
+
+theta for epoch 370 : tensor([-2.3020, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 370 : 20.529298459393566
+Test loss for epoch 370 : 23.65176680485648
+Test Precision for epoch 370 : 0.0
+Test Recall for epoch 370 : 0.0
+Test F1 for epoch 370 : 0.0
+
+
+theta for epoch 371 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 371 : 20.529298467136982
+Test loss for epoch 371 : 23.65176739141025
+Test Precision for epoch 371 : 0.0
+Test Recall for epoch 371 : 0.0
+Test F1 for epoch 371 : 0.0
+
+
+theta for epoch 372 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 372 : 20.52929860958627
+Test loss for epoch 372 : 23.651768046626373
+Test Precision for epoch 372 : 0.0
+Test Recall for epoch 372 : 0.0
+Test F1 for epoch 372 : 0.0
+
+
+theta for epoch 373 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 373 : 20.529298622512563
+Test loss for epoch 373 : 23.65176852121167
+Test Precision for epoch 373 : 0.0
+Test Recall for epoch 373 : 0.0
+Test F1 for epoch 373 : 0.0
+
+
+theta for epoch 374 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 374 : 20.52929851444125
+Test loss for epoch 374 : 23.651768864073045
+Test Precision for epoch 374 : 0.0
+Test Recall for epoch 374 : 0.0
+Test F1 for epoch 374 : 0.0
+
+
+theta for epoch 375 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 375 : 20.52929857209036
+Test loss for epoch 375 : 23.651769310923086
+Test Precision for epoch 375 : 0.0
+Test Recall for epoch 375 : 0.0
+Test F1 for epoch 375 : 0.0
+
+
+theta for epoch 376 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 376 : 20.529298354915817
+Test loss for epoch 376 : 23.651769430230427
+Test Precision for epoch 376 : 0.0
+Test Recall for epoch 376 : 0.0
+Test F1 for epoch 376 : 0.0
+
+
+theta for epoch 377 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 377 : 20.529298565635997
+Test loss for epoch 377 : 23.651769925728246
+Test Precision for epoch 377 : 0.0
+Test Recall for epoch 377 : 0.0
+Test F1 for epoch 377 : 0.0
+
+
+theta for epoch 378 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 378 : 20.529298430506692
+Test loss for epoch 378 : 23.651770057785814
+Test Precision for epoch 378 : 0.0
+Test Recall for epoch 378 : 0.0
+Test F1 for epoch 378 : 0.0
+
+
+theta for epoch 379 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 379 : 20.52929832163295
+Test loss for epoch 379 : 23.651770157891278
+Test Precision for epoch 379 : 0.0
+Test Recall for epoch 379 : 0.0
+Test F1 for epoch 379 : 0.0
+
+
+theta for epoch 380 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 380 : 20.529298260954704
+Test loss for epoch 380 : 23.651770266349075
+Test Precision for epoch 380 : 0.0
+Test Recall for epoch 380 : 0.0
+Test F1 for epoch 380 : 0.0
+
+
+theta for epoch 381 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 381 : 20.52929836545416
+Test loss for epoch 381 : 23.65177050622222
+Test Precision for epoch 381 : 0.0
+Test Recall for epoch 381 : 0.0
+Test F1 for epoch 381 : 0.0
+
+
+theta for epoch 382 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 382 : 20.52929823917645
+Test loss for epoch 382 : 23.651770472540306
+Test Precision for epoch 382 : 0.0
+Test Recall for epoch 382 : 0.0
+Test F1 for epoch 382 : 0.0
+
+
+theta for epoch 383 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 383 : 20.529298404543553
+Test loss for epoch 383 : 23.651770697764853
+Test Precision for epoch 383 : 0.0
+Test Recall for epoch 383 : 0.0
+Test F1 for epoch 383 : 0.0
+
+
+theta for epoch 384 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 384 : 20.529298321527325
+Test loss for epoch 384 : 23.651770636209452
+Test Precision for epoch 384 : 0.0
+Test Recall for epoch 384 : 0.0
+Test F1 for epoch 384 : 0.0
+
+
+theta for epoch 385 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 385 : 20.529298601858443
+Test loss for epoch 385 : 23.65177090968291
+Test Precision for epoch 385 : 0.0
+Test Recall for epoch 385 : 0.0
+Test F1 for epoch 385 : 0.0
+
+
+theta for epoch 386 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 386 : 20.529298486131175
+Test loss for epoch 386 : 23.651770753898163
+Test Precision for epoch 386 : 0.0
+Test Recall for epoch 386 : 0.0
+Test F1 for epoch 386 : 0.0
+
+
+theta for epoch 387 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 387 : 20.5292985683418
+Test loss for epoch 387 : 23.65177077474929
+Test Precision for epoch 387 : 0.0
+Test Recall for epoch 387 : 0.0
+Test F1 for epoch 387 : 0.0
+
+
+theta for epoch 388 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 388 : 20.52929844502092
+Test loss for epoch 388 : 23.65177058549292
+Test Precision for epoch 388 : 0.0
+Test Recall for epoch 388 : 0.0
+Test F1 for epoch 388 : 0.0
+
+
+theta for epoch 389 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 389 : 20.52929859248788
+Test loss for epoch 389 : 23.65177061223234
+Test Precision for epoch 389 : 0.0
+Test Recall for epoch 389 : 0.0
+Test F1 for epoch 389 : 0.0
+
+
+theta for epoch 390 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 390 : 20.529298331104286
+Test loss for epoch 390 : 23.651770205225215
+Test Precision for epoch 390 : 0.0
+Test Recall for epoch 390 : 0.0
+Test F1 for epoch 390 : 0.0
+
+
+theta for epoch 391 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 391 : 20.5292985304538
+Test loss for epoch 391 : 23.65177026974819
+Test Precision for epoch 391 : 0.0
+Test Recall for epoch 391 : 0.0
+Test F1 for epoch 391 : 0.0
+
+
+theta for epoch 392 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 392 : 20.52929831971732
+Test loss for epoch 392 : 23.651769907316975
+Test Precision for epoch 392 : 0.0
+Test Recall for epoch 392 : 0.0
+Test F1 for epoch 392 : 0.0
+
+
+theta for epoch 393 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 393 : 20.529298249474362
+Test loss for epoch 393 : 23.651769651694266
+Test Precision for epoch 393 : 0.0
+Test Recall for epoch 393 : 0.0
+Test F1 for epoch 393 : 0.0
+
+
+theta for epoch 394 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 394 : 20.529298408577915
+Test loss for epoch 394 : 23.651769619565908
+Test Precision for epoch 394 : 0.0
+Test Recall for epoch 394 : 0.0
+Test F1 for epoch 394 : 0.0
+
+
+theta for epoch 395 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 395 : 20.529298525215623
+Test loss for epoch 395 : 23.651769552353535
+Test Precision for epoch 395 : 0.0
+Test Recall for epoch 395 : 0.0
+Test F1 for epoch 395 : 0.0
+
+
+theta for epoch 396 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 396 : 20.5292983409732
+Test loss for epoch 396 : 23.65176916495752
+Test Precision for epoch 396 : 0.0
+Test Recall for epoch 396 : 0.0
+Test F1 for epoch 396 : 0.0
+
+
+theta for epoch 397 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 397 : 20.529298587943117
+Test loss for epoch 397 : 23.651769193470322
+Test Precision for epoch 397 : 0.0
+Test Recall for epoch 397 : 0.0
+Test F1 for epoch 397 : 0.0
+
+
+theta for epoch 398 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 398 : 20.52929845700675
+Test loss for epoch 398 : 23.651768842977937
+Test Precision for epoch 398 : 0.0
+Test Recall for epoch 398 : 0.0
+Test F1 for epoch 398 : 0.0
+
+
+theta for epoch 399 : tensor([-2.3019, -0.6390, -0.8010, -0.2655, -1.8570, -1.9488, -0.8129, -0.9358,
+        -0.6056, -1.3561, -1.0931, -1.1725, -0.9791, -1.1193, -1.1192, -1.1591,
+        -1.0416, -1.0292], dtype=torch.float64, requires_grad=True)
+Train loss for epoch 399 : 20.52929833832592
+Test loss for epoch 399 : 23.651768531392534
+Test Precision for epoch 399 : 0.0
+Test Recall for epoch 399 : 0.0
+Test F1 for epoch 399 : 0.0
+
+
+Max Test F1 is for epoch 0 : 1.0
