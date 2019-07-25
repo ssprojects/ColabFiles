@@ -1,0 +1,500 @@
+Precision for epoch 0 : 1.0
+Recall for epoch 0 : 1.0
+F1 for epoch 0 : 1.0
+
+
+Precision for epoch 1 : 1.0
+Recall for epoch 1 : 1.0
+F1 for epoch 1 : 1.0
+
+
+Precision for epoch 2 : 1.0
+Recall for epoch 2 : 1.0
+F1 for epoch 2 : 1.0
+
+
+Precision for epoch 3 : 1.0
+Recall for epoch 3 : 1.0
+F1 for epoch 3 : 1.0
+
+
+Precision for epoch 4 : 1.0
+Recall for epoch 4 : 1.0
+F1 for epoch 4 : 1.0
+
+
+Precision for epoch 5 : 1.0
+Recall for epoch 5 : 1.0
+F1 for epoch 5 : 1.0
+
+
+Precision for epoch 6 : 1.0
+Recall for epoch 6 : 1.0
+F1 for epoch 6 : 1.0
+
+
+Precision for epoch 7 : 1.0
+Recall for epoch 7 : 1.0
+F1 for epoch 7 : 1.0
+
+
+Precision for epoch 8 : 0.9960629921259843
+Recall for epoch 8 : 1.0
+F1 for epoch 8 : 0.9980276134122288
+
+
+Precision for epoch 9 : 0.9960629921259843
+Recall for epoch 9 : 1.0
+F1 for epoch 9 : 0.9980276134122288
+
+
+Precision for epoch 10 : 0.9960629921259843
+Recall for epoch 10 : 1.0
+F1 for epoch 10 : 0.9980276134122288
+
+
+Precision for epoch 11 : 0.9960629921259843
+Recall for epoch 11 : 1.0
+F1 for epoch 11 : 0.9980276134122288
+
+
+Precision for epoch 12 : 0.9960629921259843
+Recall for epoch 12 : 1.0
+F1 for epoch 12 : 0.9980276134122288
+
+
+Precision for epoch 13 : 0.9960629921259843
+Recall for epoch 13 : 1.0
+F1 for epoch 13 : 0.9980276134122288
+
+
+Precision for epoch 14 : 1.0
+Recall for epoch 14 : 1.0
+F1 for epoch 14 : 1.0
+
+
+Precision for epoch 15 : 1.0
+Recall for epoch 15 : 1.0
+F1 for epoch 15 : 1.0
+
+
+Precision for epoch 16 : 1.0
+Recall for epoch 16 : 1.0
+F1 for epoch 16 : 1.0
+
+
+Precision for epoch 17 : 1.0
+Recall for epoch 17 : 1.0
+F1 for epoch 17 : 1.0
+
+
+Precision for epoch 18 : 1.0
+Recall for epoch 18 : 1.0
+F1 for epoch 18 : 1.0
+
+
+Precision for epoch 19 : 1.0
+Recall for epoch 19 : 1.0
+F1 for epoch 19 : 1.0
+
+
+Precision for epoch 20 : 1.0
+Recall for epoch 20 : 1.0
+F1 for epoch 20 : 1.0
+
+
+Precision for epoch 21 : 1.0
+Recall for epoch 21 : 1.0
+F1 for epoch 21 : 1.0
+
+
+Precision for epoch 22 : 1.0
+Recall for epoch 22 : 1.0
+F1 for epoch 22 : 1.0
+
+
+Precision for epoch 23 : 1.0
+Recall for epoch 23 : 1.0
+F1 for epoch 23 : 1.0
+
+
+Precision for epoch 24 : 1.0
+Recall for epoch 24 : 1.0
+F1 for epoch 24 : 1.0
+
+
+Precision for epoch 25 : 1.0
+Recall for epoch 25 : 1.0
+F1 for epoch 25 : 1.0
+
+
+Precision for epoch 26 : 1.0
+Recall for epoch 26 : 1.0
+F1 for epoch 26 : 1.0
+
+
+Precision for epoch 27 : 1.0
+Recall for epoch 27 : 1.0
+F1 for epoch 27 : 1.0
+
+
+Precision for epoch 28 : 1.0
+Recall for epoch 28 : 1.0
+F1 for epoch 28 : 1.0
+
+
+Precision for epoch 29 : 1.0
+Recall for epoch 29 : 1.0
+F1 for epoch 29 : 1.0
+
+
+Precision for epoch 30 : 1.0
+Recall for epoch 30 : 1.0
+F1 for epoch 30 : 1.0
+
+
+Precision for epoch 31 : 1.0
+Recall for epoch 31 : 1.0
+F1 for epoch 31 : 1.0
+
+
+Precision for epoch 32 : 0.9960629921259843
+Recall for epoch 32 : 1.0
+F1 for epoch 32 : 0.9980276134122288
+
+
+Precision for epoch 33 : 0.9960629921259843
+Recall for epoch 33 : 1.0
+F1 for epoch 33 : 0.9980276134122288
+
+
+Precision for epoch 34 : 0.9960629921259843
+Recall for epoch 34 : 1.0
+F1 for epoch 34 : 0.9980276134122288
+
+
+Precision for epoch 35 : 1.0
+Recall for epoch 35 : 1.0
+F1 for epoch 35 : 1.0
+
+
+Precision for epoch 36 : 1.0
+Recall for epoch 36 : 1.0
+F1 for epoch 36 : 1.0
+
+
+Precision for epoch 37 : 1.0
+Recall for epoch 37 : 1.0
+F1 for epoch 37 : 1.0
+
+
+Precision for epoch 38 : 1.0
+Recall for epoch 38 : 1.0
+F1 for epoch 38 : 1.0
+
+
+Precision for epoch 39 : 1.0
+Recall for epoch 39 : 1.0
+F1 for epoch 39 : 1.0
+
+
+Precision for epoch 40 : 1.0
+Recall for epoch 40 : 1.0
+F1 for epoch 40 : 1.0
+
+
+Precision for epoch 41 : 1.0
+Recall for epoch 41 : 1.0
+F1 for epoch 41 : 1.0
+
+
+Precision for epoch 42 : 1.0
+Recall for epoch 42 : 1.0
+F1 for epoch 42 : 1.0
+
+
+Precision for epoch 43 : 1.0
+Recall for epoch 43 : 1.0
+F1 for epoch 43 : 1.0
+
+
+Precision for epoch 44 : 1.0
+Recall for epoch 44 : 1.0
+F1 for epoch 44 : 1.0
+
+
+Precision for epoch 45 : 1.0
+Recall for epoch 45 : 1.0
+F1 for epoch 45 : 1.0
+
+
+Precision for epoch 46 : 1.0
+Recall for epoch 46 : 1.0
+F1 for epoch 46 : 1.0
+
+
+Precision for epoch 47 : 1.0
+Recall for epoch 47 : 1.0
+F1 for epoch 47 : 1.0
+
+
+Precision for epoch 48 : 1.0
+Recall for epoch 48 : 1.0
+F1 for epoch 48 : 1.0
+
+
+Precision for epoch 49 : 1.0
+Recall for epoch 49 : 1.0
+F1 for epoch 49 : 1.0
+
+
+Precision for epoch 50 : 1.0
+Recall for epoch 50 : 1.0
+F1 for epoch 50 : 1.0
+
+
+Precision for epoch 51 : 1.0
+Recall for epoch 51 : 1.0
+F1 for epoch 51 : 1.0
+
+
+Precision for epoch 52 : 1.0
+Recall for epoch 52 : 1.0
+F1 for epoch 52 : 1.0
+
+
+Precision for epoch 53 : 1.0
+Recall for epoch 53 : 1.0
+F1 for epoch 53 : 1.0
+
+
+Precision for epoch 54 : 1.0
+Recall for epoch 54 : 1.0
+F1 for epoch 54 : 1.0
+
+
+Precision for epoch 55 : 1.0
+Recall for epoch 55 : 1.0
+F1 for epoch 55 : 1.0
+
+
+Precision for epoch 56 : 1.0
+Recall for epoch 56 : 1.0
+F1 for epoch 56 : 1.0
+
+
+Precision for epoch 57 : 1.0
+Recall for epoch 57 : 1.0
+F1 for epoch 57 : 1.0
+
+
+Precision for epoch 58 : 1.0
+Recall for epoch 58 : 1.0
+F1 for epoch 58 : 1.0
+
+
+Precision for epoch 59 : 1.0
+Recall for epoch 59 : 1.0
+F1 for epoch 59 : 1.0
+
+
+Precision for epoch 60 : 1.0
+Recall for epoch 60 : 1.0
+F1 for epoch 60 : 1.0
+
+
+Precision for epoch 61 : 1.0
+Recall for epoch 61 : 1.0
+F1 for epoch 61 : 1.0
+
+
+Precision for epoch 62 : 1.0
+Recall for epoch 62 : 1.0
+F1 for epoch 62 : 1.0
+
+
+Precision for epoch 63 : 1.0
+Recall for epoch 63 : 1.0
+F1 for epoch 63 : 1.0
+
+
+Precision for epoch 64 : 1.0
+Recall for epoch 64 : 1.0
+F1 for epoch 64 : 1.0
+
+
+Precision for epoch 65 : 1.0
+Recall for epoch 65 : 1.0
+F1 for epoch 65 : 1.0
+
+
+Precision for epoch 66 : 1.0
+Recall for epoch 66 : 1.0
+F1 for epoch 66 : 1.0
+
+
+Precision for epoch 67 : 1.0
+Recall for epoch 67 : 1.0
+F1 for epoch 67 : 1.0
+
+
+Precision for epoch 68 : 1.0
+Recall for epoch 68 : 1.0
+F1 for epoch 68 : 1.0
+
+
+Precision for epoch 69 : 1.0
+Recall for epoch 69 : 1.0
+F1 for epoch 69 : 1.0
+
+
+Precision for epoch 70 : 1.0
+Recall for epoch 70 : 1.0
+F1 for epoch 70 : 1.0
+
+
+Precision for epoch 71 : 1.0
+Recall for epoch 71 : 1.0
+F1 for epoch 71 : 1.0
+
+
+Precision for epoch 72 : 1.0
+Recall for epoch 72 : 1.0
+F1 for epoch 72 : 1.0
+
+
+Precision for epoch 73 : 1.0
+Recall for epoch 73 : 1.0
+F1 for epoch 73 : 1.0
+
+
+Precision for epoch 74 : 1.0
+Recall for epoch 74 : 1.0
+F1 for epoch 74 : 1.0
+
+
+Precision for epoch 75 : 1.0
+Recall for epoch 75 : 1.0
+F1 for epoch 75 : 1.0
+
+
+Precision for epoch 76 : 1.0
+Recall for epoch 76 : 1.0
+F1 for epoch 76 : 1.0
+
+
+Precision for epoch 77 : 1.0
+Recall for epoch 77 : 1.0
+F1 for epoch 77 : 1.0
+
+
+Precision for epoch 78 : 1.0
+Recall for epoch 78 : 1.0
+F1 for epoch 78 : 1.0
+
+
+Precision for epoch 79 : 1.0
+Recall for epoch 79 : 1.0
+F1 for epoch 79 : 1.0
+
+
+Precision for epoch 80 : 1.0
+Recall for epoch 80 : 1.0
+F1 for epoch 80 : 1.0
+
+
+Precision for epoch 81 : 1.0
+Recall for epoch 81 : 1.0
+F1 for epoch 81 : 1.0
+
+
+Precision for epoch 82 : 1.0
+Recall for epoch 82 : 1.0
+F1 for epoch 82 : 1.0
+
+
+Precision for epoch 83 : 1.0
+Recall for epoch 83 : 1.0
+F1 for epoch 83 : 1.0
+
+
+Precision for epoch 84 : 1.0
+Recall for epoch 84 : 1.0
+F1 for epoch 84 : 1.0
+
+
+Precision for epoch 85 : 1.0
+Recall for epoch 85 : 1.0
+F1 for epoch 85 : 1.0
+
+
+Precision for epoch 86 : 1.0
+Recall for epoch 86 : 1.0
+F1 for epoch 86 : 1.0
+
+
+Precision for epoch 87 : 1.0
+Recall for epoch 87 : 1.0
+F1 for epoch 87 : 1.0
+
+
+Precision for epoch 88 : 1.0
+Recall for epoch 88 : 1.0
+F1 for epoch 88 : 1.0
+
+
+Precision for epoch 89 : 1.0
+Recall for epoch 89 : 1.0
+F1 for epoch 89 : 1.0
+
+
+Precision for epoch 90 : 1.0
+Recall for epoch 90 : 1.0
+F1 for epoch 90 : 1.0
+
+
+Precision for epoch 91 : 1.0
+Recall for epoch 91 : 1.0
+F1 for epoch 91 : 1.0
+
+
+Precision for epoch 92 : 1.0
+Recall for epoch 92 : 1.0
+F1 for epoch 92 : 1.0
+
+
+Precision for epoch 93 : 1.0
+Recall for epoch 93 : 1.0
+F1 for epoch 93 : 1.0
+
+
+Precision for epoch 94 : 1.0
+Recall for epoch 94 : 1.0
+F1 for epoch 94 : 1.0
+
+
+Precision for epoch 95 : 1.0
+Recall for epoch 95 : 1.0
+F1 for epoch 95 : 1.0
+
+
+Precision for epoch 96 : 1.0
+Recall for epoch 96 : 1.0
+F1 for epoch 96 : 1.0
+
+
+Precision for epoch 97 : 1.0
+Recall for epoch 97 : 1.0
+F1 for epoch 97 : 1.0
+
+
+Precision for epoch 98 : 1.0
+Recall for epoch 98 : 1.0
+F1 for epoch 98 : 1.0
+
+
+Precision for epoch 99 : 1.0
+Recall for epoch 99 : 1.0
+F1 for epoch 99 : 1.0
+
+
